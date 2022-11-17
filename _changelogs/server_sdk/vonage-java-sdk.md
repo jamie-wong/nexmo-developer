@@ -1,10 +1,14 @@
 ---
-version: '7.1.0'
-release: '25 Aug 2022'
+version: '7.1.1'
+release: '16 Nov 2022'
 ---
 # [Vonage Java SDK](https://github.com/Vonage/vonage-java-sdk)
 
 ---
+
+## 7.1.1
+### 16 Nov 2022
+- Bumped `com.fasterxml.jackson` dependency version to 2.14.0
 
 ## 7.1.0
 ### 25 Aug 2022
