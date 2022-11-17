@@ -22,7 +22,7 @@ Verify V2 uses JWTs to authenticate your requests for your application; you can 
 
 ## Make the Request
 
-An example request using WhatsApp Interactive can be found below; just set the `channel` parameter to `whatsapp_interactive`:
+An example request using WhatsApp Interactive can be found below; set the `channel` parameter to `whatsapp_interactive`:
 
 ```
 
