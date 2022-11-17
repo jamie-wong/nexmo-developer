@@ -49,7 +49,6 @@ The use of callbacks has been enabled in Verify V2, so you can now listen for an
     }
 ```
 
-* App Hash - Android specific. Enters the code for you when you receive it. (SMS Only?)
 * `locale` - Specify the language you want the 2FA to be sent in - it must be in [ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) format.
 * `channel_timeout` - Specify the wait times for delivery time, to a maximum of 900 seconds. This used to be called `next_event_wait` in Verify V1.
 * `code_length` - Specify how long the code should be - can be between 4 and 10 digits.
