@@ -1,5 +1,32 @@
 [
   {
+    "title": "OTP-Based (JWT) Authentication in Spring Boot With Vonage Verify API",
+    "description": "Create an OTP-based login using Vonage Verify API with JWT authentication in Spring Boot ",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/otp-based-jwt-authentication-in-spring-boot-with-vonage-verify-api/jwt-authentication_spring-boot_verify-api.png",
+    "author": null,
+    "published": true,
+    "published_at": "2022-11-17 09:47:16 UTC",
+    "updated_at": "2022-11-17 09:47:16 UTC",
+    "category": {
+      "name": "Tutorial",
+      "plural": "Tutorials",
+      "slug": "tutorial",
+      "color": "#d6219c"
+    },
+    "tags": [
+      "java",
+      "verify-api",
+      "jwt"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/11/17/otp-based-jwt-authentication-in-spring-boot-with-vonage-verify-api",
+    "filename": "otp-based-jwt-authentication-in-spring-boot-with-vonage-verify-api"
+  },
+  {
     "title": "Improve Your Software Project - Part One: Understanding a Codebase",
     "description": "Want to update an old project? This will help!",
     "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/improve-your-software-project-part-one-understanding-a-codebase/making-projects-better_part-one.png",
@@ -24,8 +51,6 @@
       "color": "#3298c4"
     },
     "tags": [
-      "technical-debt",
-      "enhancement",
       "python"
     ],
     "spotlight": false,
@@ -519,9 +544,9 @@
       "color": "#3298c4"
     },
     "tags": [
-      "aistudio",
-      "lowcode",
-      "nocode"
+      "ai-studio",
+      "low-code",
+      "no-code"
     ],
     "spotlight": false,
     "canonical": "",
