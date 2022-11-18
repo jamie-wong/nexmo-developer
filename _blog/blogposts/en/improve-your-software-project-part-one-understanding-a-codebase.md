@@ -22,6 +22,12 @@ In this three-part series, I'll walk through some of the key things you'll want 
 
 The examples in this post will be written in Python, but these principles apply to projects in any language. There's also [a handy checklist to follow](https://github.com/maxkahan/updating-an-old-project) if you're specifically trying to fix a Python project.
 
+## The series, in sections
+
+1. Part One: Understanding a Codebase (this article)
+2. Part Two: Making Changes (will be published soon!)
+3. Part Three: Taking Things to the Next Level (will be published soon!)
+
 # What does this series cover?
 
 In this series, we'll talk about:
