@@ -51,7 +51,7 @@ The workflow is configured using an array in your verification request. The firs
 
 ## Callbacks
 
-The use of callbacks has been enabled in Verify V2, so you can now listen for an update via the callback and be notified if a response from the user comes in. To configure your callbacks, navigate to your application in the [Vonage dashboard](https://dashboard.nexmo.com/applications). Go to Capabilities and enable Verify V2, and enter your callback URL.
+The use of callbacks has been enabled in Verify V2, so you can now listen for an update via the callback and be notified if a response from the user comes in. To configure your callbacks, navigate to your application in the [Vonage dashboard](https://dashboard.nexmo.com/applications). Go to Capabilities and enable Verify V2 to enter your callback URL.
 
 ## Verification Channels
 
