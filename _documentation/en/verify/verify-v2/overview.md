@@ -22,10 +22,6 @@ Workflows are a sequence of actions that Vonage use to reach the user you wish t
 
 The workflow is configured using an array in your verification request. The first channel in the list is used first; if the message is not delivered then the next channel in the list will be used. In the example below, SMS would be tried first. If that fails, Voice would be used next.
 
-## Callbacks
-
-The use of callbacks has been enabled in Verify V2, so you can now listen for an update via the callback and be notified if a response from the user comes in.
-
 ```http
     POST - /v2/verify
     Content-Type: application/json
@@ -52,6 +48,10 @@ The use of callbacks has been enabled in Verify V2, so you can now listen for an
 * `locale` - Specify the language you want the 2FA to be sent in - it must be in [ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) format.
 * `channel_timeout` - Specify the wait times for delivery time, to a maximum of 900 seconds. This used to be called `next_event_wait` in Verify V1.
 * `code_length` - Specify how long the code should be - can be between 4 and 10 digits.
+
+## Callbacks
+
+The use of callbacks has been enabled in Verify V2, so you can now listen for an update via the callback and be notified if a response from the user comes in. To configure your callbacks, navigate to your application in the [Vonage dashboard](https://dashboard.nexmo.com/applications). Go to Capabilities and enable Verify V2, and enter your callback URL.
 
 ## Verification Channels
 
