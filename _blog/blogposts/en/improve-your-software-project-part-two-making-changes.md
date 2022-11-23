@@ -107,11 +107,11 @@ A dependency that was suitable in the past may also become less suitable over ti
 
 When choosing to keep (or replace) a dependency, this section should help you to evaluate whether a dependency is worth using.
 
-First, consider the license. Make sure you're allowed to use the dependency for your project. If you can't, that's a no.
+First, consider the license. Make sure you're allowed to use the dependency for your project. If you can't, that's a no. If you're not sure what I'm talking about when I say this, [this article from Snyk](https://snyk.io/learn/what-is-a-software-license/) should help explain what to look for when evaluating a dependency's license.
 
 Next, is the dependency actively maintained? You can see the commit history of open-source projects. Some are so simple that they need very little maintenance, and this is fine. More complex projects should be actively maintained, i.e. there should be frequent commits, and issues and PRs aren't ignored for a long time. It's important as you want the dependency to support new language versions and play nicely with new features and other dependencies you're using.
 
-It's worth considering the popularity of the dependency. Picking a popular option means a lot of other people will have used the dependency so you're more likely to have questions answered if you get stuck!
+It's worth considering the popularity of the dependency. All dependencies can have security vulnerabilities, and a more widely used dependency is more likely to have these vulnerabilities flagged by automated tools, security researchers and other users, increasing the likelihood that any vulnerabilities will be quickly patched, keeping your users safe. Picking a widely used option also means a larger number of people will be able to answer questions if you get stuck! 
 
 Finally, consider the supporting assets - is the documentation clear? Are there reliable examples online that use this dependency? These things can help you get started or debug problems fast, so they're worth considering.
 
@@ -153,7 +153,9 @@ In our example, the only part of the code we can test is this:
 
 So the only questions our code can be evaluated on are: 1. are the requests we send well-formed, and 2. are the responses dealt with appropriately?
 
-In summary, scope your testing to only test how your code sends and receives data, and assume that the other software does its job correctly, sending success and error responses for your code to process. When testing, consider capturing API requests and returning mocked responses in the correct form for the request, so your code can consume and process this mock data when you run your tests without actually calling the external services you can't control.
+In summary, scope your testing to only test how your code sends and receives data, and assume that the other software does its job correctly, sending success and error responses for your code to process. When testing, consider capturing API requests and returning mocked responses in the correct form for the request, so your code can consume and process this mock data when you run your tests without actually calling the external services you can't control. 
+
+Remember that your tests prove that your code complies to your test suite's specifications, not necessarily to the actual API behaviour. When adding a new feature, it's a good idea to create a demo app that actually uses your code to make live requests, as well as just running your tests (this approach also provides you with a great response to cache for use with your tests in future!)
 
 ## Making your first release
 
@@ -201,7 +203,7 @@ After this, I updated code snippets and docs to reflect the change.
 
 ![Updated docs to show the new way](/content/blog/improve-your-software-project-part-two-making-changes/updated-docs.png)
 
-Now I was able to make a minor release. After a release where you deprecate functionality, it's good practice to leave the deprecated parts alone for a while before removing them, to leave sufficient time for people to switch over. Again, this is all about building trust.
+Now I was able to make a minor release. After a release where you deprecate functionality, it's good practice to leave the deprecated parts alone for a while (ideally at least a month!) before removing them, to leave sufficient time for people to switch over. Again, this is all about building trust.
 
 I left this old code for a few months, then made a major release where I removed the old ways of calling these methods. Being methodical and transparent about what my intentions were meant that my users knew what to expect when they updated to the latest version.
 
@@ -209,9 +211,11 @@ I left this old code for a few months, then made a major release where I removed
 
 ## Balancing improvements and new work
 
-The final thing to consider when you start to work on an legacy codebase is that you probably won't have infinite time to polish the code the way that you like it before you have to add new features, fix bugs etc. You'll likely have pressure from your boss or team to add new functionality, at the same time you're trying to make big changes to old code.
+The final thing to consider when you start to work on an legacy codebase is that you probably won't have infinite time to polish the code the way that you like it before you have to add new features, fix bugs etc. You'll likely have other priorities to juggle, e.g. deadlines to add new functionality, at the same time you're trying to make big changes to old code.
 
 In this case, you need to be comfortable advocating for yourself and your work. Set the expectation that part of your time needs to be spent on improving the legacy codebase, which means you won't be as quick at developing new features as your boss might like. Stress that the time you spend refactoring now will help you understand the codebase and pay dividends later on, as it will be much easier to maintain.
+
+Ultimately, your work on a legacy project should improve the user experience and its long-term ease-of-use and ease-of-maintenance. You might not immediately recieve praise for dealing with technical debt, as the work isn't immediately visible to your users or your team, but managing technical debt can stop things being much worse for everyone later - this work is very much worth doing!
 
 Something that helped a lot with this process was creating work tickets for discovery and learning, to show I was investing in future efficiency. I also created tickets for technical debt, to give my team insight into the work I was doing, alongside the tickets for developing new features. This approach helped me build trust within my company and allow people to understand how I was spending my time, and I can't recommend it enough.
 
