@@ -62,7 +62,7 @@ A Managed Account is one that has been created for you by a partner business suc
 2. Select your business from the drop down menu
 3. Click on the hamburger icon to reveal the 'All Tools' menu, and click on the Business Settings icon 
 4. From the left hand menu, under 'Data Sources' click on 'Catalogs'
-5. Select the appropriate Catlog and click on 'Assign Partner'. From this point there are two possible processes for assigning a partner:
+5. Select the appropriate Catalog and click on 'Assign Partner'. From this point there are two possible processes for assigning a partner:
 	- [Using a Business ID](#assigning-a-partner-by-using-a-business-id)
 	- [Generating a Link](#assigning-a-partner-by-generating-a-link)
 
