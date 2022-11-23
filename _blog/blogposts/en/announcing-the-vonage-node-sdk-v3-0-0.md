@@ -6,7 +6,7 @@ author: chuck-reeves
 published: true
 published_at: 2022-11-23T10:10:48.204Z
 updated_at: 2022-11-23T10:10:49.976Z
-category: announcement
+category: release
 tags:
   - node
 comments: true
@@ -128,4 +128,4 @@ Now you can use a beta SDK package and keep the stable packages.
 
 Following [our support](https://github.com/Nexmo/server-sdk-specification/blob/main/SPECIFICATION.md#sdk-support) document, we will continue to support version 2 for another six months bringing us to around May of 2023. We will not be adding new features, just fixes.
 
-For more detailed information, please visit the SDK documentation or look at the code snippets. You can reach out to us on the Vonage Developer [Slack](https://developer.vonage.com/community/slack) and stay in the loop by following [VonageDev](https://twitter.com/VonageDev) on Twitter.
+For more detailed information, please visit the SDK documentation or look at the code snippets. You can reach out to us on the [Vonage Developer Slack](https://developer.vonage.com/community/slack) and stay in the loop by following [VonageDev](https://twitter.com/VonageDev) on Twitter.
