@@ -203,7 +203,7 @@ After this, I updated code snippets and docs to reflect the change.
 
 ![Updated docs to show the new way](/content/blog/improve-your-software-project-part-two-making-changes/updated-docs.png)
 
-Now I was able to make a minor release. After a release where you deprecate functionality, it's good practice to leave the deprecated parts alone for a while (ideally at least a month!) before removing them, to leave sufficient time for people to switch over. Again, this is all about building trust.
+Now I was able to make a minor release. After a release where you deprecate functionality, it's good practice to leave the deprecated parts alone for a while before removing them, to allow sufficient time for people to switch over. I would suggest leaving the deprecated functionality in for at least one release, or one month - whichever is longer. Again, this is all about building trust.
 
 I left this old code for a few months, then made a major release where I removed the old ways of calling these methods. Being methodical and transparent about what my intentions were meant that my users knew what to expect when they updated to the latest version.
 
@@ -215,7 +215,7 @@ The final thing to consider when you start to work on an legacy codebase is that
 
 In this case, you need to be comfortable advocating for yourself and your work. Set the expectation that part of your time needs to be spent on improving the legacy codebase, which means you won't be as quick at developing new features as your boss might like. Stress that the time you spend refactoring now will help you understand the codebase and pay dividends later on, as it will be much easier to maintain.
 
-Ultimately, your work on a legacy project should improve the user experience and its long-term ease-of-use and ease-of-maintenance. You might not immediately recieve praise for dealing with technical debt, as the work isn't immediately visible to your users or your team, but managing technical debt can stop things being much worse for everyone later - this work is very much worth doing!
+Ultimately, your work on a legacy project should improve the user experience and its long-term ease-of-use and ease-of-maintenance. You might not recieve immediate praise for dealing with technical debt, as the work isn't visible to your users or your team right away, but managing technical debt can stop things being much worse for everyone later - this work is very much worth doing!
 
 Something that helped a lot with this process was creating work tickets for discovery and learning, to show I was investing in future efficiency. I also created tickets for technical debt, to give my team insight into the work I was doing, alongside the tickets for developing new features. This approach helped me build trust within my company and allow people to understand how I was spending my time, and I can't recommend it enough.
 
