@@ -176,7 +176,15 @@ In summary, when dealing with user input, consider validating it. How you do tha
 
 The final potential user-facing enhancement I want to identify is to do with asynchronous code. Unless your project deals with io-bound operations, you might not need to consider this at all - in which case, just skip to the next section.
 
-If your project does rely on io-based operations, consider if there would be a benefit to your users in making the code asynchronous. Some languages (e.g. Node.js) are asynchronous by default, but other languages have asynchronous features that can be used when needed.
+If your project does rely on io-based operations, consider whether making the code asynchronous would benefit your users. Asynchronous code is
+
+
+
+<explain what async code is here.......>
+
+
+
+Some languages (e.g. Node.js) are asynchronous by default, but other languages have asynchronous features that can be used when needed.
 
 
 
