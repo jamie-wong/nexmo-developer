@@ -173,8 +173,6 @@ The most important recommendation would be this: use [semantic versioning](https
 
 To give a real-life example, when adding support for the [Vonage Messages API](https://developer.vonage.com/messages/overview) (but not changing anything that would make the new release backwards-incompatible), I made a minor release, from `v2.7.0 -> v2.8.0`. When I wanted to remove some deprecated methods and change how objects are instantiated in the SDK, I knew this would break existing functionality, so I made a major release, `v2.8.0 -> v3.0.0`. When I found a bug in the new code, I fixed it and updated the SDK with a patch release, `v3.0.0 -> v3.0.1`. Following these rules tells a user exactly what to expect when they upgrade to the latest version. If you make a major release, they know to expect a breaking change!
 
-![Part of the changelog for the Vonage Python SDK, showing changes for each release](/content/blog/improve-your-software-project-part-two-making-changes/changelog.png)
-
 ### Update supplementary materials
 
 Whenever you make a new release, update the changelog, so a user knows what to expect. It's often the first place a user will look as it typically spells out all the differences in the new version and can help them to decide if they should update. If you don't update the changelog, users will not know what to expect from a new version and consequently will be a lot warier.
@@ -189,25 +187,25 @@ When you start changing code, you'll likely want to restructure/refactor a lot o
 
 I'll give a specific example here. In the Vonage Python SDK, I wanted to change how the `get_standard_number_insight` method was called by a user. Originally, this was a method associated with the `Client` class. I wanted to change the structure by having a `NumberInsight` class that contained this method, that the `Client` class instantiated and used. This would make this way of calling the [Number Insight API](https://developer.vonage.com/number-insight/overview) the same as the way a user would send SMS messages or make voice calls.
 
-![The method I wanted to move from this class](/content/blog/improve-your-software-project-part-two-making-changes/old-number-insight.png)
+![The method I wanted to move from the Client class](/content/blog/improve-your-software-project-part-two-making-changes/old-number-insight.png)
 
-First, I deprecated this method. In Python, this can be done by adding a decorator that prints a deprecation warning to the user when they use the method.
-
-![Deprecating the method I wanted to move from this class, and the warning it prints](/content/blog/improve-your-software-project-part-two-making-changes/old-number-insight-deprecated.png)
-
-Next, I created a `NumberInsight` class and added a version of the method to it.
+First, I created a `NumberInsight` class and added a version of the `get_standard_number_insight` method to it.
 
 ![The new version of the method inside the new NumberInsight class](/content/blog/improve-your-software-project-part-two-making-changes/new-number-insight.png)
 
+Next, I deprecated the method in the `Client` class. In Python, this can be done by adding a decorator that prints a deprecation warning to the user when they use the method.
+
+![Deprecating the method I wanted to move from this class, and the warning it prints](/content/blog/improve-your-software-project-part-two-making-changes/old-number-insight-deprecated.png)
+
 After this, I updated code snippets and docs to reflect the change. 
 
-![Updated docs to show the new way](/content/blog/improve-your-software-project-part-two-making-changes/updated-docs.png)
+![Updated docs to show the new way to call the get_standard_number_insight method](/content/blog/improve-your-software-project-part-two-making-changes/updated-docs.png)
 
 Now I was able to make a minor release. After a release where you deprecate functionality, it's good practice to leave the deprecated parts alone for a while before removing them, to allow sufficient time for people to switch over. I would suggest leaving the deprecated functionality in for at least one release, or one month - whichever is longer. Again, this is all about building trust.
 
 I left this old code for a few months, then made a major release where I removed the old ways of calling these methods. Being methodical and transparent about what my intentions were meant that my users knew what to expect when they updated to the latest version.
 
-![PyPI view of the major release that removed old deprecated methods, including the old version of get_standard_number_insight](/content/blog/improve-your-software-project-part-two-making-changes/major-release.png)
+![Changelog describing the major release that removed old deprecated methods, including the old version of get_standard_number_insight](/content/blog/improve-your-software-project-part-two-making-changes/major-release.png)
 
 ## Balancing improvements and new work
 
