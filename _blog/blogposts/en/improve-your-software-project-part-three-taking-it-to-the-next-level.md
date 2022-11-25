@@ -176,25 +176,55 @@ In summary, when dealing with user input, consider validating it. How you do tha
 
 The final potential user-facing enhancement I want to identify is to do with asynchronous code. Unless your project deals with io-bound operations, you might not need to consider this at all - in which case, just skip to the next section.
 
-If your project does rely on io-based operations, consider whether making the code asynchronous would benefit your users. Asynchronous code is
+If your project does rely on io-based operations, consider whether making the code asynchronous would benefit your users. 
 
+### What does async actually mean?
 
+Asynchronous code is code where operations can give up control of a thread to allow other things to happen. Compare that with synchronous code, which waits for every operation to complete before starting the next one. Some languages (e.g. Node.js) are asynchronous by default, but other languages have asynchronous features that can be used when needed. If you're a JavaScript developer, you can probably skip this section.
 
-<explain what async code is here.......>
+If your code makes a request and has to wait a long time for a response, it might be worth writing your code asynchronously, i.e. allow other things to happen whilst you wait for a response. In the case of the Vonage Python SDK, we're making HTTP requests which need to communicate with a remote server. We're doing this synchronously, so it's worth considering if making an async version of part of the SDK would be of benefit to my users. We can guess that making an async method would make it possible to send more requests at once with the SDK... but why guess? Let's do an experiment.
 
+### Should we use async? A real-life example
 
+To investigate if making some async methods would decrease the time taken to make requests, I wrote 2 pieces of code. One used a function from the Vonage Python SDK as normal to make 100 HTTP requests to the [Vonage Number Insight API](https://developer.vonage.com/number-insight/overview) and the other used an async version of the function that I created. I profiled both versions of the code ([using the profiling method I described in Part One of this series, here](https://developer.vonage.com/blog/22/11/15/improve-your-software-project-part-one-understanding-a-codebase#understand-the-call-stack-by-profiling-your-sample)) and we can see that the majority of the time spent in the program is spent making HTTP requests.
 
-Some languages (e.g. Node.js) are asynchronous by default, but other languages have asynchronous features that can be used when needed.
+The first image below is an icicle plot that shows the top of the call stack for our SDK as it makes 100 requests to a Vonage API.
 
+![The top of an icicle plot of a series of synchronous SDK operations](/content/blog/improve-your-software-project-part-three-taking-it-to-the-next-level/sync-icicle-plot-top.png)
 
+The next image shows the very bottom of the call stack. As you can see here, most of the time the whole program takes to run (2.78/3.42 seconds, or 81%!) is spent waiting for SSL connections to be established between our code and the remote server.
 
+![The bottom level of the same icicle plot, showing that most of the time is spent waiting for connections](/content/blog/improve-your-software-project-part-three-taking-it-to-the-next-level/sync-icicle-plot-bottom.png)
 
+This suggests that if the code was able to give up control of the running thread until connections are established, this time could be improved a lot.
 
+Below is the data for the async version of the code, that performs the same 100 requests to the same API.
 
+![An icicle plot of a series of asynchronous SDK operations - much faster](/content/blog/improve-your-software-project-part-three-taking-it-to-the-next-level/sync-icicle-plot-top.png)
 
+We can see from the plot above that the entire task was completed in 0.33s, about 10 times faster than the synchronous version! In this case, it makes sense for me to explore whether I should make my code async.
 
+The last paragraph seems pretty non-commital, given that I just made the code 10x faster. Why wouldn't I want to immediately start async-ifying my code? Well, async gives... and async takes away.
+
+### Drawbacks of async - should I use it?
+
+Whilst async code can work very well in a lot of cases, there are significant drawbacks. To make my code async, I'd have to rewrite a lot of it. In Python, async methods behave very differently to regular ones. They have to be called and dealt with very differently.
+
+Worse than that, though, is the question of support. If I were to fully rewrite the entire library to make it async and make a new major release of the project (as we discussed in Part 2), I would force my users to rewrite all of their code! If I didn't want to put my users through this ordeal, I would need to support a synchronous and an asynchronous version of the same code, effectively doubling the size of the codebase. That's twice as much code to test, and if I want to add any new features I'd have to do it twice.
+
+There are ways to lighten the load, such as to have the synchronous code call the asynchronous code under the covers to spare my users from having to rewrite things, but this is still a significant time investment. Overall, async is very powerful, but consider carefully what the use cases are for your codebase. If you think there would be a very significant benefit, consider adding async support, but consider it very carefully before committing to deliver it.
 
 ## Setting up automated tooling
+
+If you really want to invest in the long-term health of your project, it's 
+
+
+
+
+
+
+
+
 
 Linting, coverage, mutation score
 
