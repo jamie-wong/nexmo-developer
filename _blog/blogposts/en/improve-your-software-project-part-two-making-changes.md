@@ -1,15 +1,13 @@
 ---
 title: "Improve Your Software Project - Part Two: Making Changes"
-description: Want to update an old project? This will help!
-thumbnail: /content/blog/improve-your-software-project-part-two-making-changes/making-projects-better_part-two.png
+description: " Want to update an old project? This will help!"
+thumbnail: /content/blog/improve-your-software-project-part-two-making-changes/part-two.png
 author: max-kahan
-published: 
-published_at:
-updated_at: 
+published: true
+published_at: 2022-11-28T11:54:37.588Z
+updated_at: 2022-11-28T11:54:38.530Z
 category: inspiration
 tags:
-  - technical-debt
-  - enhancement
   - python
 comments: true
 spotlight: false
