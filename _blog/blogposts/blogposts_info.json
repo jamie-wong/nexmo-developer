@@ -1,5 +1,40 @@
 [
   {
+    "title": "Improve Your Software Project - Part Two: Making Changes",
+    "description": " Want to update an old project? This will help!",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/improve-your-software-project-part-two-making-changes/part-two.png",
+    "author": {
+      "team": true,
+      "name": "Max Kahan",
+      "image_url": "https://github.com/maxkahan.png",
+      "bio": "Max is a Python Developer Advocate and Software Engineer who's passionate about technology. Interested in developer experience, machine learning, artificial intelligence, cloud development, enterprise messaging and swing dance! His training is in Physics, but now he uses his problem-solving skills daily in the technology industry.",
+      "title": "Python Developer Advocate",
+      "linkedin_url": "https://www.linkedin.com/in/maxkahan/",
+      "twitter": "max_does_tech",
+      "github_url": "https://github.com/maxkahan",
+      "short_name": "max-kahan"
+    },
+    "published": true,
+    "published_at": "2022-11-28 11:54:37 UTC",
+    "updated_at": "2022-11-28 11:54:38 UTC",
+    "category": {
+      "name": "Inspiration",
+      "plural": "Ideas & Inspiration",
+      "slug": "inspiration",
+      "color": "#3298c4"
+    },
+    "tags": [
+      "python"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/11/28/improve-your-software-project-part-two-making-changes",
+    "filename": "improve-your-software-project-part-two-making-changes"
+  },
+  {
     "title": "FutureNow Hackathon With Manipal University, e& enterprise, and Vonage",
     "description": "A recap of the 2022 hackathon at Manipal University with a demo of AI Studio, a Low Code tool from Vonage.",
     "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/futurenow-hackathon-with-manipal-university-e-enterprise-and-vonage/futurenow-hackathon.png",
@@ -9283,35 +9318,6 @@
     "filename": "technical-guide-for-us-short-code-api-deprecation-1"
   },
   {
-    "title": "Quality and Velocity: Our Seven Year Journey to 99.999% Availability",
-    "description": "How can your teams take a stronger approach to software testing without compromising on speed and product growth? The growing software developer in test team defined a solution.",
-    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/quality-and-velocity-our-seven-year-journey-to-availability/Blog_1200x600-1.png",
-    "author": {
-      "bio": "Yuval is VP Quality Assurance Engineering at Vonage, where he leads the software testing, automation and deployment across multiple Vonage platforms. Yuval has always been passionate about producing high quality products, and believes that it's the people who make all the difference. After work, Yuval enjoys swimming, tennis, and spending quality time with family and friends.",
-      "image_url": "/content/images/yuvalgolan.png",
-      "name": "Yuval Golan",
-      "title": "Vonage VP of Quality Assurance",
-      "team": true,
-      "short_name": "yuvalgolan"
-    },
-    "published": true,
-    "published_at": "2021-02-17 13:34:35 UTC",
-    "updated_at": "2021-02-17 13:34:35 UTC",
-    "category": {
-      "name": "Engineering",
-      "plural": "Posts by Engineering",
-      "slug": "engineering",
-      "color": "#669fc4"
-    },
-    "tags": [
-      "high-availability"
-    ],
-    "canonical": "",
-    "locale": "en",
-    "link": "blog/21/02/17/quality-and-velocity-our-seven-year-journey-to-availability",
-    "filename": "quality-and-velocity-our-seven-year-journey-to-availability"
-  },
-  {
     "title": "Setting up CI/CD with Github Actions",
     "description": "This article walks you through the process of using github actions to build CI/CD flows.",
     "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/setting-up-ci-cd-with-github-actions/Blog_GitHub-Desktop_1200x600.png",
@@ -9343,6 +9349,35 @@
     "locale": "en",
     "link": "blog/21/02/17/setting-up-ci-cd-with-github-actions",
     "filename": "setting-up-ci-cd-with-github-actions"
+  },
+  {
+    "title": "Quality and Velocity: Our Seven Year Journey to 99.999% Availability",
+    "description": "How can your teams take a stronger approach to software testing without compromising on speed and product growth? The growing software developer in test team defined a solution.",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/quality-and-velocity-our-seven-year-journey-to-availability/Blog_1200x600-1.png",
+    "author": {
+      "bio": "Yuval is VP Quality Assurance Engineering at Vonage, where he leads the software testing, automation and deployment across multiple Vonage platforms. Yuval has always been passionate about producing high quality products, and believes that it's the people who make all the difference. After work, Yuval enjoys swimming, tennis, and spending quality time with family and friends.",
+      "image_url": "/content/images/yuvalgolan.png",
+      "name": "Yuval Golan",
+      "title": "Vonage VP of Quality Assurance",
+      "team": true,
+      "short_name": "yuvalgolan"
+    },
+    "published": true,
+    "published_at": "2021-02-17 13:34:35 UTC",
+    "updated_at": "2021-02-17 13:34:35 UTC",
+    "category": {
+      "name": "Engineering",
+      "plural": "Posts by Engineering",
+      "slug": "engineering",
+      "color": "#669fc4"
+    },
+    "tags": [
+      "high-availability"
+    ],
+    "canonical": "",
+    "locale": "en",
+    "link": "blog/21/02/17/quality-and-velocity-our-seven-year-journey-to-availability",
+    "filename": "quality-and-velocity-our-seven-year-journey-to-availability"
   },
   {
     "title": "Introducing RxZu, an Engine for Intuitive Graphs",
@@ -13429,6 +13464,36 @@
     "filename": "use-a-green-screen-in-javascript-with-vonage-video"
   },
   {
+    "title": "Aggiungi l’Autenticazione Forte PSD2 alla Tua App",
+    "description": "Scopri come aggiungere alla tua app l'autenticazione dei pagamenti online \"Secure Customer Authentication\", noto anche come PSD2, con Vonage Verify API",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/add-strong-psd2-authentication-to-your-application/Blog_Strong-Customer-Authentication_1200x600-2.png",
+    "author": {
+      "team": false,
+      "spotlight": false,
+      "name": "Lorna Mitchell",
+      "bio": "Lorna is a software engineer with an incurable blogging habit. She tries to tame words and code in equal measure.",
+      "twitter": "lornajane",
+      "image_url": "/content/images/lornajane.jpg",
+      "alumni": true,
+      "short_name": "lornajane"
+    },
+    "published": true,
+    "published_at": "2020-06-23 07:53:47 UTC",
+    "category": {
+      "name": "Tutorial",
+      "plural": "Tutorials",
+      "slug": "tutorial",
+      "color": "#d6219c"
+    },
+    "tags": [
+      "security",
+      "verify-api"
+    ],
+    "locale": "it",
+    "link": "blog/it/20/06/23/add-strong-psd2-authentication-to-your-application",
+    "filename": "add-strong-psd2-authentication-to-your-application"
+  },
+  {
     "title": "Add Strong PSD2 Authentication to Your Application",
     "description": "Find out how you can bring your payment authorisations up to PSD2 standards using the Vonage Verify API to confirm user identity",
     "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/add-strong-psd2-authentication-to-your-application/Blog_Strong-Customer-Authentication_1200x600-2.png",
@@ -13458,36 +13523,6 @@
     ],
     "locale": "en",
     "link": "blog/20/06/23/add-strong-psd2-authentication-to-your-application",
-    "filename": "add-strong-psd2-authentication-to-your-application"
-  },
-  {
-    "title": "Aggiungi l’Autenticazione Forte PSD2 alla Tua App",
-    "description": "Scopri come aggiungere alla tua app l'autenticazione dei pagamenti online \"Secure Customer Authentication\", noto anche come PSD2, con Vonage Verify API",
-    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/add-strong-psd2-authentication-to-your-application/Blog_Strong-Customer-Authentication_1200x600-2.png",
-    "author": {
-      "team": false,
-      "spotlight": false,
-      "name": "Lorna Mitchell",
-      "bio": "Lorna is a software engineer with an incurable blogging habit. She tries to tame words and code in equal measure.",
-      "twitter": "lornajane",
-      "image_url": "/content/images/lornajane.jpg",
-      "alumni": true,
-      "short_name": "lornajane"
-    },
-    "published": true,
-    "published_at": "2020-06-23 07:53:47 UTC",
-    "category": {
-      "name": "Tutorial",
-      "plural": "Tutorials",
-      "slug": "tutorial",
-      "color": "#d6219c"
-    },
-    "tags": [
-      "security",
-      "verify-api"
-    ],
-    "locale": "it",
-    "link": "blog/it/20/06/23/add-strong-psd2-authentication-to-your-application",
     "filename": "add-strong-psd2-authentication-to-your-application"
   },
   {
@@ -15608,36 +15643,6 @@
     "filename": "usando-jwt-para-autenticação-em-uma-aplicação-golang"
   },
   {
-    "title": "在 Golang 应用程序中使用 JWT 进行身份验证",
-    "description": "Learn how to create a Go application that creates and invalidates JWT tokens to bring authentication to protected routes.",
-    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/using-jwt-for-authentication-in-a-golang-application-dr/Blog_JWT-Golang_Authentification_1200x600-2.png",
-    "author": {
-      "name": "Victor Steven",
-      "image_url": "/content/images/0.png",
-      "bio": "Victor Steven is a self-taught full-stack developer that loves researching about doing things differently. He has a degree in Engineering and over 5 years of experience as a software developer. Steven is very interested in designing and building scalable APIs and he enjoys writing about his discoveries in software development.",
-      "website_url": "",
-      "spotlight": true,
-      "short_name": "victor-steven"
-    },
-    "published": true,
-    "published_at": "2020-03-13 13:00:25 UTC",
-    "category": {
-      "name": "Tutorial",
-      "plural": "Tutorials",
-      "slug": "tutorial",
-      "color": "#d6219c"
-    },
-    "tags": [
-      "go",
-      "chinese",
-      "messages-api"
-    ],
-    "spotlight": true,
-    "locale": "cn",
-    "link": "blog/cn/20/03/13/using-jwt-for-authentication-in-a-golang-application-dr",
-    "filename": "using-jwt-for-authentication-in-a-golang-application-dr"
-  },
-  {
     "title": "Using JWT for Authentication in a Golang Application",
     "description": "Learn how to create a Go application that creates and invalidates JWT tokens to bring authentication to protected routes.",
     "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/using-jwt-for-authentication-in-a-golang-application-dr/Blog_JWT-Golang_Authentification_1200x600-2.png",
@@ -15666,6 +15671,36 @@
     ],
     "locale": "en",
     "link": "blog/20/03/13/using-jwt-for-authentication-in-a-golang-application-dr",
+    "filename": "using-jwt-for-authentication-in-a-golang-application-dr"
+  },
+  {
+    "title": "在 Golang 应用程序中使用 JWT 进行身份验证",
+    "description": "Learn how to create a Go application that creates and invalidates JWT tokens to bring authentication to protected routes.",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/using-jwt-for-authentication-in-a-golang-application-dr/Blog_JWT-Golang_Authentification_1200x600-2.png",
+    "author": {
+      "name": "Victor Steven",
+      "image_url": "/content/images/0.png",
+      "bio": "Victor Steven is a self-taught full-stack developer that loves researching about doing things differently. He has a degree in Engineering and over 5 years of experience as a software developer. Steven is very interested in designing and building scalable APIs and he enjoys writing about his discoveries in software development.",
+      "website_url": "",
+      "spotlight": true,
+      "short_name": "victor-steven"
+    },
+    "published": true,
+    "published_at": "2020-03-13 13:00:25 UTC",
+    "category": {
+      "name": "Tutorial",
+      "plural": "Tutorials",
+      "slug": "tutorial",
+      "color": "#d6219c"
+    },
+    "tags": [
+      "go",
+      "chinese",
+      "messages-api"
+    ],
+    "spotlight": true,
+    "locale": "cn",
+    "link": "blog/cn/20/03/13/using-jwt-for-authentication-in-a-golang-application-dr",
     "filename": "using-jwt-for-authentication-in-a-golang-application-dr"
   },
   {
@@ -20487,36 +20522,6 @@
     "filename": "getting-started-with-the-nexmo-number-insight-api-and-rails-dr"
   },
   {
-    "title": "使用 Google Cloud Functions 从 Python 发送短信",
-    "description": "This tutorial teaches how to deploy a function on Google Cloud Platform using Python 3.7, showing how to send a message inviting the user to download an app",
-    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/sending-sms-from-python-with-google-cloud-functions-dr/Blog_Google-Cloud_SMS_1200x600-1.png",
-    "author": {
-      "spotlight": true,
-      "name": "Tom Morris",
-      "image_url": "https://secure.gravatar.com/avatar/ddea4317847eafccd60f8a4e10b195bc?s=384&d=mm&r=g",
-      "bio": "Polyglot hacker and lifelong student trying a little bit of everything and documenting the experience.",
-      "website_url": "",
-      "short_name": "tom"
-    },
-    "published": true,
-    "published_at": "2019-03-21 20:21:36 UTC",
-    "category": {
-      "name": "Tutorial",
-      "plural": "Tutorials",
-      "slug": "tutorial",
-      "color": "#d6219c"
-    },
-    "tags": [
-      "python",
-      "chinese",
-      "sms-api"
-    ],
-    "spotlight": true,
-    "locale": "cn",
-    "link": "blog/cn/19/03/21/sending-sms-from-python-with-google-cloud-functions-dr",
-    "filename": "sending-sms-from-python-with-google-cloud-functions-dr"
-  },
-  {
     "title": "Sending SMS from Python with Google Cloud Functions",
     "description": "This tutorial shows how to deploy a function on Google Cloud Platform using Python 3.7 and the Vonage SMS API to send a text message to a user.",
     "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/sending-sms-from-python-with-google-cloud-functions-dr/Blog_Google-Cloud_SMS_1200x600-1.png",
@@ -20545,6 +20550,36 @@
     "spotlight": true,
     "locale": "en",
     "link": "blog/19/03/21/sending-sms-from-python-with-google-cloud-functions-dr",
+    "filename": "sending-sms-from-python-with-google-cloud-functions-dr"
+  },
+  {
+    "title": "使用 Google Cloud Functions 从 Python 发送短信",
+    "description": "This tutorial teaches how to deploy a function on Google Cloud Platform using Python 3.7, showing how to send a message inviting the user to download an app",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/sending-sms-from-python-with-google-cloud-functions-dr/Blog_Google-Cloud_SMS_1200x600-1.png",
+    "author": {
+      "spotlight": true,
+      "name": "Tom Morris",
+      "image_url": "https://secure.gravatar.com/avatar/ddea4317847eafccd60f8a4e10b195bc?s=384&d=mm&r=g",
+      "bio": "Polyglot hacker and lifelong student trying a little bit of everything and documenting the experience.",
+      "website_url": "",
+      "short_name": "tom"
+    },
+    "published": true,
+    "published_at": "2019-03-21 20:21:36 UTC",
+    "category": {
+      "name": "Tutorial",
+      "plural": "Tutorials",
+      "slug": "tutorial",
+      "color": "#d6219c"
+    },
+    "tags": [
+      "python",
+      "chinese",
+      "sms-api"
+    ],
+    "spotlight": true,
+    "locale": "cn",
+    "link": "blog/cn/19/03/21/sending-sms-from-python-with-google-cloud-functions-dr",
     "filename": "sending-sms-from-python-with-google-cloud-functions-dr"
   },
   {
@@ -27494,7 +27529,7 @@
       "short_name": "tjlytle"
     },
     "published": true,
-    "published_at": "2015-08-14 16:45:51 +0100",
+    "published_at": "2015-08-14 15:45:51 +0000",
     "category": {
       "name": "Community",
       "plural": "Community Posts",
@@ -27570,7 +27605,7 @@
       "short_name": "tjlytle"
     },
     "published": true,
-    "published_at": "2015-04-29 18:55:05 +0100",
+    "published_at": "2015-04-29 17:55:05 +0000",
     "category": {
       "name": "Community",
       "plural": "Community Posts",
@@ -27626,7 +27661,7 @@
       "short_name": "tjlytle"
     },
     "published": true,
-    "published_at": "2015-04-10 18:24:18 +0100",
+    "published_at": "2015-04-10 17:24:18 +0000",
     "category": {
       "name": "Event",
       "plural": "Events",
