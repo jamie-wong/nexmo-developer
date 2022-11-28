@@ -26,19 +26,19 @@ On November 5th and 6th, Vonage partnered with [e& enterprise](https://www.eande
 
 The hackathon kicked off with a workshop by Vonage Developer Advocate Benjamin Aronov. He gave an overview of Vonage APIs and then did a hands-on demo, building a WhatsApp agent using the [AI Studio ](https://studio.docs.ai.vonage.com/)platform. Students learned about AI Studio’s drag-and-drop interface, powerful NLU engine, and how it can connect with outside services with API calls.
 
-The students were then challenged to leverage AI-driven Communication APIs to help organizations improve their customer relationships. Nine teams submitted solutions using the Vonage AI Studio platform. The winning team was quadKernals, made up of Brandon Savio Rodrigues, Jaison Thomas, Saina Ejaz, and Shreesh Chaturvedi.
+The students were then challenged to leverage AI-driven Communication APIs to help organizations improve their customer relationships. Nine teams submitted solutions using the Vonage AI Studio platform. The winning team was quadKernals, made up of Brandon Savio Rodrigues, Jaison Thomas, Sania Ejaz, and Shreesh Chaturvedi.
 
 We asked the team more about their project and aspirations for a future working in technology.
 
-## A﻿n Interview with quadKernals
+## An Interview with quadKernals
 
 ### What were the different roles in the team? Who did what?
 
 **Jaison:** “Shreesh and I created the APIs calls to interact with the Vonage AI agents. We learned how to interact with the HTTP AI agent. So that is: creating the session, then accessing the session, and sending messages back and forth. We also created the event access management system that is on the AI agent side.”
 
-**Saina:** “Brandon and I created the sync between the video and audio of GIFs. I created the GIFs, and then we had to basically sync the GIFS with the audio along with the mapping of the keywords to the GIF. So depending on which keyword comes in, it maps it to a particular action. So we basically had four GIFs and we had to map it to that.”
+**Sania:** “Brandon and I created the sync between the video and audio of GIFs. I created the GIFs, and then we had to basically sync the GIFS with the audio along with the mapping of the keywords to the GIF. So depending on which keyword comes in, it maps it to a particular action. So we basically had four GIFs and we had to map it to that.”
 
-**Brandon:** “I made the text-to-speech interface work. It used to loop and loop and go on, and I fixed that. Another thing that Sonia did was design each of the states for Domino, so the artwork was custom.”
+**Brandon:** “I made the text-to-speech interface work. It used to loop and loop and go on, and I fixed that. Another thing that Sania did was design each of the states for Domino, so the artwork was custom.”
 
 ### What is your dream job after you finish your Computer Science degree?
 
@@ -46,11 +46,11 @@ We asked the team more about their project and aspirations for a future working 
 
 **Jaison:** “The job that pays the most. But in all seriousness, I got into CS to build solutions that impact a lot of people, because you could do that with computers, which you basically couldn't do with many other fields. People have been building applications that billions of people use. So being someone who can scale applications at that level, that's what I want to do. So system architecture. I enjoyed our Networking course.”
 
-**Saina:** “So I'm really interested in AI and ML. We have just started our minors in that, and I want to do my masters in artificial intelligence and machine learning. So that's the next step because I want to get a deeper understanding of all the neural networks and contribute some of my own products to it. We see the research papers and the articles that come out, and it all seems really interesting to me.”
+**Sania:** “So I'm really interested in AI and ML. We have just started our minors in that, and I want to do my masters in artificial intelligence and machine learning. So that's the next step because I want to get a deeper understanding of all the neural networks and contribute some of my own products to it. We see the research papers and the articles that come out, and it all seems really interesting to me.”
 
 **Brandon:** “My dream is to become a cybersecurity specialist. I'm hoping to deepen my knowledge of cybersecurity and one day be a specialist. To defend, not attack.”
 
-### W﻿hat did you build for the hackathon?
+### What did you build for the hackathon?
 
 We built a project called Domino. It’s a video interface for your chat application. We created a bot that was a bunch of GIFs and we mapped text to various outputs and actions. So according to what kind of text you would say, it would do the related action. So a “hi” would be a wave. When you’re talking, the bot would look like it was listening. When it was speaking, it would use the talking GIF. And if it didn’t understand something it would have a confused face.
 
@@ -70,7 +70,7 @@ And that’s just one use. But by building the interface of interacting with an 
 
 And it was really easy to create the chatbot. Normally when you read about creating Python chatbots, there’s a lot of ML involved for the NLP layer and then dealing with your dictionaries, and then your cases and all that. But here, you could just plug and play; put what you need and it would give you your output. And the Intents feature was so useful. Like you put some statements and then it continues suggesting other statements, you don’t have to build any of that. It’s already there! So being able to build something that complete and that quickly was really cool.”
 
-**Saina:** “This was the first time I delved into animation, and it was a very interesting experience. After that, it was the syncing of the animation to the audio. When I got it working, the output was really nice. It felt good to somehow have managed to make it work after the numerous times it broke in different ways, in different instances. So that was the fun part.”
+**Sania:** “This was the first time I delved into animation, and it was a very interesting experience. After that, it was the syncing of the animation to the audio. When I got it working, the output was really nice. It felt good to somehow have managed to make it work after the numerous times it broke in different ways, in different instances. So that was the fun part.”
 
 ### What was the technical implementation of the project?
 
@@ -87,7 +87,7 @@ Our front-end was HTML and Vanilla JS. And with JavaScript we called the APIs, g
 
 **Jaison:** “Just how good the intents were. I had the query of “what event am I at?” -so that’s for the location. So I added as the expression, “where is this location?” and you could instead ask another keyword for it, like “destination”. And it wouldn’t struggle for it. It would realize, “Oh yeah 'destination' is there and ‘where is’ is there” -so it must be another location intent. And it would be able to pull context like that which was really, really cool.”
 
-**Saina:** “The suggestions for expressions were really accurate. After you put in one, you get a lot of suggestions that have somehow recognized what you are looking for. It’s really good.”
+**Sania:** “The suggestions for expressions were really accurate. After you put in one, you get a lot of suggestions that have somehow recognized what you are looking for. It’s really good.”
 
 ### What’s Next For You As A Group and Individually?
 
@@ -97,13 +97,13 @@ We have our [University Tech Fest](https://technovanzadxb.web.app/html/index.htm
 
 **Jaison:** “Only a few months left for me until graduation. And the job market doesn’t look so great. But I have to start the job hunt. I'm also applying for Masters programs in Machine Learning and Systems Engineering.”
 
-**Saina:** "Definitely a Masters in Machine Learning and Artificial Intelligence. I’m also finishing in a few months with Jaison.”
+**Sania:** "Definitely a Masters in Machine Learning and Artificial Intelligence. I’m also finishing in a few months with Jaison.”
 
-> C﻿heck out [Jaison](https://www.linkedin.com/in/jaison-thomas-57734822b/) on LinkedIn if you're hiring software engineers!
+> Check out [Jaison](https://www.linkedin.com/in/jaison-thomas-57734822b/) on LinkedIn if you're hiring software engineers!
 
 ![The quadKernals team accepting their victory trophy.](/content/blog/futurenow-hackathon-with-manipal-university-e-enterprise-and-vonage/img_4452.jpg "The quadKernals team accepting their victory trophy.")
 
-## S﻿tay in the Loop
+## Stay in the Loop
 
 To find out which upcoming developer events the Vonage Developer Relations team will be at, check out our Developer Community [page](https://developer.vonage.com/community).
 
