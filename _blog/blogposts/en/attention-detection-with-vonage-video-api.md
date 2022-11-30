@@ -10,9 +10,9 @@ published_at: 2022-11-30T10:25:46.738Z
 updated_at: 2022-11-30T10:25:46.775Z
 category: tutorial
 tags:
-  - "#video-api"
-  - "#javascript"
-  - "#node"
+  - "video-api"
+  - "javascript"
+  - "node"
 comments: true
 spotlight: false
 redirect: ""
