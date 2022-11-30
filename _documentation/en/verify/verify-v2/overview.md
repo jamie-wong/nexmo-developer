@@ -14,7 +14,7 @@ We added event and summary callbacks that open the door to a multitude of integr
 
 ## Authentication
 
-Authentication in Verify V2 is done through JWTs. These can be generated via the [Vonage Server SDKs](/conversation/guides/jwt-acl), or through the [online tool](/jwt). For more information on authentication using JWTs, see the [Authentication guide](/getting-started/concepts/authentication).
+In addition to basic authentication, authentication in Verify V2 can be done through JWTs. These can be generated via the [Vonage Server SDKs](/conversation/guides/jwt-acl), or through the [online tool](/jwt). For more information on authentication using JWTs, see the [Authentication guide](/getting-started/concepts/authentication).
 
 ## Workflows
 
@@ -89,7 +89,7 @@ One-time passcodes sent to email are also a good alternative to the channels men
 
 ## Verify V2 Early Access Pricing
 
-We bill for each channel used and currently do not bill for successful conversions. Specific to WhatsApp, billing is per WhatsApp message (business initiated pricing) plus the passthrough.
+We bill for each channel used and currently do not bill for successfully converted requests. Specific to WhatsApp, billing is per WhatsApp message (business initiated pricing) plus the passthrough.
 
 **For example, in the USA when ``channel=whatsapp`` then expected bill is $0.0147 WhatsApp fee + $0.0122 passthrough fee for a total of $0.0269.**
 

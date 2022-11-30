@@ -8,9 +8,11 @@ navigation_weight: 1
 
 Verify V2 customers have several options on how to manage fraud if fraudulent traffic has surfaced and a network block has been issued by the [Verify Anti-Fraud System](/verify/guides/anti-fraud-system).
 
-## Network Block Callbacks
+## Network Block Callbacks
 
-A network block prevents Verify messages being sent over SMS and Voice channels on that network for your API key. When this happens the platform sends a callback to your designated webhook indicating the request was blocked. For example:
+A network block prevents Verify messages being sent over SMS and Voice channels on that network for your API key. In Verify V2, blocks are only issued for a temporary amount of time and will then allow traffic to resume as normal. If fraudulent traffic persists on a network, blocks will be issued for longer periods until they eventually become permanent. If a block becomes permanent, the only way for traffic to resume on this network is to use the [Network Unblock API](#network-unblock-api).
+
+If you attempt to send a Verify request to a blocked network, you will receive a callback to your designated webhook indicating the request was blocked. For example:
 
 ```
 POST - /your_callback_endpoint
