@@ -20,7 +20,7 @@ canonical: ""
 outdated: false
 replacement_url: ""
 ---
-*This article was written in collaboration with [Talha Hasan](https://developer.vonage.com/blog/authors/talha-hasan)*
+*This article was written in collaboration with [Talha Ahsan](https://developer.vonage.com/blog/authors/talha-ahsan)*
 
 ## Introduction
 
