@@ -25,7 +25,7 @@ The examples in this post will be written in Python, but these principles apply 
 ## The series, in sections
 
 1. Part One: Understanding a Codebase (this article)
-2. Part Two: Making Changes (will be published soon!)
+2. [Part Two: Making Changes](https://developer.vonage.com/blog/22/11/28/improve-your-software-project-part-two-making-changes)
 3. Part Three: Taking Things to the Next Level (will be published soon!)
 
 # What does this series cover?
@@ -161,6 +161,6 @@ snakeviz send_sms.prof
 
 ## What's next?
 
-If you follow the suggestions in this article, you'll be in a great position to start building trust, tackling technical debt and making changes to your codebase. Check back soon for Part 2, where we'll talk about all this in detail.
+If you follow the suggestions in this article, you'll be in a great position to start building trust, tackling technical debt and making changes to your codebase. [Click here for Part 2, where we'll talk about all this in detail](https://developer.vonage.com/blog/22/11/28/improve-your-software-project-part-two-making-changes).
 
-In the meantime, you can reach out to us on our [Vonage Community Slack](https://developer.vonage.com/community/slack) or send us a message on [Twitter](https://twitter.com/VonageDev).
+If you want to get in touch, you can reach out to us on our [Vonage Community Slack](https://developer.vonage.com/community/slack) or send us a message on [Twitter](https://twitter.com/VonageDev).
