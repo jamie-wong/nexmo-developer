@@ -200,7 +200,7 @@ This suggests that if the code was able to give up control of the running thread
 
 Below is the data for the async version of the code, that performs the same 100 requests to the same API.
 
-![An icicle plot of a series of asynchronous SDK operations - much faster](/content/blog/improve-your-software-project-part-three-taking-it-to-the-next-level/sync-icicle-plot-top.png)
+![An icicle plot of a series of asynchronous SDK operations - much faster](/content/blog/improve-your-software-project-part-three-taking-it-to-the-next-level/async-icicle-plot.png)
 
 We can see from the plot above that the entire task was completed in 0.33s, about 10 times faster than the synchronous version! In this case, it makes sense for me to explore whether I should make my code async.
 
@@ -208,25 +208,42 @@ The last paragraph seems pretty non-commital, given that I just made the code 10
 
 ### Drawbacks of async - should I use it?
 
-Whilst async code can work very well in a lot of cases, there are significant drawbacks. To make my code async, I'd have to rewrite a lot of it. In Python, async methods behave very differently to regular ones. They have to be called and dealt with very differently.
+Whilst async code can work very well in a lot of cases, there are significant drawbacks. To make my code async, I'd have to rewrite a lot of it. In Python, async methods behave very differently to regular ones; they have to be called and dealt with very differently.
 
-Worse than that, though, is the question of support. If I were to fully rewrite the entire library to make it async and make a new major release of the project (as we discussed in Part 2), I would force my users to rewrite all of their code! If I didn't want to put my users through this ordeal, I would need to support a synchronous and an asynchronous version of the same code, effectively doubling the size of the codebase. That's twice as much code to test, and if I want to add any new features I'd have to do it twice.
+Worse than that, though, is the question of support. If I were to fully rewrite the entire library to make it async and make a new major release of the project (as we discussed in Part 2), I would force my users to rewrite all of their code that uses my SDK! If I didn't want to put my users through this ordeal, I would need to support a synchronous and an asynchronous version of the same code, effectively doubling the size of the codebase. That's twice as much code to test, and if I wanted to add any new features I'd have to add them twice.
 
-There are ways to lighten the load, such as to have the synchronous code call the asynchronous code under the covers to spare my users from having to rewrite things, but this is still a significant time investment. Overall, async is very powerful, but consider carefully what the use cases are for your codebase. If you think there would be a very significant benefit, consider adding async support, but consider it very carefully before committing to deliver it.
+There are ways to lighten the load, but adding async support would still be a significant time investment. Overall, async is very powerful, but consider carefully what the use cases are for your codebase. If you think there would be a very significant benefit, consider making things async, but consider it very carefully before committing to deliver it. And if you're a JavaScript programmer who read this section even though this is how your code works anyway, I hope this was insightful, or at least entertaining. 🤷
 
 ## Setting up automated tooling
 
-If you really want to invest in the long-term health of your project, it's 
+If you really want to invest in the long-term health of your project, you will probably want to set up tooling that helps you write your code, or gives you insight into aspects of it. I mentioned some tools in [Part One of this series](https://developer.vonage.com/blog/22/11/15/improve-your-software-project-part-one-understanding-a-codebase#tooling-that-can-help-you) but let's talk more practically now about applying tooling to your code in an automated way. It's possible to manually run analysis tools etc., but having them run automatically gives you a consistent set of metrics and one fewer thing to worry about when you commit code.
+
+Assuming your code uses version control, it's possible to set up tooling to run when code is pushed/PRs are made, etc. There are many tools to do this. In my case the Vonage Python SDK uses [GitHub Actions](https://github.com/features/actions), which is free for open-source projects hosted on GitHub, and even for private GitHub repos below a certain usage quota.
+
+### Test running and code coverage
+
+In my repo, [I've set up a GitHub Action](https://github.com/Vonage/vonage-python-sdk/blob/main/.github/workflows/build.yml) that runs tests when a push or PR is made, and calculates the code coverage. The advantage of using automation to do this is that I can test on multiple platforms and versions of Python without having to manually set up a VM for each platform and a new virtual environment for each Python version. I'd recommend setting up your tests to run in this way, as you can catch some errors much faster before they get into your production environment.
+
+![Part of the GitHub Action that runs my tests on multiple platforms and multiple versions of Python, whenever I push code to the repo or make a PR](/content/blog/improve-your-software-project-part-three-taking-it-to-the-next-level/github-action-test.png)
+
+### Mutation score
+
+In [Part One of this series](https://developer.vonage.com/blog/22/11/15/improve-your-software-project-part-one-understanding-a-codebase#mutation-score) we briefly discussed the benefits that mutation testing can bring. It can be easy to fall into the code coverage trap of increasing coverage, no matter the cost otherwise. [Goodhart's Law](https://en.wikipedia.org/wiki/Goodhart%27s_law) states that "when a measure becomes a target, it ceases to be a good measure". Developers who get too invested in code coverage metrics tend to sacrifice test quality, for coverage quantity. Mutation score is a way to prevent this from happening.
+
+Mutation score is related to the ability of your tests to be resilient to changes. As we discussed in Part One, mutation tests work by changing your code in subtle ways, then applying your unit tests to these new, "mutant" versions of your code. In order to 
 
 
 
 
 
+### Vulnerability scanning
+
+If your project is using dependencies, you should know that you're using versions that don't compromise the safety of your users.
 
 
 
 
-Linting, coverage, mutation score
+
 
 
 ## Handing over the project
