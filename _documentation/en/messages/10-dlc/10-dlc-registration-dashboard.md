@@ -26,7 +26,7 @@ If you have decided moving to 10 DLC is right for your campaigns, you must:
 
     1. [Register your brand](#register-a-brand)
 
-    2. [Apply for brand vetting](#apply-for-brand-vetting) unless your entity is listed on the Russel 3000 index
+    2. [Apply for brand vetting](#apply-for-brand-vetting)
     
     3. [Register a campaign] (#register-a-campaign)
 
@@ -41,7 +41,9 @@ If you have decided moving to 10 DLC is right for your campaigns, you must:
 5. Review your brand details.
 6. Click **Register and pay**.
 
-> **Note:** You will not be able to change your brand details after registering.
+> **Note:** After registering, you can change certain brand details. The brand may need to be re-verified depending on the change.
+Do note that some details can't be updated following a successful vetting, e.g. EIN.
+You can also update your brand details using the [REST API](https://developer.vonage.com/api/10dlc?#patchBrand).
 
 Your brand information is displayed in the Brand list on the Brands and campaigns page where you can monitor the status of its registration and view more details.
 

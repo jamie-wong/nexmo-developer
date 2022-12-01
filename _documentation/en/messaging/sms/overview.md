@@ -51,7 +51,7 @@ If you have decided moving to 10 DLC is right for your campaigns, you must:
 
     1. [Register your brand](#register-a-brand)
 
-    2. [Apply for brand vetting](#apply-for-brand-vetting) unless your entity is listed on the Russel 3000 index
+    2. [Apply for brand vetting](#apply-for-brand-vetting)
     
     3. [Register a campaign] (#register-a-campaign)
 
