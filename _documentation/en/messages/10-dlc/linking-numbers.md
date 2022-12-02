@@ -34,7 +34,7 @@ Most campaigns have a limit of 50 LVN (Long Virtual Numbers) linked to it. Carri
 
 ### Special Requests
 
-If you need more than 50 numbers linked to the same campaign, you will have to select the **Number Pool** option when creating the campaign. In addition, you have to [open a support ticket](https://help.nexmo.com/hc/en-us/requests/new) in order to start the procedure of requesting a Special Business Review application to be submitted to T-Mobile. Note that the SBR fee is currently waived, but it will be charged $5000 when T-mobile applies the fee.
+If you need more than 50 numbers linked to the same campaign, you will have to select the **Number Pool** option when creating the campaign. In addition, you have to [open a support ticket]( https://api.support.vonage.com/hc/en-us/articles/5951990023580-10DLC-Request-a-number-pool-for-your-campaign) in order to start the procedure of requesting a Special Business Review application to be submitted to T-Mobile. Note that the SBR fee is currently waived, but it will be charged $5000 when T-mobile applies the fee.
 
 **Example of Valid Scenario:** Requesting 2000 LVNs linked to a single Agents & Franchise campaign.
 
