@@ -86,10 +86,9 @@ Throughput is considered on a per number basis.
 | Charity | Non-profit only | Yes | Yes | No | No |  | No | No |
 | Conversational Messaging |  | Yes | Yes | No | No |  | Post Campaign Registration | No |
 | Emergency |  | Yes | Yes | No | No |  | Post Campaign Registration | No |
-| Political | Non-profit only | Yes | Yes | Yes (527 Orgs); No (501c c4 orgs) | Yes (527 Orgs); No (501c c4 orgs) | Campaign Verify | No | Post Campaign Registration |
+| Political | Non-profit only | Yes | Yes | Yes (527 Orgs); No (501c c4 orgs) | Yes (527 Orgs); No (501c c4 orgs) | Aeigis; Campaign Verify | No | Post Campaign Registration |
 | Social |  | Yes | No | Yes | TBD | Aeigis; WMC Global | Post Campaign Registration | TBD |
 | Sweepstakes |  | Yes | Yes | Yes | No | Aeigis; WMC Global | Post Campaign Registration | Post Campaign Registration |
-| Platform Free Trial |  | Yes | Yes | No | No |  | No | No |
 | Sole Proprietor | Non-profit only | Yes | Yes | No | No |  | No | No |
 
 ## Subscriber information and message content
