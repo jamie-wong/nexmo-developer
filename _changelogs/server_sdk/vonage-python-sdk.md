@@ -1,10 +1,16 @@
 ---
-version: '3.2.0b0'
-release: '11 Nov 2022'
+version: '4.0.0b0'
+release: '2 Dec 2022'
 ---
 # [Vonage Python SDK](https://github.com/Vonage/vonage-python-sdk)
 
 ---
+
+## 4.0.0b0
+### 2 Dec 2022
+
+- No functionality change from v3.2.0b0. Using a major version number to keep releases chronologically and numerically more synced up. 
+- This is a beta version that can be installed with `pip install --pre vonage`
 
 ## 3.2.0b0
 ### 11 Nov 2022
