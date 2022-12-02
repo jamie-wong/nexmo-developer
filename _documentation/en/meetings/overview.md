@@ -1,14 +1,14 @@
 ---
 title: Overview
 meta_title: Provides an out of the box video solution for low tech users
-description: The Meetings API (Beta) allows you to integrate real-time, high-quality interactive video meetings into your web apps
+description: The Meetings API allows you to integrate real-time, high-quality interactive video meetings into your web apps
 product: meetings
 navigation_weight: 1
 ---
 
 # Meetings API Overview
 
-The Meetings API (Beta) allows you to integrate real-time, high-quality interactive video meetings into your web apps.
+The Meetings API allows you to integrate real-time, high-quality interactive video meetings into your web apps.
 
 > You can try out the Meetings API in the [Vonage API Dashboard](https://dashboard.nexmo.com).
 
