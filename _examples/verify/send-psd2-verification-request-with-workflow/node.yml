@@ -6,4 +6,4 @@ client:
 code:
     source: .repos/vonage/vonage-node-code-snippets/verify/psd2-with-workflow.js
     from_line: 18
-    to_line: 30
+    to_line: 25

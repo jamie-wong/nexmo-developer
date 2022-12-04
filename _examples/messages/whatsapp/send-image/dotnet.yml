@@ -4,5 +4,5 @@ language: dotnet
 code:
     source: .repos/vonage/vonage-dotnet-code-snippets/DotNetCliCodeSnippets/Messages/WhatsApp/SendWhatsAppImage.cs
     from_line: 19
-    to_line: 37
+    to_line: 34
 file_name: SendWhatsAppImage.cs

@@ -4,5 +4,5 @@ language: dotnet
 code:
     source: .repos/vonage/vonage-dotnet-code-snippets/DotNetCliCodeSnippets/Messages/WhatsApp/SendWhatsAppLocation.cs
     from_line: 19
-    to_line: 43
+    to_line: 40
 file_name: SendWhatsAppLocation.cs

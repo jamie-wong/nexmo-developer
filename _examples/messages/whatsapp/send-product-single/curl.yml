@@ -1,0 +1,9 @@
+---
+title: cURL
+language: curl
+code:
+    source: .repos/vonage/vonage-curl-code-snippets/messages/whatsapp/send-single-product.sh
+    from_line: 6
+    to_line: 30
+file_name: send-single-product.sh
+run_command: bash send-single-product.sh

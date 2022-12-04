@@ -113,9 +113,15 @@ A basic workflow for setting this up via the [Dashboard](https://dashboard.nexmo
 
 <img src="/images/messages/messages-application-webhooks-and-version-settings.png" alt="UI for Messages webhook and version settings">
 
-## Use of JWTs for Authentication if using a Vonage Applications
+## Use of JWTs for Authentication if using a Vonage Application
 
 If you are setting up a Vonage Application, an important thing to be aware of is that Vonage Applications mandate the usage of JWT (JSON Web Tokens) to authenticate requests to the API. In other words, HTTP Basic authentication is not an option in this situation. [Read more about JWTs](/concepts/guides/authentication#json-web-tokens-jwt).
+
+## Linking Numbers and Social Channels to a Vonage Applications
+
+If you want to make certain numbers and social channels available to a Vonage Application, you need to link those numbers and social channels to the application. This can be done via the [Dashboard](https://dashboard.nexmo.com/). From the [Applications page](https://dashboard.nexmo.com/applications), select the application you want to link; you can link numbers to the application under the `Link numbers' tab, and link social channels under 'Link social channels' tab.
+
+> Specific numbers and social channel accounts can only be linked to one Vonage application at a time.
 
 ## Additional Features
 

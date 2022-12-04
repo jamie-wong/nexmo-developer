@@ -6,4 +6,4 @@ client:
 code:
     source: .repos/vonage/vonage-node-code-snippets/verify/psd2.js
     from_line: 17
-    to_line: 28
+    to_line: 23

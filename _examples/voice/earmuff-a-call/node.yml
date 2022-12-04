@@ -2,7 +2,7 @@
 code:
     source: .repos/vonage/vonage-node-code-snippets/voice/earmuff-a-call.js
     from_line: 21
-    to_line: 37
+    to_line: 31
 client:
     source: .repos/vonage/vonage-node-code-snippets/voice/earmuff-a-call.js
     from_line: 12

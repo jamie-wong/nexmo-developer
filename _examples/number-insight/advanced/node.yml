@@ -1,8 +1,8 @@
 ---
 code:
     source: .repos/vonage/vonage-node-code-snippets/number_insight/ni-advanced.js
-    from_line: 16
-    to_line: 23
+    from_line: 15
+    to_line: 21
 client:
     source: .repos/vonage/vonage-node-code-snippets/number_insight/ni-advanced.js
     from_line: 9

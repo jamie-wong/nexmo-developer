@@ -17,7 +17,7 @@ Filters are passed to the endpoint as query parameters. In your query, you will 
 Here is an example:
 
 ```sh
-https://api-eu.vonage.com/v1/10dlc/brands/:brand_id/campaigns?filter=[[{"field":"vertical","type":"equal","value":"REAL_ESTATE"}]]
+https://api-eu.vonage.com/v1/10dlc/brands/:brand_id/campaigns?filter=[[{"field":"vertical","type":"==","value":"REAL_ESTATE"}]]
 ```
 
 ### Filter Object 
@@ -28,7 +28,7 @@ A filter object is a JSON object containing a filter query. A filter object cont
    [
       {
          "field":"vertical",
-         "type":"equal",
+         "type":"==",
          "value":"REAL_ESTATE"
       }
    ]
@@ -37,9 +37,24 @@ A filter object is a JSON object containing a filter query. A filter object cont
 
 **Field**: is the name of the field whose value you will like to filter by.
 
-**Type**: is the matching condition you will like to apply in the filter search. There are three options available: **equal** for getting exact matches, **notequal** for fetching all non-matching values, and **regexp** to filter based on a pattern.
+**Type**: is the matching condition you will like to apply in the filter search. Visit the [filter conditions](#filter-conditions) section to see the available conditions.
 
 **Value**: is the value you will like to filter by. 
+
+### Filter Conditions
+
+- `regexp`: **Regex** - Returns records that match the filter value based on the provided regular expression.
+- `==`: **Equal To** - Returns records that match the filter value exactly.
+- `=` : **Equal Fold** - Matches records without case-sensitivity (This applies to UTF-8 characters).
+- `^=`: **Starts With** - Matches records starting with the filter value.
+- `=$`: **Ends With** - Matches records ending with the filter value.
+- `~=`: **Contains** - Matches records containing the filter value.
+- `<`: **Less Than** - matches records less than the filter value.
+- `<=`: **Less Than or Equals To** - matches records less than or equal to the filter value.
+- `>`: **Greater Than** - matches records greater than the specified filter value.
+- `>=`: **Greater Than or Equal To** - matches records greater than or equal to the filter value.
+
+> You can fetch opposing records by negating any of the above conditions by prefixing the condition with the `!` symbol. For example, `!==` is equivalent to **Not Equal**.
 
 ### Filtering Rules
 You can have a maximum of **three [filter objects](#filter-object)** in a query. This means you can find results that match a maximum of three fields. Filter objects can also be paired up in different ways.
@@ -73,18 +88,18 @@ Also, further expanding the filter objects in example 4. we get the following fi
    [
       {
          "field":"vertical",
-         "type":"equal",
+         "type":"==",
          "value":"REAL_ESTATE"
       },
       {
          "field":"vertical",
-         "type":"equal",
+         "type":"==",
          "value":"NGO"
       }
    ],
    [{
       "field":"reseller_id",
-      "type":"equal",
+      "type":"==",
       "value":"12345"
    }]
 ]

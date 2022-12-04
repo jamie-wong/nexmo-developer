@@ -2,7 +2,7 @@
 code:
     source: .repos/vonage/vonage-node-code-snippets/voice/transfer-call.js
     from_line: 21
-    to_line: 35
+    to_line: 25
 client:
     source: .repos/vonage/vonage-node-code-snippets/voice/transfer-call.js
     from_line: 12

@@ -3,7 +3,7 @@ page:
     - column:
       - type: section_header
         section_header:
-          title: Vonage API Developer Relations Team
+          title: Vonage API Developer Relations & Experience Team
           icon:
             name: Vlt-icon-group
             color: blue-dark

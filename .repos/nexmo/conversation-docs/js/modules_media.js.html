@@ -196,50 +196,14 @@ class Media {
         delete this.rtcStats;
     }
     /**
-      * Internal function used send the answer to the server and initiate the stream + callbacks
-      * @private
-      */
-    _execAnswer(params = {}) {
-        var _a;
-        const { audioConstraints = {} } = params;
-        return (_a = this.mediaPreloading, (_a !== null &amp;&amp; _a !== void 0 ? _a : Promise.reject(new nexmoClientError_1.NexmoClientError("error:media-no-preloaded"))))
-            .then(({ onicecandidate, onconnectionstatechange }) => {
-            const { application, pc, parentConversation: conversation } = this;
-            const sendAnswer = onicecandidate.then(({ leg_id, stream }) => rtc_helper_1.default.sendAnswer(application, pc, conversation, leg_id)
-                .then(() => ({ leg_id, stream })));
-            return sendAnswer.then(({ leg_id, stream }) => {
-                const streamIndex = this.streamIndex;
-                this.streamIndex++;
-                const { rtcObjects } = this;
-                rtcObjects[leg_id] = {
-                    rtc_id: leg_id,
-                    pc,
-                    stream,
-                    type: "audio",
-                    streamIndex: streamIndex,
-                };
-                rtc_helper_1.default._initStatsEvents({
-                    application,
-                    rtc_id: leg_id,
-                    pc,
-                    conversation
-                });
-                this._attachEndingEventHandlers();
-                application.activeStreams.push(stream);
-                rtc_helper_1.default.emitMediaStream(conversation.me, pc, stream);
-                return this.updateAudioConstraints(audioConstraints);
-            }).then(() => onconnectionstatechange);
-        });
-    }
-    /**
-     * Handles the enabling of audio only stream with rtc:new
+     * Function used to init the media stream
      * @private
      */
-    _handleAudio(params = {}) {
+    _audioInitHandler(params = {}, onIceCandidateHandler) {
         return new Promise(async (resolve, reject) => {
             const streamIndex = this.streamIndex;
             this.streamIndex++;
-            const { audioConstraints, reconnectRtcId } = params;
+            const { audioConstraints } = params;
             try {
                 const localStream = await rtc_helper_1.default.getUserAudio(audioConstraints);
                 const pc = rtc_helper_1.default.createPeerConnection(this.application);
@@ -251,11 +215,10 @@ class Media {
                     localStream,
                     application,
                     conversation,
-                    reconnectRtcId,
                     log,
                     rtcObjects
                 };
-                rtc_helper_1.default.attachPeerConnectionEventHandlers({ ...context, resolve, reject });
+                onIceCandidateHandler({ ...context, resolve, reject });
                 rtc_helper_1.default.attachConversationEventHandlers(context);
                 this._attachEndingEventHandlers();
             }
@@ -263,6 +226,22 @@ class Media {
                 reject(new nexmoClientError_1.NexmoClientError(error));
             }
         });
+    }
+    /**
+     * Handles the enabling of audio when an offer is available
+     * @private
+     */
+    _execAnswer(params = {}) {
+        const { offer: { sdp, leg_id } } = params;
+        return this._audioInitHandler(params, (context) => rtc_helper_1.default.doAnswer(context, sdp, leg_id));
+    }
+    /**
+     * Handles the enabling of audio only stream with rtc:new
+     * @private
+     */
+    _handleAudio(params = {}) {
+        const { reconnectRtcId } = params;
+        return this._audioInitHandler(params, (context) => rtc_helper_1.default.attachPeerConnectionEventHandlers({ ...context, reconnectRtcId }));
     }
     _findRtcObjectByType(type) {
         return Object.values(this.rtcObjects).find((rtcObject) => rtcObject.type === type);
@@ -512,7 +491,8 @@ class Media {
                 throw new nexmoClientError_1.NexmoClientError("error:self");
             }
             else {
-                let remoteStream = await this._handleAudio(params);
+                const { offer } = (params !== null &amp;&amp; params !== void 0 ? params : {});
+                let remoteStream = await (offer !== undefined ? this._execAnswer(params) : this._handleAudio(params));
                 // attach the audio stream automatically to start playing
                 let autoPlayAudio = params &amp;&amp;
                     (params.autoPlayAudio || params.autoPlayAudio === undefined);
@@ -525,106 +505,6 @@ class Media {
         catch (error) {
             throw error;
         }
-    }
-    /**
-     * Enable pre loaded media participation in the conversation for this application (requires WebRTC). This function can be called if
-     * and only if media._addMediaOffer and media._preloadAudioInfo have been called before. Otherwise an error is returned.
-     * @param {object} [params] - rtc params
-     * @param {object} [params.autoPlayAudio=false] - attach the audio stream automatically to start playing after enable media (default false)
-     * @param {object} [params.audioConstraints] - audio constraints to use
-     * @param {boolean} [params.audioConstraints.autoGainControl] - a boolean which specifies whether automatic gain control is preferred and/or required
-     * @param {boolean} [params.audioConstraints.echoCancellation] - a boolean specifying whether or not echo cancellation is preferred and/or required
-     * @param {boolean} [params.audioConstraints.noiseSuppression] - a boolean which specifies whether noise suppression is preferred and/or required
-     * @returns {Promise&lt;MediaStream>}
-     * @example &lt;caption>Enable media in the Conversation&lt;/caption>
-     *
-     * conversation.media._enablePreloaded()
-     * .then((stream) => {
-     *    const media = document.createElement("audio");
-     *    const source = document.createElement("source");
-     *    const media_div = document.createElement("div");
-     *    media.appendChild(source);
-     *    media_div.appendChild(media);
-     *    document.insertBefore(media_div);
-     *    // Older browsers may not have srcObject
-     *    if ("srcObject" in media) {
-     *      media.srcObject = stream;
-     *    } else {
-     *      // Avoid using this in new browsers, as it is going away.
-     *      media.src = window.URL.createObjectURL(stream);
-     *    }
-     *    media.onloadedmetadata = (e) => {
-     *      media.play();
-     *    };
-     * }).catch((error) => {
-     *    console.error(error);
-     * });
-     * @private
-    **/
-    async _enablePreloaded(params) {
-        var _a, _b;
-        try {
-            if (this.parentConversation.me === null) {
-                throw new nexmoClientError_1.NexmoClientError("error:self");
-            }
-            else {
-                let remoteStream = await this._execAnswer(params);
-                // attach the audio stream automatically to start playing
-                let autoPlayAudio = (_b = (_a = params) === null || _a === void 0 ? void 0 : _a.autoPlayAudio, (_b !== null &amp;&amp; _b !== void 0 ? _b : true));
-                if (autoPlayAudio)
-                    rtc_helper_1.default.playAudioStream(remoteStream);
-                return remoteStream;
-            }
-        }
-        catch (error) {
-            throw error;
-        }
-    }
-    /**
-     * Function used to preload media while waiting for call answer. This function can be called whenever we want to start the
-     * ice gathering process. It will fail if the function media._addMediaOffer hasn't been called before.
-     * @private
-     */
-    _preloadAudioInfo() {
-        var _a;
-        this.mediaPreloading = (_a = this.mediaOffer, (_a !== null &amp;&amp; _a !== void 0 ? _a : Promise.reject(new nexmoClientError_1.NexmoClientError("error:no-media-offer"))))
-            .then(({ offer, leg_id }) => {
-            return rtc_helper_1.default.getUserAudio({})
-                .then(localStream => {
-                const pc = rtc_helper_1.default.createPeerConnection(this.application);
-                this.pc = pc;
-                const { application, log, parentConversation: conversation } = this;
-                const context = {
-                    pc,
-                    localStream,
-                    application,
-                    conversation,
-                    log,
-                };
-                return rtc_helper_1.default.doAnswer({ ...context }, offer, leg_id);
-            });
-        });
-    }
-    /**
-     * Function to check whether or not media is preloaded
-     * @private
-     */
-    _isPreloadEnabled() {
-        return this.mediaPreloading !== undefined;
-    }
-    /**
-     * Function used to add media offer to be used when call answer is performed
-     * @private
-     */
-    _addMediaOffer(offer, leg_id) {
-        this.mediaOffer = Promise.resolve({ offer, leg_id });
-    }
-    /**
-     * Function to check whether or not media offer is availalbe
-     * @private
-     */
-    _isMediaOffer() {
-        return this.mediaOffer !== undefined;
     }
     /**
      * Disable media participation in the conversation for this application
@@ -887,7 +767,7 @@ module.exports = Media;
 
 <span class="jsdoc-message">
 	Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.11</a>
-	on Fri Aug 19th 2022 using the <a
+	on Mon Oct 24th 2022 using the <a
 	href="https://github.com/docstrap/docstrap">DocStrap template</a>.
 </span>
 </footer>

@@ -30,7 +30,7 @@ This tutorial uses the [Vonage Command line tool](https://github.com/vonage/vona
 Run the following `npm` command at a terminal prompt to install the CLI tool:
 
 ```sh
-npm install -g @vonage/cli
+npm install --location=global @Vonage/cli
 ```
 
 Configure the CLI tool with your `VONAGE_API_KEY` and `VONAGE_API_SECRET`, which you will find in the Developer Dashboard:

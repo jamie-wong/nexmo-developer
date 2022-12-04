@@ -2,8 +2,8 @@
 code:
     source: .repos/vonage/vonage-node-code-snippets/account/account-balance.js
     from_line: 13
-    to_line: 15
+    to_line: 20
 client:
     source: .repos/vonage/vonage-node-code-snippets/account/account-balance.js
-    from_line: 8
+    from_line: 6
     to_line: 11

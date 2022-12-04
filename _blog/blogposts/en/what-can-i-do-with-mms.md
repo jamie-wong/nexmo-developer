@@ -20,7 +20,7 @@ canonical: ""
 outdated: false
 replacement_url: ""
 ---
-> What Can I do with MMS?
+## What Can I do with MMS?
 
 A question along these lines was recently posted on one of our internal Slack channels.
 

@@ -6,7 +6,7 @@ thumbnail: /content/blog/why-should-your-startup-use-communications-apis/startup
 author: filippos-kyprianou
 published: true
 published_at: 2021-03-04T13:32:07.808Z
-updated_at: ""
+updated_at: 2022-11-11T13:32:07.808Z
 category: startup
 tags:
   - startups

@@ -1,9 +1,9 @@
 ---
 code:
     source: .repos/vonage/vonage-node-code-snippets/voice/make-call-ncco.js
-    from_line: 20
-    to_line: 36
+    from_line: 21
+    to_line: 34
 client:
     source: .repos/vonage/vonage-node-code-snippets/voice/make-call-ncco.js
     from_line: 11
-    to_line: 18
+    to_line: 19

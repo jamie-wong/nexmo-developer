@@ -38,6 +38,8 @@ WhatsApp Codeless allows you to authenticate an end-user without sending a one-t
 
 > By default WhatsApp messages will be sent using a Vonage WhatsApp Business Account (WABA). Please contact [Sales](https://www.vonage.com/communications-apis/contact-api/) in order to configure Verify V2 to use your company’s WABA.
 
+> For non-managed accounts, please contact [Sales](https://www.vonage.com/communications-apis/contact-api/) in order to configure Verify V2 to use your company’s WhatsApp Business Account. For managed accounts, please reach out to your dedicated account manager.
+
 ### Voice
 
 Voice is a great backup to SMS for two-factor authentication, especially in geographies where it’s difficult to terminate SMS or if the local regulations require lengthy SMS pre-registration processes.

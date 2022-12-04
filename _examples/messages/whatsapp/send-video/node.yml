@@ -8,4 +8,4 @@ client:
 code:
     source: .repos/vonage/vonage-node-code-snippets/messages/whatsapp/send-video.js
     from_line: 29
-    to_line: 38
+    to_line: 33

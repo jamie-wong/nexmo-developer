@@ -4,5 +4,5 @@ language: dotnet
 code:
     source: .repos/vonage/vonage-dotnet-code-snippets/DotNetCliCodeSnippets/Messages/Viber/SendSms.cs
     from_line: 18
-    to_line: 32
+    to_line: 29
 file_name: SendSms.cs

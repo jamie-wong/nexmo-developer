@@ -36,6 +36,10 @@ Field | Required? | Description |
 ``recording_options`` | No | An object containing recording options for the meeting. For example:
 | | | If ``auto_record``=``true``, the session will be recorded. If ``false``, the session will not be recorded.
 | | | If ``record_only_owner``=``true``, all audio in the session will be recorded but only the video of the owner of the room will be recorded. If ``false``, all users in the session will be recorded.
+``join_approval_level`` | No | The level of approval needed to join the meeting.  Must be one of the following:
+| | | `after_owner_only` - Participants will join the meeting only after the host has joined.
+| | | `explicit_approval` - Participants will join the waiting room, and the host will approve / deny them.
+| | | `none` - No approval needed.
 
 ## Request
 
@@ -80,6 +84,8 @@ As this room has not yet expired, ``is_available`` is set to true.
    "metadata":null,
    "type":"instant",
    "expires_at":"2021-10-19T17:54:17.219Z",
+   "expire_after_use": false,
+   "join_approval_level": "abc123",
    "recording_options":{
       "auto_record":true,
       "record_only_owner":true

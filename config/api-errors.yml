@@ -17,6 +17,8 @@ products:
     title: Reports API
   whatsapp-provisioning:
     title: WhatsApp Provisioning
+  10dlc:
+    title: 10 DLC API
 
 generic_errors:
   low-balance:
@@ -120,3 +122,11 @@ generic_errors:
   application-suspended:
     description: This application has been suspended
     resolution: Re-enable the application or create a new application to use
+
+  throttled:
+    description: You have hit your rate limit for this endpoint
+    resolution: Wait a moment and try again, or check the product rate limit.
+
+  invalid-params:
+    description: The value of one of more parameters suppied in the request is invalid
+    resolution: Review the data sent against the API specifications, or check for more information in the error response.

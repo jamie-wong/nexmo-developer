@@ -15,15 +15,13 @@ There are various scenarios when you may want to charge the user during the phon
 
 To enable payments with Stripe using Vonage, please login to the Vonage Customer Dashboard and proceed to the [Integrations section](https://dashboard.nexmo.com/integrations).
 
-> This feature is not enabled by default - please contact customer support via [api.support.vonage.com](https://api.support.vonage.com/hc/en-us/requests/new).
-
 ![Dashboard Integrations](/images/voice-api/dashboard-integrations.png)
 
 In the integrations section select *Stripe Connect*.
 
 A popup should show asking you to provide a name for this integration. After entering the name press "Connect with Stripe Connect" button.
 
-![Stripe Integration Setup](/images/voice-api/dashboard-integrations-stripe-setup.png)
+<img src="/images/voice-api/dashboard-integrations-stripe-setup.png" alt="Stripe Integration Setup" width="510"/>
 
 After being redirected to Stripe's page, please go through all the necessary activation steps.
 

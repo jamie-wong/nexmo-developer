@@ -8,7 +8,7 @@ client:
 code:
   source: .repos/vonage/vonage-java-code-snippets/src/main/java/com/vonage/quickstart/messages/whatsapp/SendWhatsappTemplate.java
   from_line: 56
-  to_line: 85
+  to_line: 86
 run_command: java-ide
 file_name: SendWhatsappTemplate.java
 unindent: true

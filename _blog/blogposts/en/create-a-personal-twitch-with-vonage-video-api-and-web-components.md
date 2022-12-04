@@ -10,7 +10,7 @@ published_at: 2021-12-15T10:24:41.091Z
 updated_at: 2022-03-24T10:33:37.105Z
 category: inspiration
 tags:
-  - video
+  - video-api
   - javascript
   - twitch
 comments: true

@@ -2,7 +2,7 @@
 code:
     source: .repos/vonage/vonage-node-code-snippets/applications/delete-application.js
     from_line: 16
-    to_line: 23
+    to_line: 18
 client:
     source: .repos/vonage/vonage-node-code-snippets/applications/delete-application.js
     from_line: 7

@@ -1,14 +1,14 @@
 ---
 title: Overview
 meta_title: Provides an out of the box video solution for low tech users
-description: The Meetings API allows you to integrate real-time, high-quality interactive video meetings into your web apps
+description: The Meetings API (Beta) allows you to integrate real-time, high-quality interactive video meetings into your web apps
 product: meetings
 navigation_weight: 1
 ---
 
 # Meetings API Overview
 
-The Meetings API allows you to integrate real-time, high-quality interactive video meetings into your web apps.
+The Meetings API (Beta) allows you to integrate real-time, high-quality interactive video meetings into your web apps.
 
 > You can try out the Meetings API in the [Vonage API Dashboard](https://dashboard.nexmo.com).
 
@@ -17,9 +17,10 @@ The Meetings API allows you to integrate real-time, high-quality interactive vid
 * [Meetings API or Video API?](#meetings-api-or-video-api): Determine which API is more suited to your project.
 * [Terminology](#terminology): Key terms and definitions for the Meetings API.
 * [Room Types](#room-types): Defines the types of rooms available.
-* [Website Embed](#website-embed): Use an iFrame to embed a Meeting into a website.
+* [Website & App Embed](#website-and-app-embed): Use an iFrame to embed a Meeting into a website or application.
 * [Code Snippets](#code-snippets): Code and instructions for using the Meetings API.
 * [Reference](#reference): Further information about the Meetings API.
+* [Pricing](#pricing): Information on the costs for using the Meetings API.
 
 ## Meetings API or Video API?
 
@@ -33,6 +34,7 @@ Take a look at the [Video API](https://tokbox.com/developer/) documentation for 
 * **Participants**:
   * **Owner**: usually the creator of the room, this person has special administration capabilities.
   * **Guest**: people attending meeting. Guests have access to standard meeting features.
+  * Each room can hold up to 250 participants with 25 active video streams.
 * **Set up and Configuration**:
   * **Request**: the code snippet you submit to set up a room.
   * **Response**: the data that is returned from your request.
@@ -47,6 +49,7 @@ Take a look at the [Video API](https://tokbox.com/developer/) documentation for 
   * **Recording**: you can start a recording manually during a meeting, or set the meeting to record automatically when sending a request. You can also choose to only record the owner of the room.
   * **Room Management**: you can delete, update or retrieve information about rooms.
   * **Callbacks**: allow you to receive information about a session.
+  * **Waiting Room**: set the level of approval needed to join the meeting. Participants will join the waiting room until either the owner has joined or until the owner has admitted them, depending on the level of approval required.
 
 ## Room Types
 
@@ -63,9 +66,9 @@ There are two room types:
   * Will require you to specify an expiration date (in ISO format).
   * Enables you to request that a room is automatically deleted ten minutes after the last participant leaves the room.
 
-## Website Embed
+## Website and App Embed
 
-A meeting created through the API can be embedded into your website. To do this, generate the meeting link and create an iFrame using that link:
+A meeting created through the API can be embedded into your website and mobile applications. To do this, generate the meeting link and create an iFrame using that link:
 
 ``` HTML
 <iframe src="Meeting link here" title="Embedded Meeting" allow="camera;microphone"></iframe>
@@ -104,6 +107,41 @@ End Meeting | ✅ | ✅ | ✅
 * [Theme Management](code-snippets/theme-management)
 * [Meeting Room Management](code-snippets/room-management)
 * [Callbacks](code-snippets/callbacks)
+
+## Pricing
+
+Pricing is based on both participant and recording minutes.
+
+### Participant Minutes
+
+A participant minute is charged per participant per minute in a session; the rate per minute is determined by how many participant minutes you use per month:
+
+From | To | Per Minute Rate
+-- | :--: | :--:
+0 | 100,000 | $0.00475
+100,000 | 1,000,000 | $0.00428
+1,000,000 | 5,000,000 | $0.00385
+5,000,000 | 15,000,000 | $0.00327
+15,000,000 | Onwards | $0.00262
+
+For example, if you have used up to 100,000 participant minutes it would cost $1.14 for a 1h call with 4 participants, charged at $0.00475 per minute.
+
+### Recording Minutes
+
+A recording minute is charged per minute a session is recorded; the rate per minute is determined by how many recording minutes you use per month:
+
+From | To | Per Minute Rate
+-- | :--: | :--:
+0 | 50,000 | $0.025
+50,001 | 250,000 | $0.018
+250,001 | 500,000 | $0.015
+500,001 | 1,000,000 | $0.012
+1,000,001 | 2,000,000 | $0.01
+2,000,001 | Onwards | $0.0085
+
+For example, if you have used up to 50,000 minutes it would cost $1.50 to record a 1h call, charged at $0.025 per minute.
+
+> The total cost for a call made through the Meetings API = Participant Minutes + Recording Minutes. In the above examples, your total cost would be **$1.14** + **$1.50** = **$2.64**
 
 ## Reference
 

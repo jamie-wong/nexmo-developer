@@ -6,7 +6,7 @@ thumbnail: /content/blog/dynamic-layouts-in-hls-rmtp-broadcasts-with-the-video-a
 author: michaeljolley
 published: true
 published_at: 2020-09-22T13:00:32.000Z
-updated_at: 2021-05-10T22:21:42.299Z
+updated_at: 2021-10-27T22:21:42.299Z
 category: tutorial
 tags:
   - video-api
@@ -16,7 +16,7 @@ canonical: ""
 ---
 The Video API allows you to full control over your user interface when building applications with multi-party video sessions, but what options are available when you need to broadcast those sessions via HLS and/or RTMP streams?
 
-In this post, we'll discuss what built-in layouts are available out-of-the-box, how to create custom layouts of your own, and how to change layouts and stream styles on-the-fly.
+In this post, we'll discuss what built-in layouts are available out-of-the-box, how to create custom layouts of your own, and how to change layouts and stream styles on-the-fly. Then we will discuss how you can capture the layouts along with your application's UI using the Vonage Experience Composer.
 
 > Want to try it out? You can view an example application using the broadcast feature on [GitHub](https://github.com/opentok/broadcast-sample-app). You can also deploy it to Heroku to try out.
 
@@ -186,6 +186,11 @@ The following table describes the currently supported CSS properties and their p
 | object-fit                                                   | 'contain' (the default), 'cover'                      |
 | overflow                                                     | 'hidden'                                              |
 | clear                                                        | 'none', 'left', 'right', 'both', 'inherit', 'inherit' |
+
+
+## Taking It Further
+
+With the [Experience Composer](https://www.tokbox.com/developer/guides/experience-composer/), not only can you capture the layout of your video call, but your full web application. This includes any banners, text chat, whiteboard, or any other UI elements displayed in your application. Experience Composer joins the video call and turns everything visible on the screen into another stream. This stream can then be broadcasted and/or archived.
 
 ## Continue Learning
 

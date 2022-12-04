@@ -19,7 +19,7 @@ canonical: ""
 outdated: false
 replacement_url: ""
 ---
-Vonage AI Studio is a no-code/low-code platform for creating conversational flows across various communication channels. It uses a drag and drop interface to connect modules and actions into complex flows that can automate processes and connect to many different services. AI Studio's conversational flows are built on Vonage AI's proprietary natural language understanding (NLU) algorithms to enable conversational interactions where users can communicate in 'natural language' without being required to use certain keywords, choose from a list of options, or formulate their questions in a specific way.
+[Vonage AI Studio](https://www.vonage.com/communications-apis/ai-studio/?icmp=l3nav|l3nav_gototheaistudiooverviewpage_novalue) is a no-code/low-code platform for creating conversational flows across various communication channels. It uses a drag and drop interface to connect modules and actions into complex flows that can automate processes and connect to many different services. AI Studio's conversational flows are built on Vonage AI's proprietary natural language understanding (NLU) algorithms to enable conversational interactions where users can communicate in 'natural language' without being required to use certain keywords, choose from a list of options, or formulate their questions in a specific way.
 
 AI Studio has been available for a while in Developer Preview. It recently became generally available for use, which is super exciting, and so I wanted to highlight this fact by writing about some of its capabilities. There were several approaches I could have taken to do this, such as building 'real-world' customer service type flow. For this article though, I wanted to try something a little bit different, and explore some of AI Studio's features in a fun and interesting way.
 
@@ -209,8 +209,8 @@ Want to go on an adventure where you can wander through enchanted forests, encou
 
 Have fun and good luck on your adventure!
 
-Perhaps you'd like to create your own conversational flow with Vonage AI Studio. It's super easy to get started! Log into the [Vonage Dashboard](https://dashboard.nexmo.com/) and access the [AI Studio](https://studio.ai.vonage.com/).
+Perhaps you'd like to create your own conversational flow with Vonage AI Studio. It's super easy to get started! Log into the [Vonage Dashboard](https://dashboard.nexmo.com/) and access the [AI Studio](https://www.vonage.com/communications-apis/ai-studio/?icmp=l3nav|l3nav_gototheaistudiooverviewpage_novalue).
 
-There are also several nodes and integrations that I didn't use in my flow, so I haven't discussed them in this article. For more information on these and on using AI Studio in general, check out the [AI Studio documentation](https://studio.docs.ai.vonage.com/).
+There are also several nodes and integrations that I didn't use in my flow, so I haven't discussed them in this article. For more information on these and on using AI Studio in general, check out the [AI Studio documentation](https://studio.docs.ai.vonage.com/#_ga=2.52857896.1004057560.1652645262-2049185403.1651612958).
 
 We always welcome community involvement. Please feel free to join us on the [Vonage Community Slack](https://developer.vonage.com/community/slack) or send us a message on [Twitter](https://twitter.com/VonageDev).

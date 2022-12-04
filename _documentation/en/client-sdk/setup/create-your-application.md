@@ -28,7 +28,7 @@ Make sure you have the following:
 To install the Vonage CLI, run the following command in a terminal:
 
 ```bash
-npm install -g @vonage/cli @vonage/cli-plugin-conversations
+npm install --location=global @Vonage/cli-plugin-conversations
 ```
 
 Set up the Vonage CLI to use your Vonage API Key and API Secret. You can get these from the [settings page](https://dashboard.nexmo.com/settings) in the Vonage Dashboard.

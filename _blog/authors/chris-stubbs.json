@@ -1,0 +1,10 @@
+{
+  "team": false,
+  "alumni": false,
+  "spotlight": true,
+  "noteworthy": false,
+  "hidden": false,
+  "bio": "Chris is an engineer with an interest in DIY, electronics, embedded software and web applications. He lives in England, enjoys building wacky creations and attending hacker camps.",
+  "name": "Chris Stubbs",
+  "image_url": "/content/images/chris-stubbs.jpg"
+}

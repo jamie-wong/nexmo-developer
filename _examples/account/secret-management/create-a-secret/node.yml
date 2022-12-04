@@ -1,9 +1,9 @@
 ---
 client:
     source: .repos/vonage/vonage-node-code-snippets/account/create-secret.js
-    from_line: 8
-    to_line: 13
+    from_line: 7
+    to_line: 12
 code:
     source: .repos/vonage/vonage-node-code-snippets/account/create-secret.js
-    from_line: 15
-    to_line: 22
+    from_line: 14
+    to_line: 17

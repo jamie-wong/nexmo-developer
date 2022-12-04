@@ -6,6 +6,18 @@ navigation_weight: 0
 
 # Release Notes
 
+## 4.1.3 - Sept 15, 2022
+
+### Fixed
+
+- Fix `NexmoMessage` seen and delivered queue processing
+
+## 4.1.2 - Aug 10, 2022
+
+### Fixed 
+
+- Use client config logLevel for http logging
+
 ## 4.1.1 - May 25, 2022
 
 ### Fixed 

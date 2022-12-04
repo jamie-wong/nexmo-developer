@@ -20,7 +20,7 @@ prerequisites:
 - create-nexmo-account
 - install-nodejs
 - install-nexmo-cli-beta
-- install-node-sdk-beta
+- install-vonage-node-sdk
 - messages-dispatch/create-application
 - messages-dispatch/configure-webhooks
 - messages-dispatch/write-webhook-server

@@ -8,4 +8,4 @@ client:
 code:
     source: .repos/vonage/vonage-node-code-snippets/messages/messenger/send-text.js
     from_line: 28
-    to_line: 41
+    to_line: 36

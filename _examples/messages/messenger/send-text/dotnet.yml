@@ -4,5 +4,5 @@ language: dotnet
 code:
     source: .repos/vonage/vonage-dotnet-code-snippets/DotNetCliCodeSnippets/Messages/Messenger/SendMessengerText.cs
     from_line: 18
-    to_line: 32
+    to_line: 29
 file_name: SendMessengerText.cs

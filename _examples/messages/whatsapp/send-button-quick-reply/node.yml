@@ -8,4 +8,4 @@ client:
 code:
     source: .repos/vonage/vonage-node-code-snippets/messages/whatsapp/send-quick-reply-button.js
     from_line: 30
-    to_line: 99
+    to_line: 94

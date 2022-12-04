@@ -4,5 +4,5 @@ language: ruby
 code:
     source: .repos/vonage/vonage-ruby-code-snippets/messages/whatsapp/send-media-mtm.rb
     from_line: 11
-    to_line: 68
+    to_line: 59
 file_name: send-media-mtm.rb

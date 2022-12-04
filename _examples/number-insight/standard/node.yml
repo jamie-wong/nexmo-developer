@@ -2,7 +2,7 @@
 code:
     source: .repos/vonage/vonage-node-code-snippets/number_insight/ni-standard.js
     from_line: 16
-    to_line: 23
+    to_line: 20
 client:
     source: .repos/vonage/vonage-node-code-snippets/number_insight/ni-standard.js
     from_line: 9

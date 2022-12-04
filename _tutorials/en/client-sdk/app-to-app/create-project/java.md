@@ -56,6 +56,13 @@ dependencies {
 ```
 
 Enable `jetifier` in the `gradle.properties` file by adding the below line:
-```
+
+```groovy
 android.enableJetifier=true
+```
+
+Finally, you will need to increase the memory allocation for the JVM by editing the `org.gradle.jvmargs` property in your `gradle.properties` file. We recommend this be set to at least 4GB:
+
+```groovy
+org.gradle.jvmargs=-Xmx4096m -Dfile.encoding=UTF-8
 ```

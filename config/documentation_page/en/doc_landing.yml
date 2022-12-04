@@ -12,7 +12,10 @@ top-section:
 
     - product_name: "Messages API"
       product_name_link: "/messages/overview"
-      product_description: "Multi-channel messaging that integrates with <a href='/messages/concepts/whatsapp'>WhatsApp</a>, <a href='/messages/concepts/facebook'>Facebook</a>, <a href='/messages/concepts/viber'>Viber</a>"
+      product_description: | 
+        Multi-channel messaging that integrates with <a href='/messages/concepts/whatsapp'>WhatsApp</a>, <a href='/messages/concepts/facebook'>Facebook</a>, <a href='/messages/concepts/viber'>Viber</a>.
+        <br>
+        <a href='/messages/10-dlc/overview'>10 DLC support</a> for application-to-person (A2P) business messaging
       getting_started_link: "/messages/code-snippets/before-you-begin"
       api_reference_link: "/api/messages-olympus"
       tutorials_link: ""

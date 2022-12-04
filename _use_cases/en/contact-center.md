@@ -382,8 +382,8 @@ If you don't hear the user and agent sound, potentially it might be because the 
 
 ```js
 const options = {
-  apiHost: 'api-us-1.nexmo.com',
-  restHost: 'rest-us-1.nexmo.com'
+  apiHost: 'api-us-3.vonage.com',
+  restHost: 'rest-us-3.vonage.com'
 }
 
 const vonage = new Vonage({

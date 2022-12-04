@@ -21,15 +21,16 @@ If Vonage does not get a response within these time frames it will retry the req
 
 ## Regions
 
-The Vonage Voice API resides in five geographic data centers. Phone numbers are associated with the closest data center: US East Coast, Texas, London, Amsterdam or Singapore. API requests are routed to the closest data center to the requesting client. However, a call currently only exists in a single region, this means that if you are receiving a call on a number connected to Singapore but making an API request from a server hosted in the US it will return a 404.
+The Vonage Voice API resides in five geographic data centers. Phone numbers are associated with the closest data center: US East Coast, US West Coast, Dublin, Frankfurt, Singapore or Sydney. API requests are routed to the closest data center to the requesting client. However, a call currently only exists in a single region, this means that if you are receiving a call on a number connected to Singapore but making an API request from a server hosted in the US it will return a 404.
 
 You can work around this issue by sending your API request to the correct region, either:
 
-* https://api-us-1.nexmo.com (Washington DC)
-* https://api-us-2.nexmo.com (Dallas)
-* https://api-eu-1.nexmo.com (London)
-* https://api-eu-2.nexmo.com (Amsterdam)
-* https://api-sg-1.nexmo.com (Singapore)
+* https://api-us-3.vonage.com (Virginia)
+* https://api-us-4.vonage.com (Oregon)
+* https://api-eu-3.vonage.com (Dublin)
+* https://api-eu-4.vonage.com (Frankfurt)
+* https://api-ap-3.vonage.com (Singapore)
+* https://api-ap-4.vonage.com (Sydney)
 
 API endpoint corresponding to particular call is returned as `region_url` parameter in [Answer webhook](/voice/voice-api/webhook-reference#answer-webhook).
 

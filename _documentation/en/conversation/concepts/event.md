@@ -47,6 +47,12 @@ _Image_ |
 `image:delivered` | Image is delivered.
 `image:seen` | Image is viewed by the recipient.
 `image` | Image is uploaded.
+_Message_ |
+`message:rejected` | Message has been rejected.
+`message:submitted` | Message has been submitted.
+`message:undeliverable` | Message can't be delivered.
+`message:delivered` | Message has been delivered.
+`message:seen` | Message has been seen.
 _Conversation_ |
 `conversation:created` | new Conversation is created.
 `conversation:deleted` | Conversation object is deleted.

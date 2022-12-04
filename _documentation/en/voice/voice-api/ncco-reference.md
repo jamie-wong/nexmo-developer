@@ -445,6 +445,7 @@ Option | Description | Required
 
 ### Error Prompts
 Possible errors depend on prompt `type` (see above):
+
 Prompt Type | Error Type | Description 
 -- | -- | --
 `CardNumber` | `InvalidCardType` | The type of the card entered is not in the list of allowed card types

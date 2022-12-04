@@ -8,4 +8,4 @@ client:
 code:
     source: .repos/vonage/vonage-node-code-snippets/messages/whatsapp/send-location.js
     from_line: 28
-    to_line: 49
+    to_line: 44

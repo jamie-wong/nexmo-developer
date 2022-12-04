@@ -4,5 +4,5 @@ language: dotnet
 code:
     source: .repos/vonage/vonage-dotnet-code-snippets/DotNetCliCodeSnippets/Messages/WhatsApp/SendWhatsAppMtm.cs
     from_line: 19
-    to_line: 53
+    to_line: 44
 file_name: SendWhatsAppMtm.cs

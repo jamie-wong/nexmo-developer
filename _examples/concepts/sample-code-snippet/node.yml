@@ -6,7 +6,7 @@ dependencies:
 code:
     source: .repos/vonage/vonage-node-code-snippets/sms/send.js
     from_line: 15
-    to_line: 29
+    to_line: 25
 client:
     source: .repos/vonage/vonage-node-code-snippets/sms/send.js
     from_line: 8

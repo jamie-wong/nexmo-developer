@@ -14,18 +14,6 @@ You may need to configure the Client SDK to connect to your nearest data center.
 
 You only need to do this if you believe your application performance could be improved by connecting to a more local data center.
 
-## Data centers available
-
-Here are the available data centers:
-
-Data Center | Location
----|---
-`WDC` | Washington DC
-`DAL` | Dallas
-`LON` | London
-`AMS` | Amsterdam
-`SNG` | Singapore
-
 ## URLs
 
 It is possible to configure the following three URLs:
@@ -42,11 +30,12 @@ The default value is `https://api.nexmo.com`.
 
 Data Center | URL
 ---|---
-`WDC` | `https://api-us-1.nexmo.com`
-`DAL` | `https://api-us-2.nexmo.com`
-`LON` | `https://api-eu-1.nexmo.com`
-`AMS` | `https://api-eu-2.nexmo.com`
-`SNG` | `https://api-sg-1.nexmo.com`
+`Virginia` | `https://api-us-3.vonage.com`
+`Oregon` | `https://api-us-4.vonage.com`
+`Dublin` | `https://api-eu-3.vonage.com`
+`Frankfurt` | `https://api-eu-4.vonage.com`
+`Singapore` | `https://api-ap-3.vonage.com`
+`Sydney` | `https://api-ap-4.vonage.com`
 
 ### `url`
 
@@ -56,11 +45,12 @@ The default value is `wss://ws.nexmo.com`.
 
 Data Center | URL
 ---|---
-`WDC` | `wss://ws-us-1.nexmo.com`
-`DAL` | `wss://ws-us-2.nexmo.com`
-`LON` | `wss://ws-eu-1.nexmo.com`
-`AMS` | `wss://ws-eu-2.nexmo.com`
-`SNG` | `wss://ws-sg-1.nexmo.com`
+`Virginia` | `wss://ws-us-3.vonage.com`
+`Oregon` | `wss://ws-us-4.vonage.com`
+`Dublin` | `wss://ws-eu-3.vonage.com`
+`Frankfurt` | `wss://ws-eu-4.vonage.com`
+`Singapore` | `wss://ws-ap-3.vonage.com`
+`Sydney` | `wss://ws-ap-4.vonage.com`
 
 ### `ips_url`
 
@@ -70,11 +60,12 @@ The default value is `https://api.nexmo.com/v1/image`.
 
 Data Center | URL
 ---|---
-`WDC` | `https://api-us-1.nexmo.com/v1/image`
-`DAL` | `https://api-us-2.nexmo.com/v1/image`
-`LON` | `https://api-eu-1.nexmo.com/v1/image`
-`AMS` | `https://api-eu-2.nexmo.com/v1/image`
-`SNG` | `https://api-sg-1.nexmo.com/v1/image`
+`Virginia` | `https://api-us-3.vonage.com/v1/image`
+`Oregon` | `https://api-us-4.vonage.com/v1/image`
+`Dublin` | `https://api-eu-3.vonage.com/v1/image`
+`Frankfurt` | `https://api-eu-4.vonage.com/v1/image`
+`Singapore` | `https://api-ap-3.vonage.com/v1/image`
+`Sydney` | `https://api-ap-4.vonage.com/v1/image`
 
 ## Configuration
 

@@ -4,5 +4,5 @@ language: dotnet
 code:
     source: .repos/vonage/vonage-dotnet-code-snippets/DotNetCliCodeSnippets/Messages/WhatsApp/SendWhatsAppButtonLink.cs
     from_line: 19
-    to_line: 105
+    to_line: 102
 file_name: SendWhatsAppButtonLink.cs

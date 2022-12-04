@@ -37,13 +37,13 @@ Here are four simple examples of how video makes your conversations more persona
 
 ## Integrate Video Communication Into Your Apps With the Meetings API
 
-With just a few lines of code, the Meetings API allows you to integrate high-quality, real-time video communications into your applications. With the Meetings API, you can create meetings, customize the theme to match your branding, record sessions, embed in your app or website for a seamless experience, and more. If you’re looking for a plug-and-play video solution for your next project, the Meetings API is for you! 
+With just a few lines of code, the Meetings API (Beta) allows you to integrate high-quality, real-time video communications into your applications. With the Meetings API, you can create meetings, customize the theme to match your branding, record sessions, embed in your app or website for a seamless experience, and more. If you’re looking for a plug-and-play video solution for your next project, the Meetings API is for you! 
 
 ## Test the Meeting API for Free With the Video Champions Program
 
 ### Vonage Video Champions Program
 
-Vonage is pleased to announce the launch of the Video API Champions Program, where each account will receive **three months free use** followed by a discounted rate for testing the Meetings API; further details on pricing can be found below. 
+Vonage is pleased to announce the launch of the Video API Champions Program, where each [qualifying](https://docs.google.com/forms/d/e/1FAIpQLSfBxjpYnL3Y98KmJRFn9s8hvMW7XQj6wbtpQrXJMp70JTQC-A/viewform) account will receive **three months free use** for testing the Meetings API; further details on pricing can be found below. 
 
 As part of the Champions Program, each account will receive their first three month for free, limited to 50K participant minutes and 25K recording minutes per month. After the promotional period regular charges will apply.
 

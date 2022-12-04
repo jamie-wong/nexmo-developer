@@ -4,5 +4,5 @@ language: dotnet
 code:
     source: .repos/vonage/vonage-dotnet-code-snippets/DotNetCliCodeSnippets/Messages/Mms/SendMmsImage.cs
     from_line: 18
-    to_line: 35
+    to_line: 32
 file_name: SendMmsImage.cs

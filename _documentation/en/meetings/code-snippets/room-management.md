@@ -28,18 +28,6 @@ curl -X GET 'https://api-eu.vonage.com/beta/meetings/rooms/' \
 -H 'Content-Type: application/json'
 ```
 
-## Room Deletion
-
-You use the ``ID`` to perform a DELETE action on a room:
-
-``` curl
-curl -X DELETE 'https://api-eu.vonage.com/beta/meetings/rooms/b307d837-c0ce-4619-8c5c-70e418ef9693' \
--H 'Authorization: Basic YWFhMDEyOmFiYzEyMzQ1Njc4OQ==' \
--H 'Content-Type: application/json'
-```
-
-> This operation will return a ``204`` status.
-
 ## Expiration Update
 
 The expiration date of a long term room can be updated by using a PATCH action and the room ID. The new date should be included in an object called ``update_details``. Please note that only long term rooms can be updated. 

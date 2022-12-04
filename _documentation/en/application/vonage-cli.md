@@ -14,7 +14,7 @@ The Vonage CLI allows you to create and manage your Vonage applications. To obta
 The  CLI can be installed with the following command:
 
 ```shell
-npm install -g @vonage/cli
+npm install --location=global @Vonage/cli
 ```
 
 The core CLI includes everything to support Application API V2 on the command line. You can check your installed version with the command:

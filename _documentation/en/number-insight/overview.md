@@ -67,7 +67,7 @@ This example shows you how to use the [Vonage CLI](/tools) to access the Number 
 ### Install and set up the Vonage CLI
 
 ```
-$ npm install -g @vonage/cli
+$ npm install --location=global @Vonage/cli
 ```
 
 > Note: Depending on your user permissions, you might need to prefix the above command with `sudo`.

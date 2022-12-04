@@ -1,0 +1,11 @@
+{
+  "image_url": "/content/images/prashant_yadav.jpg",
+  "bio": "Senior frontend engineer based out in Mumbai, India. I work on fullstack development with React and Spring boot for India's most valued Fintech. Also the founder of learnersbucket.com where I write about JavaScript Interview preparation guides.",
+  "name": "Prashant Yadav",
+  "twitter": "learnersbucket",
+  "spotlight": true,
+  "title": "Developer Spotlight Author",
+  "noteworthy": false,
+  "team": false,
+  "alumni": false
+}

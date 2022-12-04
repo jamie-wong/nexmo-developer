@@ -80,7 +80,7 @@ Another thing I'm excited about is the new version of the Next.js framework and 
 
 ## Any Coding Articles You Want Our Audience to Know About?
 
-You can read my ["How to send an SMS with Golang using Vonage SMS API" post](https://www.kirandev.com/blog/send-sms-golang). Or check out my [PR where I integrated Vonage into Supabase](https://github.com/supabase/gotrue/pull/333).
+You can read my ["How to send an SMS with Golang using Vonage SMS API" post](https://kirandev.com/send-sms-golang). Or check out my [PR where I integrated Vonage into Supabase](https://github.com/supabase/gotrue/pull/333).
 
 ## What's Next For You?
 

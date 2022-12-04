@@ -8,4 +8,4 @@ client:
 code:
     source: .repos/vonage/vonage-node-code-snippets/messages/whatsapp/send-template.js
     from_line: 30
-    to_line: 60
+    to_line: 49

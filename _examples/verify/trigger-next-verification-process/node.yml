@@ -6,4 +6,4 @@ client:
 code:
     source: .repos/vonage/vonage-node-code-snippets/verify/next-event.js
     from_line: 22
-    to_line: 31
+    to_line: 24

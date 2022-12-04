@@ -5,8 +5,8 @@ language: kotlin
 
 ```kotlin
 val nexmoClient = NexmoClient.Builder()
-    .restEnvironmentHost("https://api-eu-1.nexmo.com")
-    .environmentHost("https://ws-eu-1.nexmo.com")
-    .imageProcessingServiceUrl("https://api-eu-1.nexmo.com/v1/image")
+    .restEnvironmentHost("https://api-eu-3.vonage.com")
+    .environmentHost("https://ws-eu-3.vonage.com")
+    .imageProcessingServiceUrl("https://api-eu-3.vonage.com/v1/image")
     .build(context)
 ```

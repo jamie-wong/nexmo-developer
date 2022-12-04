@@ -8,4 +8,4 @@ client:
 code:
     source: .repos/vonage/vonage-node-code-snippets/messages/viber/send-text.js
     from_line: 24
-    to_line: 33
+    to_line: 28

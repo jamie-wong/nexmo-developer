@@ -18,7 +18,7 @@ How to setup a long term room using the Meetings API.
 
 ## Setup POST Request
 
-**POST Endpoint**: The (POST) endpoint when creating a meeting room is: ``https://api.vonage.com/beta/meetings/rooms``.
+**POST Endpoint**: The (POST) endpoint when creating a meeting room is: ``https://api-us.vonage.com/beta/meetings``.
 
 **Required Headers**: You need to add the ``Content-Type`` to your headers: ``Content-Type: application/json``.
 
@@ -37,6 +37,10 @@ Field | Required? | Description |
 ``recording_options`` | No | An object containing various meeting recording options. For example:
 | | | If ``auto_record``=``true``, the session will be recorded. If ``false``, the session will not be recorded.
 | | | If ``record_only_owner``=``true``, all audio in the session will be recorded but only the video of the owner of the room will be recorded. If ``false``, all users in the session will be recorded.
+``join_approval_level`` | No | The level of approval needed to join the meeting.  Must be one of the following:
+| | | `after_owner_only` - Participants will join the meeting only after the host has joined.
+| | | `explicit_approval` - Participants will join the waiting room, and the host will approve / deny them.
+| | | `none` - No approval needed.
 
 ## Request
 
@@ -67,6 +71,7 @@ You will receive a response similar to the following:
     "metadata": null,
     "type": "long_term",
     "expires_at": "2022-10-21T18:45:50.901Z",
+    "join_approval_level": "abc123",
     "recording_options": {
         "auto_record": true
     },

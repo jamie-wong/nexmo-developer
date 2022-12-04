@@ -5,7 +5,7 @@ The [Vonage CLI](https://developer.nexmo.com/application/vonage-cli) allows you 
 To install the CLI with NPM run:
 
 ```bash
-npm install -g @vonage/cli
+npm install --location=global @vonage/cli
 ```
 
 Set up the Vonage CLI to use your Vonage API Key and API Secret. You can get these from the [settings page](https://dashboard.nexmo.com/settings) in the Dashboard.

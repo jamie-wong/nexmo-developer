@@ -1,0 +1,9 @@
+---
+title: cURL
+language: curl
+code:
+    source: .repos/vonage/vonage-curl-code-snippets/messages/whatsapp/send-multi-product.sh
+    from_line: 6
+    to_line: 47
+file_name: send-multi-product.sh
+run_command: bash send-multi-product.sh

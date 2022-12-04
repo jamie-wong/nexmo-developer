@@ -7,8 +7,8 @@ language: node
 const Vonage = require('@vonage/server-sdk');
 
 const options = {
-  apiHost: 'api-sg-1.nexmo.com',
-  restHost: 'rest-sg-1.nexmo.com'
+  apiHost: 'api-ap-3.vonage.com',
+  restHost: 'rest-ap-3.vonage.com'
 }
 
 const vonage = new Vonage({

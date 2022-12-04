@@ -1,0 +1,10 @@
+{
+  "team": true,
+  "alumni": false,
+  "spotlight": false,
+  "noteworthy": false,
+  "hidden": false,
+  "name": "Kitt Phi",
+  "image_url": "/content/images/kitt.png",
+  "bio": "Kitt is a Customer Solutions Engineer for Vonage. He enjoys developing NodeJS integrations into various Cloud Platform Services. In his spare time, he enjoys riding his UTV through the Organ Mountains and Kayaking through out the USA."
+}

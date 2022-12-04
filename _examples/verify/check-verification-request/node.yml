@@ -6,4 +6,4 @@ client:
 code:
     source: .repos/vonage/vonage-node-code-snippets/verify/check.js
     from_line: 28
-    to_line: 37
+    to_line: 30

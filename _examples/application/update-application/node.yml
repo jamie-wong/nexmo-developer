@@ -2,7 +2,7 @@
 code:
     source: .repos/vonage/vonage-node-code-snippets/applications/update-application.js
     from_line: 17
-    to_line: 60
+    to_line: 56
 client:
     source: .repos/vonage/vonage-node-code-snippets/applications/update-application.js
     from_line: 8

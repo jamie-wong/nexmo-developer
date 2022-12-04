@@ -1,5 +1,985 @@
 [
   {
+    "title": "Attention Detection with Vonage Video API",
+    "description": "A Node tutorial showing how to integrate the Vonage Video API with TensorFlow's MediaPipe face detection model to detect attention detection, using javascript.",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/attention-detection-with-vonage-video-api/attention-detection_videoapi.png",
+    "author": {
+      "team": false,
+      "alumni": false,
+      "spotlight": false,
+      "noteworthy": false,
+      "hidden": false,
+      "name": "Hamza Nasir",
+      "bio": "Hamza is a Software Engineer based in Chicago. He works with Webrtc.ventures, a leading company in providing WebRTC solutions. He also works as a Full Stack Developer at Vonage helping out with the Video Platform to better serve its customer’s needs. As a proud introvert, he likes to spend his free time playing with his cats.",
+      "image_url": "/content/images/hamza-nasir.jpeg",
+      "short_name": "hamza-nasir"
+    },
+    "published": true,
+    "published_at": "2022-11-30 10:25:46 UTC",
+    "updated_at": "2022-11-30 10:25:46 UTC",
+    "category": {
+      "name": "Tutorial",
+      "plural": "Tutorials",
+      "slug": "tutorial",
+      "color": "#d6219c"
+    },
+    "tags": [
+      "video-api",
+      "javascript",
+      "node"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/11/30/attention-detection-with-vonage-video-api",
+    "filename": "attention-detection-with-vonage-video-api"
+  },
+  {
+    "title": "Send and Request Data With Webhooks With AI Studio",
+    "description": "Learn how to send and request data with webhooks with Vonage AI Studio",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/send-and-request-data-with-webhooks-with-ai-studio/send-request-data_webhooks_ai-studio.png",
+    "author": {
+      "hidden": false,
+      "image_url": "/content/images/michael-crump.jpg",
+      "bio": "Michael Crump works at Vonage on the Developer Relations team and is a coder, YouTuber, and frequent speaker of various .NET and cloud/communication development topics. He’s passionate about helping developers understand the benefits of each in a no-nonsense way.",
+      "name": "Michael Crump",
+      "twitter": "mbcrump",
+      "spotlight": false,
+      "title": "Senior Developer Advocate",
+      "noteworthy": false,
+      "team": true,
+      "alumni": false,
+      "short_name": "michael-crump"
+    },
+    "published": true,
+    "published_at": "2022-11-29 11:09:10 UTC",
+    "updated_at": "2022-11-29 11:09:11 UTC",
+    "category": {
+      "name": "Tutorial",
+      "plural": "Tutorials",
+      "slug": "tutorial",
+      "color": "#d6219c"
+    },
+    "tags": [
+      "rest",
+      "ai-studio"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/11/29/send-and-request-data-with-webhooks-with-ai-studio",
+    "filename": "send-and-request-data-with-webhooks-with-ai-studio"
+  },
+  {
+    "title": "Improve Your Software Project - Part Two: Making Changes",
+    "description": " Want to update an old project? This will help!",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/improve-your-software-project-part-two-making-changes/part-two.png",
+    "author": {
+      "team": true,
+      "name": "Max Kahan",
+      "image_url": "https://github.com/maxkahan.png",
+      "bio": "Max is a Python Developer Advocate and Software Engineer who's passionate about technology. Interested in developer experience, machine learning, artificial intelligence, cloud development, enterprise messaging and swing dance! His training is in Physics, but now he uses his problem-solving skills daily in the technology industry.",
+      "title": "Python Developer Advocate",
+      "linkedin_url": "https://www.linkedin.com/in/maxkahan/",
+      "twitter": "max_does_tech",
+      "github_url": "https://github.com/maxkahan",
+      "short_name": "max-kahan"
+    },
+    "published": true,
+    "published_at": "2022-11-28 11:54:37 UTC",
+    "updated_at": "2022-11-28 11:54:38 UTC",
+    "category": {
+      "name": "Inspiration",
+      "plural": "Ideas & Inspiration",
+      "slug": "inspiration",
+      "color": "#3298c4"
+    },
+    "tags": [
+      "python"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/11/28/improve-your-software-project-part-two-making-changes",
+    "filename": "improve-your-software-project-part-two-making-changes"
+  },
+  {
+    "title": "FutureNow Hackathon With Manipal University, e& enterprise, and Vonage",
+    "description": "A recap of the 2022 hackathon at Manipal University with a demo of AI Studio, a Low Code tool from Vonage.",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/futurenow-hackathon-with-manipal-university-e-enterprise-and-vonage/futurenow-hackathon.png",
+    "author": {
+      "team": true,
+      "name": "Benjamin Aronov",
+      "image_url": "https://secure.gravatar.com/avatar/005cdba1cbc6dc18ee2b1fedeeab12bf?s=384&d=mm&r=g",
+      "bio": "Benjamin Aronov is an online community manager at Vonage based in Tel Aviv, Israel.",
+      "website_url": "",
+      "title": "Developer Advocate",
+      "short_name": "benjamin-aronov"
+    },
+    "published": true,
+    "published_at": "2022-11-24 12:03:17 UTC",
+    "updated_at": "2022-11-24 12:03:18 UTC",
+    "category": {
+      "name": "Event",
+      "plural": "Events",
+      "slug": "event",
+      "color": "#e6ae00"
+    },
+    "tags": [
+      "ai-studio",
+      "hackathon"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/11/24/futurenow-hackathon-with-manipal-university-e-enterprise-and-vonage",
+    "filename": "futurenow-hackathon-with-manipal-university-e-enterprise-and-vonage"
+  },
+  {
+    "title": "Announcing the Vonage Node SDK v3.0.0",
+    "description": "v3.0. of the NodeJS SDK, brings new improvements and long \"await\"ed features",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/announcing-the-vonage-node-sdk-v3-0-0/node_sdk-updates.png",
+    "author": {
+      "bio": "Long ago, in the dark ages before Google and StackOverflow, Chuck learned how to program. Those were the times when all you had to go on was the documentation or the source code itself. From humble beginnings as a Jr Full Stack developer, Chuck grew into the developer he is today, building out the tools that empower fellow developers to create amazing products. When he is not forging new tools, you can find him climbing up a mountain or on his bike.",
+      "hidden": false,
+      "image_url": "/content/images/besthead.png",
+      "name": "Chuck Reeves",
+      "twitter": "manchuck",
+      "github_url": "https://github.com/manchuck",
+      "spotlight": false,
+      "title": "Sr JavaScript Developer Advocate",
+      "email": "chuck.reeves@vonage.com",
+      "noteworthy": false,
+      "team": true,
+      "alumni": false,
+      "short_name": "chuck-reeves"
+    },
+    "published": true,
+    "published_at": "2022-11-23 10:10:48 UTC",
+    "updated_at": "2022-11-23 10:10:49 UTC",
+    "category": {
+      "name": "Release",
+      "plural": "Releases",
+      "slug": "release",
+      "color": "#b779ff"
+    },
+    "tags": [
+      "node"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/11/23/announcing-the-vonage-node-sdk-v3-0-0",
+    "filename": "announcing-the-vonage-node-sdk-v3-0-0"
+  },
+  {
+    "title": "OTP-Based (JWT) Authentication in Spring Boot With Vonage Verify API",
+    "description": "Create an OTP-based login using Vonage Verify API with JWT authentication in Spring Boot ",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/otp-based-jwt-authentication-in-spring-boot-with-vonage-verify-api/jwt-authentication_spring-boot_verify-api.png",
+    "author": {
+      "image_url": "/content/images/prashant_yadav.jpg",
+      "bio": "Senior frontend engineer based out in Mumbai, India. I work on fullstack development with React and Spring boot for India's most valued Fintech. Also the founder of learnersbucket.com where I write about JavaScript Interview preparation guides.",
+      "name": "Prashant Yadav",
+      "twitter": "learnersbucket",
+      "spotlight": true,
+      "title": "Developer Spotlight Author",
+      "noteworthy": false,
+      "team": false,
+      "alumni": false,
+      "short_name": "prashant-yadav"
+    },
+    "published": true,
+    "published_at": "2022-11-17 09:47:16 UTC",
+    "updated_at": "2022-11-17 09:47:16 UTC",
+    "category": {
+      "name": "Tutorial",
+      "plural": "Tutorials",
+      "slug": "tutorial",
+      "color": "#d6219c"
+    },
+    "tags": [
+      "java",
+      "verify-api",
+      "jwt"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/11/17/otp-based-jwt-authentication-in-spring-boot-with-vonage-verify-api",
+    "filename": "otp-based-jwt-authentication-in-spring-boot-with-vonage-verify-api"
+  },
+  {
+    "title": "Improve Your Software Project - Part One: Understanding a Codebase",
+    "description": "Want to update an old project? This will help!",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/improve-your-software-project-part-one-understanding-a-codebase/making-projects-better_part-one.png",
+    "author": {
+      "team": true,
+      "name": "Max Kahan",
+      "image_url": "https://github.com/maxkahan.png",
+      "bio": "Max is a Python Developer Advocate and Software Engineer who's passionate about technology. Interested in developer experience, machine learning, artificial intelligence, cloud development, enterprise messaging and swing dance! His training is in Physics, but now he uses his problem-solving skills daily in the technology industry.",
+      "title": "Python Developer Advocate",
+      "linkedin_url": "https://www.linkedin.com/in/maxkahan/",
+      "twitter": "max_does_tech",
+      "github_url": "https://github.com/maxkahan",
+      "short_name": "max-kahan"
+    },
+    "published": true,
+    "published_at": "2022-11-15 20:07:20 UTC",
+    "updated_at": "2022-11-15 20:02:32 UTC",
+    "category": {
+      "name": "Inspiration",
+      "plural": "Ideas & Inspiration",
+      "slug": "inspiration",
+      "color": "#3298c4"
+    },
+    "tags": [
+      "python"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/11/15/improve-your-software-project-part-one-understanding-a-codebase",
+    "filename": "improve-your-software-project-part-one-understanding-a-codebase"
+  },
+  {
+    "title": "Create a Static Site using VitePress for Beautiful Help Documentation",
+    "description": "Learn how to use VitePress to create beautiful help documentation! No server required!",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/create-a-static-site-using-vitepress-for-beautiful-help-documentation/vitepress.png",
+    "author": {
+      "hidden": false,
+      "image_url": "/content/images/michael-crump.jpg",
+      "bio": "Michael Crump works at Vonage on the Developer Relations team and is a coder, YouTuber, and frequent speaker of various .NET and cloud/communication development topics. He’s passionate about helping developers understand the benefits of each in a no-nonsense way.",
+      "name": "Michael Crump",
+      "twitter": "mbcrump",
+      "spotlight": false,
+      "title": "Senior Developer Advocate",
+      "noteworthy": false,
+      "team": true,
+      "alumni": false,
+      "short_name": "michael-crump"
+    },
+    "published": true,
+    "published_at": "2022-11-10 11:05:14 UTC",
+    "updated_at": "2022-11-10 11:05:15 UTC",
+    "category": {
+      "name": "Inspiration",
+      "plural": "Ideas & Inspiration",
+      "slug": "inspiration",
+      "color": "#3298c4"
+    },
+    "tags": [
+      "apis",
+      "staticsite",
+      "vitepress"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/11/10/create-a-static-site-using-vitepress-for-beautiful-help-documentation",
+    "filename": "create-a-static-site-using-vitepress-for-beautiful-help-documentation"
+  },
+  {
+    "title": "DevCity Came To London and Here is What Went Down",
+    "description": "DevCity London was a great success. Read about our night of content, networking and fun!",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/devcity-came-to-london-and-here-is-what-went-down/devcity-london_postevent.png",
+    "author": {
+      "bio": "Lucinda joined Vonage in January 2022 as the EMEA Community Manager. Lucinda has over 10 years experience in event management, with a recent focus on diversity and inclusion. She lives in Hampshire in the UK with her husband and Oggy the labrador.  ",
+      "hidden": false,
+      "image_url": "/content/images/1548775173293.jpeg",
+      "name": "Lucinda Bone",
+      "spotlight": false,
+      "title": "Community Manager, EMEA",
+      "noteworthy": false,
+      "team": false,
+      "alumni": false,
+      "short_name": "lucinda-bone"
+    },
+    "published": true,
+    "published_at": "2022-11-08 10:20:45 UTC",
+    "updated_at": "2022-11-08 10:20:45 UTC",
+    "category": {
+      "name": "Event",
+      "plural": "Events",
+      "slug": "event",
+      "color": "#e6ae00"
+    },
+    "tags": [
+      "devcity",
+      "event"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/11/08/devcity-came-to-london-and-here-is-what-went-down",
+    "filename": "devcity-came-to-london-and-here-is-what-went-down"
+  },
+  {
+    "title": "Low-Code and No-Code: What Option Is Best for You?",
+    "description": "This post hopes to clear up the difference between Low-code and No-code and will help you in deciding what approach is best for you.",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/low-code-and-no-code-what-option-is-best-for-you/low-code_no-code.png",
+    "author": {
+      "hidden": false,
+      "image_url": "/content/images/michael-crump.jpg",
+      "bio": "Michael Crump works at Vonage on the Developer Relations team and is a coder, YouTuber, and frequent speaker of various .NET and cloud/communication development topics. He’s passionate about helping developers understand the benefits of each in a no-nonsense way.",
+      "name": "Michael Crump",
+      "twitter": "mbcrump",
+      "spotlight": false,
+      "title": "Senior Developer Advocate",
+      "noteworthy": false,
+      "team": true,
+      "alumni": false,
+      "short_name": "michael-crump"
+    },
+    "published": true,
+    "published_at": "2022-11-03 09:34:19 UTC",
+    "updated_at": "2022-11-03 09:34:20 UTC",
+    "category": {
+      "name": "Inspiration",
+      "plural": "Ideas & Inspiration",
+      "slug": "inspiration",
+      "color": "#3298c4"
+    },
+    "tags": [
+      "ai-studio",
+      "low-code",
+      "no-code"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/11/03/low-code-and-no-code-what-option-is-best-for-you",
+    "filename": "low-code-and-no-code-what-option-is-best-for-you"
+  },
+  {
+    "title": "Introducing the Laravel Vonage Helpdesk",
+    "description": "The best way of showing Vonage APIs in action is through examples: welcome to our PHP App!",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/introducing-the-laravel-vonage-helpdesk/laravel-vonage-helpdesk.png",
+    "author": {
+      "bio": "A trained actor with a dissertation on standup comedy, I came into PHP development via. the meetup scene. You can find me speaking and writing on tech, or playing/buying odd records from my vinyl collection.",
+      "hidden": false,
+      "image_url": "/content/images/jim_new.jpg",
+      "name": "James Seconde",
+      "website_url": "https://devtheatre.net",
+      "linkedin_url": "https://www.linkedin.com/in/secondej/",
+      "twitter": "@SecondeJ",
+      "github_url": "https://github.com/SecondeJK",
+      "spotlight": false,
+      "title": "Senior PHP Developer Advocate",
+      "email": "jim.seconde@vonage.com",
+      "noteworthy": false,
+      "team": true,
+      "alumni": false,
+      "short_name": "james-seconde"
+    },
+    "published": true,
+    "published_at": "2022-11-01 09:59:56 UTC",
+    "updated_at": "2022-11-01 09:59:58 UTC",
+    "category": {
+      "name": "Tutorial",
+      "plural": "Tutorials",
+      "slug": "tutorial",
+      "color": "#d6219c"
+    },
+    "tags": [
+      "php",
+      "laravel"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/11/01/introducing-the-laravel-vonage-helpdesk",
+    "filename": "introducing-the-laravel-vonage-helpdesk"
+  },
+  {
+    "title": "Build a Vonage Message Custom Activity with Salesforce Marketing Cloud",
+    "description": "Learn about a new starter template for creating a Vonage Messages API activity in the Salesforce Marketing Cloud Journey Builder",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/build-a-vonage-message-custom-activity-with-salesforce-marketing-cloud/salesforce_messagesapi.png",
+    "author": {
+      "team": true,
+      "alumni": false,
+      "spotlight": false,
+      "noteworthy": false,
+      "hidden": false,
+      "name": "Kitt Phi",
+      "image_url": "/content/images/kitt.png",
+      "bio": "Kitt is a Customer Solutions Engineer for Vonage. He enjoys developing NodeJS integrations into various Cloud Platform Services. In his spare time, he enjoys riding his UTV through the Organ Mountains and Kayaking through out the USA.",
+      "short_name": "kitt-phi"
+    },
+    "published": true,
+    "published_at": "2022-10-27 08:39:42 UTC",
+    "updated_at": "2022-10-27 08:39:44 UTC",
+    "category": {
+      "name": "Tutorial",
+      "plural": "Tutorials",
+      "slug": "tutorial",
+      "color": "#d6219c"
+    },
+    "tags": [
+      "message-api",
+      "salesforce",
+      "api"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/10/27/build-a-vonage-message-custom-activity-with-salesforce-marketing-cloud",
+    "filename": "build-a-vonage-message-custom-activity-with-salesforce-marketing-cloud"
+  },
+  {
+    "title": "Q3 2022: Third Quarter in Review",
+    "description": "A summary of product updates and feature releases for Q3 2022.",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/q3-2022-third-quarter-in-review/quaterly-release.png",
+    "author": {
+      "hidden": false,
+      "image_url": "https://gravatar.com/avatar/5fab056e4210b8e867e8de071a4eeb45?s=400",
+      "name": "Edmond Mensah",
+      "website_url": "https://www.eddymens.com",
+      "linkedin_url": "https://www.linkedin.com/in/eddymens",
+      "github_url": "https://github.com/eddymens",
+      "spotlight": false,
+      "title": "Technical Writer",
+      "team": true,
+      "alumni": false,
+      "short_name": "edmond-mensah"
+    },
+    "published": true,
+    "published_at": "2022-10-20 09:12:20 UTC",
+    "updated_at": "2022-10-20 09:12:20 UTC",
+    "category": {
+      "name": "Announcement",
+      "plural": "Announcements",
+      "slug": "announcement",
+      "color": "#4cc3d2"
+    },
+    "tags": [
+      "video-api",
+      "vonage-ai-studio",
+      "SDKs",
+      "messages-api"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/10/20/q3-2022-third-quarter-in-review",
+    "filename": "q3-2022-third-quarter-in-review"
+  },
+  {
+    "title": "5 Tips and Tricks for Working With the Vonage API Dashboard",
+    "description": "5 quick tips everyone can use for the dashboard that includes analytics, managing team member access, and more.",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/5-tips-and-tricks-for-working-with-the-vonage-api-dashboard/tips-and-tricks.png",
+    "author": {
+      "hidden": false,
+      "image_url": "/content/images/michael-crump.jpg",
+      "bio": "Michael Crump works at Vonage on the Developer Relations team and is a coder, YouTuber, and frequent speaker of various .NET and cloud/communication development topics. He’s passionate about helping developers understand the benefits of each in a no-nonsense way.",
+      "name": "Michael Crump",
+      "twitter": "mbcrump",
+      "spotlight": false,
+      "title": "Senior Developer Advocate",
+      "noteworthy": false,
+      "team": true,
+      "alumni": false,
+      "short_name": "michael-crump"
+    },
+    "published": true,
+    "published_at": "2022-10-13 08:58:42 UTC",
+    "updated_at": "2022-10-13 08:58:43 UTC",
+    "category": {
+      "name": "Inspiration",
+      "plural": "Ideas & Inspiration",
+      "slug": "inspiration",
+      "color": "#3298c4"
+    },
+    "tags": [
+      "API",
+      "dashboard",
+      "productivity"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/10/13/5-tips-and-tricks-for-working-with-the-vonage-api-dashboard",
+    "filename": "5-tips-and-tricks-for-working-with-the-vonage-api-dashboard"
+  },
+  {
+    "title": "Guillaume Faas Joins the Developer Relations Team",
+    "description": "Meet Guillaume Faas, the new Senior .Net Developer Advocate at Vonage!",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/guillaume-faas-joins-the-developer-relations-team/guillaume-faas.png",
+    "author": {
+      "bio": "Guillaume is a Senior .Net Developer Advocate for Vonage. He has been working in .Net for almost 15 years while focusing on advocating Software Craftsmanship in the last few years. His favorite topics include code quality, test automation, mobbing, and code katas. Outside work, he enjoys spending time with his wife & daughter, working out, or gaming.",
+      "image_url": "https://s.gravatar.com/avatar/06b4df73cce78778d4d7a457d6782269?s=384",
+      "name": "Guillaume Faas",
+      "github_url": "https://github.com/Tr00d",
+      "linkedin_url": "https://www.linkedin.com/in/guillaumefaas/",
+      "title": "Senior .Net Developer Advocate",
+      "email": "guillaume.faas@vonage.com",
+      "team": true,
+      "short_name": "guillaume-faas"
+    },
+    "published": true,
+    "published_at": "2022-10-11 09:12:20 UTC",
+    "updated_at": "2022-10-11 09:07:51 UTC",
+    "category": {
+      "name": "Team",
+      "plural": "Team Posts",
+      "slug": "team",
+      "color": "#06ba77"
+    },
+    "tags": [
+      "careers"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/10/11/guillaume-faas-joins-the-developer-relations-team",
+    "filename": "guillaume-faas-joins-the-developer-relations-team"
+  },
+  {
+    "title": "Building a Queue for the EMF Roamer with the Vonage SMS API and PHP",
+    "description": "Learn about the EMF Roamer, a quarter-scale wooden Tesla Cybertruck controlled by anyone over the internet!",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/building-a-queue-for-the-emf-roamer-with-the-vonage-sms-api-and-php/building-queue_roamer.png",
+    "author": {
+      "team": false,
+      "alumni": false,
+      "spotlight": true,
+      "noteworthy": false,
+      "hidden": false,
+      "bio": "Chris is an engineer with an interest in DIY, electronics, embedded software and web applications. He lives in England, enjoys building wacky creations and attending hacker camps.",
+      "name": "Chris Stubbs",
+      "image_url": "/content/images/chris-stubbs.jpg",
+      "short_name": "chris-stubbs"
+    },
+    "published": true,
+    "published_at": "2022-10-06 22:27:53 UTC",
+    "updated_at": "2022-10-06 22:27:53 UTC",
+    "category": {
+      "name": "Community",
+      "plural": "Community Posts",
+      "slug": "community",
+      "color": "#fa7454"
+    },
+    "tags": [
+      "PHP",
+      "EMF-camp"
+    ],
+    "spotlight": true,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/10/06/building-a-queue-for-the-emf-roamer-with-the-vonage-sms-api-and-php",
+    "filename": "building-a-queue-for-the-emf-roamer-with-the-vonage-sms-api-and-php"
+  },
+  {
+    "title": "DevCity Comes To London!",
+    "description": "After an explosive launch at Dreamforce in San Francisco, the DevRel team at Vonage are excited to share that their DevCity event series is coming to London!",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/devcity-comes-to-london/devcity-london.png",
+    "author": {
+      "bio": "Lucinda joined Vonage in January 2022 as the EMEA Community Manager. Lucinda has over 10 years experience in event management, with a recent focus on diversity and inclusion. She lives in Hampshire in the UK with her husband and Oggy the labrador.  ",
+      "hidden": false,
+      "image_url": "/content/images/1548775173293.jpeg",
+      "name": "Lucinda Bone",
+      "spotlight": false,
+      "title": "Community Manager, EMEA",
+      "noteworthy": false,
+      "team": false,
+      "alumni": false,
+      "short_name": "lucinda-bone"
+    },
+    "published": true,
+    "published_at": "2022-10-04 09:28:51 UTC",
+    "updated_at": "2022-10-04 09:28:52 UTC",
+    "category": {
+      "name": "Event",
+      "plural": "Events",
+      "slug": "event",
+      "color": "#e6ae00"
+    },
+    "tags": [
+      "event",
+      "devcity"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/10/04/devcity-comes-to-london",
+    "filename": "devcity-comes-to-london"
+  },
+  {
+    "title": "10 Awesome Sites That Every Developer Should Visit (At Least Once)",
+    "description": "An awesome collection of 10 sites that EVERY developer should visit (at least once)",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/10-awesome-sites-that-every-developer-should-visit-at-least-once/10-awesome-sites.png",
+    "author": {
+      "hidden": false,
+      "image_url": "/content/images/michael-crump.jpg",
+      "bio": "Michael Crump works at Vonage on the Developer Relations team and is a coder, YouTuber, and frequent speaker of various .NET and cloud/communication development topics. He’s passionate about helping developers understand the benefits of each in a no-nonsense way.",
+      "name": "Michael Crump",
+      "twitter": "mbcrump",
+      "spotlight": false,
+      "title": "Senior Developer Advocate",
+      "noteworthy": false,
+      "team": true,
+      "alumni": false,
+      "short_name": "michael-crump"
+    },
+    "published": true,
+    "published_at": "2022-09-29 11:05:49 UTC",
+    "updated_at": "2022-09-29 11:05:50 UTC",
+    "category": {
+      "name": "Inspiration",
+      "plural": "Ideas & Inspiration",
+      "slug": "inspiration",
+      "color": "#3298c4"
+    },
+    "tags": [
+      "developer",
+      "tips",
+      "productivity"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/09/29/10-awesome-sites-that-every-developer-should-visit-at-least-once",
+    "filename": "10-awesome-sites-that-every-developer-should-visit-at-least-once"
+  },
+  {
+    "title": "VOICE 2022 Hackathon with Vonage and Symbl.ai",
+    "description": "Info about the hackathon Vonage and Symbl.ai are putting together for VOICE22",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/voice-2022-hackathon-with-vonage-and-symbl-ai/voice-22-hackathon.png",
+    "author": {
+      "team": false,
+      "name": "Chris Tankersley",
+      "image_url": "https://secure.gravatar.com/avatar/7af53bf95c651de93ac76d5a3e742e2e?s=384&d=mm&r=g",
+      "bio": "Chris is the Senior PHP Developer Advocate and Server SDK Initiative Lead.  He has been programming for more than 15 years across various languages and types of projects from client work all the way up to big-data, large scale systems. He lives in Ohio, spending his time with his family and playing video and TTRPG games.",
+      "website_url": "",
+      "alumni": false,
+      "title": "Sr Developer Relations Engineer",
+      "short_name": "christankersley"
+    },
+    "published": true,
+    "published_at": "2022-09-27 08:43:07 UTC",
+    "updated_at": "2022-09-27 08:43:08 UTC",
+    "category": {
+      "name": "Event",
+      "plural": "Events",
+      "slug": "event",
+      "color": "#e6ae00"
+    },
+    "tags": [
+      "voice-api",
+      "symbl-ai",
+      "voice22"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/09/27/voice-2022-hackathon-with-vonage-and-symbl-ai",
+    "filename": "voice-2022-hackathon-with-vonage-and-symbl-ai"
+  },
+  {
+    "title": "5 Things You Probably Didn’t Know About Vonage AI Studio",
+    "description": "Five tips to help anyone to get started with Vonage AI Studio!",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/5-things-you-probably-did-not-know-about-vonage-ai-studio/5-things_ai-studio.png",
+    "author": {
+      "hidden": false,
+      "image_url": "/content/images/michael-crump.jpg",
+      "bio": "Michael Crump works at Vonage on the Developer Relations team and is a coder, YouTuber, and frequent speaker of various .NET and cloud/communication development topics. He’s passionate about helping developers understand the benefits of each in a no-nonsense way.",
+      "name": "Michael Crump",
+      "twitter": "mbcrump",
+      "spotlight": false,
+      "title": "Senior Developer Advocate",
+      "noteworthy": false,
+      "team": true,
+      "alumni": false,
+      "short_name": "michael-crump"
+    },
+    "published": true,
+    "published_at": "2022-09-22 07:10:00 UTC",
+    "updated_at": "2022-09-22 09:16:36 UTC",
+    "category": {
+      "name": "Inspiration",
+      "plural": "Ideas & Inspiration",
+      "slug": "inspiration",
+      "color": "#3298c4"
+    },
+    "tags": [
+      "ai-studio",
+      "low-code",
+      "no-code"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/09/22/5-things-you-probably-did-not-know-about-vonage-ai-studio",
+    "filename": "5-things-you-probably-did-not-know-about-vonage-ai-studio"
+  },
+  {
+    "title": "Better together: GitHub & Vonage CLI",
+    "description": "Learn how you can take advantage of the GitHub & Vonage CLI to increase developer productivity with your upcoming apps.",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/better-together-github-vonage-cli/github_vonage-cli.png",
+    "author": {
+      "hidden": false,
+      "image_url": "/content/images/michael-crump.jpg",
+      "bio": "Michael Crump works at Vonage on the Developer Relations team and is a coder, YouTuber, and frequent speaker of various .NET and cloud/communication development topics. He’s passionate about helping developers understand the benefits of each in a no-nonsense way.",
+      "name": "Michael Crump",
+      "twitter": "mbcrump",
+      "spotlight": false,
+      "title": "Senior Developer Advocate",
+      "noteworthy": false,
+      "team": true,
+      "alumni": false,
+      "short_name": "michael-crump"
+    },
+    "published": true,
+    "published_at": "2022-09-20 08:39:30 UTC",
+    "updated_at": "2022-09-20 08:39:31 UTC",
+    "category": {
+      "name": "Tutorial",
+      "plural": "Tutorials",
+      "slug": "tutorial",
+      "color": "#d6219c"
+    },
+    "tags": [
+      "cli",
+      "vonage",
+      "git"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/09/20/better-together-github-vonage-cli",
+    "filename": "better-together-github-vonage-cli"
+  },
+  {
+    "title": "Diana Pham Joins the Vonage Developer Relations Team",
+    "description": "Meet Diana (@dianasoyster)–the newest NA edition to the Outreach Team.",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/diana-pham-joins-the-vonage-developer-relations-team/diana-pham.png",
+    "author": {
+      "bio": "Diana is a developer advocate at Vonage. She likes eating fresh oysters.",
+      "hidden": false,
+      "image_url": "https://secure.gravatar.com/avatar/84cf66d3ac543de639c5322580c8424c?s=384&d=mm&r=g",
+      "name": "Diana Pham",
+      "twitter": "dianasoyster",
+      "email": "Diana.Pham@vonage.com",
+      "title": "Developer Advocate",
+      "spotlight": false,
+      "noteworthy": false,
+      "team": false,
+      "alumni": false,
+      "short_name": "diana-pham"
+    },
+    "published": true,
+    "published_at": "2022-09-15 07:23:40 UTC",
+    "updated_at": "2022-09-15 07:23:41 UTC",
+    "category": {
+      "name": "Team",
+      "plural": "Team Posts",
+      "slug": "team",
+      "color": "#06ba77"
+    },
+    "tags": [
+      "careers"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/09/15/diana-pham-joins-the-vonage-developer-relations-team",
+    "filename": "diana-pham-joins-the-vonage-developer-relations-team"
+  },
+  {
+    "title": "If You Can Point and Click Then You Can Make a Conversational AI",
+    "description": "Learn all about AI Studio, a No Code / Low Code approach to help businesses handle complex customer interactions through the use of a Virtual Agent.",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/if-you-can-point-and-click-then-you-can-make-a-conversational-ai/point-click_conversationai.png",
+    "author": {
+      "hidden": false,
+      "image_url": "/content/images/michael-crump.jpg",
+      "bio": "Michael Crump works at Vonage on the Developer Relations team and is a coder, YouTuber, and frequent speaker of various .NET and cloud/communication development topics. He’s passionate about helping developers understand the benefits of each in a no-nonsense way.",
+      "name": "Michael Crump",
+      "twitter": "mbcrump",
+      "spotlight": false,
+      "title": "Senior Developer Advocate",
+      "noteworthy": false,
+      "team": true,
+      "alumni": false,
+      "short_name": "michael-crump"
+    },
+    "published": true,
+    "published_at": "2022-09-13 08:07:02 UTC",
+    "updated_at": "2022-09-13 08:07:03 UTC",
+    "category": {
+      "name": "Tutorial",
+      "plural": "Tutorials",
+      "slug": "tutorial",
+      "color": "#d6219c"
+    },
+    "tags": [
+      "ai-studio",
+      "sms"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/09/13/if-you-can-point-and-click-then-you-can-make-a-conversational-ai",
+    "filename": "if-you-can-point-and-click-then-you-can-make-a-conversational-ai"
+  },
+  {
+    "title": "Chuck Reeves Joins the Vonage Developer Relations Team",
+    "description": "Meet Chuck (MANCHUCK) Reeves, the new Senior JavaScript Developer Advocate at Vonage",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/chuck-reeves-joins-the-vonage-developer-relations-team/chuck-reeves.png",
+    "author": {
+      "bio": "Long ago, in the dark ages before Google and StackOverflow, Chuck learned how to program. Those were the times when all you had to go on was the documentation or the source code itself. From humble beginnings as a Jr Full Stack developer, Chuck grew into the developer he is today, building out the tools that empower fellow developers to create amazing products. When he is not forging new tools, you can find him climbing up a mountain or on his bike.",
+      "hidden": false,
+      "image_url": "/content/images/besthead.png",
+      "name": "Chuck Reeves",
+      "twitter": "manchuck",
+      "github_url": "https://github.com/manchuck",
+      "spotlight": false,
+      "title": "Sr JavaScript Developer Advocate",
+      "email": "chuck.reeves@vonage.com",
+      "noteworthy": false,
+      "team": true,
+      "alumni": false,
+      "short_name": "chuck-reeves"
+    },
+    "published": true,
+    "published_at": "2022-09-08 08:48:18 UTC",
+    "updated_at": "2022-09-08 08:48:19 UTC",
+    "category": {
+      "name": "Team",
+      "plural": "Team Posts",
+      "slug": "team",
+      "color": "#06ba77"
+    },
+    "tags": [
+      "career",
+      "new-joiners",
+      "introduction"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/09/08/chuck-reeves-joins-the-vonage-developer-relations-team",
+    "filename": "chuck-reeves-joins-the-vonage-developer-relations-team"
+  },
+  {
+    "title": "Build an ASP.NET MVC App to Send SMS Messages",
+    "description": "Learn how to use the Vonage SMS API with a real-world application using ASP.NET MVC Application and .NET 6.0.",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/build-an-asp-net-mvc-app-to-send-sms-messages/asp-net_mvc-app.png",
+    "author": {
+      "hidden": false,
+      "image_url": "/content/images/michael-crump.jpg",
+      "bio": "Michael Crump works at Vonage on the Developer Relations team and is a coder, YouTuber, and frequent speaker of various .NET and cloud/communication development topics. He’s passionate about helping developers understand the benefits of each in a no-nonsense way.",
+      "name": "Michael Crump",
+      "twitter": "mbcrump",
+      "spotlight": false,
+      "title": "Senior Developer Advocate",
+      "noteworthy": false,
+      "team": true,
+      "alumni": false,
+      "short_name": "michael-crump"
+    },
+    "published": true,
+    "published_at": "2022-09-06 09:07:03 UTC",
+    "updated_at": "2022-09-06 09:07:04 UTC",
+    "category": {
+      "name": "Tutorial",
+      "plural": "Tutorials",
+      "slug": "tutorial",
+      "color": "#d6219c"
+    },
+    "tags": [
+      "csharp",
+      "sms-api"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/09/06/build-an-asp-net-mvc-app-to-send-sms-messages",
+    "filename": "build-an-asp-net-mvc-app-to-send-sms-messages"
+  },
+  {
+    "title": "Crash Course: Create Virtual Agents for WhatsApp with Vonage AI Studio",
+    "description": "An overview of creating automated WhatsApp conversation flows with Vonage AI Studio. Learn about the different message types and use cases.",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/crash-course-create-virtual-agents-for-whatsapp-with-vonage-ai-studio/aistuido_whatsapp.png",
+    "author": {
+      "team": true,
+      "alumni": false,
+      "spotlight": false,
+      "noteworthy": false,
+      "hidden": false,
+      "name": "Sejal D'souza",
+      "bio": "Sejal works as a Conversational Designer under the Vonage AI team, where she helps in the creation of virtual assistants for various channels. Formally trained in Psychology, Literature and Communications, getting into the AI world was a stroke of luck that she decided to run along with. Some things that make her day include learning from the experiences of individuals from different teams in Vonage, figuring out efficient ways of implementing virtual agents and herding street dogs for treats!",
+      "image_url": "/content/images/sejal-dsouza-blog-profile-image.jpg",
+      "short_name": "sejal-dsouza"
+    },
+    "published": true,
+    "published_at": "2022-09-01 07:13:49 UTC",
+    "updated_at": "2022-09-01 07:13:50 UTC",
+    "category": {
+      "name": "Inspiration",
+      "plural": "Ideas & Inspiration",
+      "slug": "inspiration",
+      "color": "#3298c4"
+    },
+    "tags": [
+      "ai-studio"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/09/01/crash-course-create-virtual-agents-for-whatsapp-with-vonage-ai-studio",
+    "filename": "crash-course-create-virtual-agents-for-whatsapp-with-vonage-ai-studio"
+  },
+  {
     "title": "What Can I Do With MMS?",
     "description": "An overview of the MMS channel of the Vonage Messages API, with a walkthrough of an example application which uses the Ruby SDK to send an MMS image message.",
     "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/what-can-i-do-with-mms/what-mms-can-do.png",
@@ -49,7 +1029,7 @@
       "bio": "Abdul is a Developer Advocate for Vonage. He has a background working in consumer products as an iOS Engineer. In his spare time, he enjoys biking, listening to music and mentoring those who are just beginning their journey in tech",
       "website_url": "https://abdulajet.me",
       "twitter": "abdulajet",
-      "title": "Vonage Developer Advocate",
+      "title": "Senior Developer Advocate",
       "short_name": "abdul-ajetunmobi"
     },
     "published": true,
@@ -84,6 +1064,7 @@
       "image_url": "https://secure.gravatar.com/avatar/005cdba1cbc6dc18ee2b1fedeeab12bf?s=384&d=mm&r=g",
       "bio": "Benjamin Aronov is an online community manager at Vonage based in Tel Aviv, Israel.",
       "website_url": "",
+      "title": "Developer Advocate",
       "short_name": "benjamin-aronov"
     },
     "published": true,
@@ -189,6 +1170,7 @@
       "image_url": "https://secure.gravatar.com/avatar/005cdba1cbc6dc18ee2b1fedeeab12bf?s=384&d=mm&r=g",
       "bio": "Benjamin Aronov is an online community manager at Vonage based in Tel Aviv, Israel.",
       "website_url": "",
+      "title": "Developer Advocate",
       "short_name": "benjamin-aronov"
     },
     "published": true,
@@ -213,13 +1195,14 @@
     "filename": "community-member-spotlight-kiran-krishnan"
   },
   {
-    "title": "Experience Composer Sample Application With Vonage Video API",
+    "title": "Using Experience Composer With Vonage Video API",
     "description": "This article will describe two applications of the many ways developers can use Experience Composer: publishing to a Vonage Video API Session and capturing your website’s entire layout in an archived Vonage Video API stream.",
     "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/experience-composer-sample-application-with-vonage-video-api/video-stream-experience-composer.png",
     "author": {
       "team": true,
       "alumni": false,
       "spotlight": false,
+      "title": "Software Engineering Intern",
       "noteworthy": false,
       "hidden": false,
       "bio": "Megna is a software engineering intern at Vonage, based out of San Francisco. She is a third year computer engineering student at the University of Illinois Urbana-Champaign. Megna is passionate about learning about innovations and wants to build innovative technology for the future generations.",
@@ -372,6 +1355,7 @@
       "image_url": "https://secure.gravatar.com/avatar/005cdba1cbc6dc18ee2b1fedeeab12bf?s=384&d=mm&r=g",
       "bio": "Benjamin Aronov is an online community manager at Vonage based in Tel Aviv, Israel.",
       "website_url": "",
+      "title": "Developer Advocate",
       "short_name": "benjamin-aronov"
     },
     "published": true,
@@ -406,6 +1390,7 @@
       "image_url": "https://secure.gravatar.com/avatar/005cdba1cbc6dc18ee2b1fedeeab12bf?s=384&d=mm&r=g",
       "bio": "Benjamin Aronov is an online community manager at Vonage based in Tel Aviv, Israel.",
       "website_url": "",
+      "title": "Developer Advocate",
       "short_name": "benjamin-aronov"
     },
     "published": true,
@@ -695,6 +1680,7 @@
       "image_url": "https://secure.gravatar.com/avatar/005cdba1cbc6dc18ee2b1fedeeab12bf?s=384&d=mm&r=g",
       "bio": "Benjamin Aronov is an online community manager at Vonage based in Tel Aviv, Israel.",
       "website_url": "",
+      "title": "Developer Advocate",
       "short_name": "benjamin-aronov"
     },
     "published": true,
@@ -1115,7 +2101,7 @@
       "twitter": "@SecondeJ",
       "github_url": "https://github.com/SecondeJK",
       "spotlight": false,
-      "title": "Developer Advocate",
+      "title": "Senior PHP Developer Advocate",
       "email": "jim.seconde@vonage.com",
       "noteworthy": false,
       "team": true,
@@ -1154,6 +2140,7 @@
       "bio": "Chris is the Senior PHP Developer Advocate and Server SDK Initiative Lead.  He has been programming for more than 15 years across various languages and types of projects from client work all the way up to big-data, large scale systems. He lives in Ohio, spending his time with his family and playing video and TTRPG games.",
       "website_url": "",
       "alumni": false,
+      "title": "Sr Developer Relations Engineer",
       "short_name": "christankersley"
     },
     "published": true,
@@ -1184,7 +2171,8 @@
       "name": "Daniela Facchinetti",
       "image_url": "/content/images/230962_10151269310519515_797260551_n.jpg",
       "team": true,
-      "author": "solomon-soh",
+      "author": "daniela-facchinetti",
+      "title": "Content Manager",
       "short_name": "daniela-facchinetti"
     },
     "published": true,
@@ -1217,6 +2205,7 @@
       "image_url": "https://secure.gravatar.com/avatar/005cdba1cbc6dc18ee2b1fedeeab12bf?s=384&d=mm&r=g",
       "bio": "Benjamin Aronov is an online community manager at Vonage based in Tel Aviv, Israel.",
       "website_url": "",
+      "title": "Developer Advocate",
       "short_name": "benjamin-aronov"
     },
     "published": true,
@@ -1680,7 +2669,7 @@
       "twitter": "@SecondeJ",
       "github_url": "https://github.com/SecondeJK",
       "spotlight": false,
-      "title": "Developer Advocate",
+      "title": "Senior PHP Developer Advocate",
       "email": "jim.seconde@vonage.com",
       "noteworthy": false,
       "team": true,
@@ -2019,7 +3008,7 @@
       "linkedin_url": "https://www.linkedin.com/in/calthoff",
       "twitter": "coryalthoff",
       "spotlight": false,
-      "title": "Regional Developer Advocate",
+      "title": "Former Vonage Team Member",
       "noteworthy": false,
       "team": true,
       "alumni": false,
@@ -2130,7 +3119,7 @@
       "twitter": "@SecondeJ",
       "github_url": "https://github.com/SecondeJK",
       "spotlight": false,
-      "title": "Developer Advocate",
+      "title": "Senior PHP Developer Advocate",
       "email": "jim.seconde@vonage.com",
       "noteworthy": false,
       "team": true,
@@ -2171,7 +3160,7 @@
       "twitter": "@SecondeJ",
       "github_url": "https://github.com/SecondeJK",
       "spotlight": false,
-      "title": "Developer Advocate",
+      "title": "Senior PHP Developer Advocate",
       "email": "jim.seconde@vonage.com",
       "noteworthy": false,
       "team": true,
@@ -2378,7 +3367,7 @@
       "linkedin_url": "https://www.linkedin.com/in/calthoff",
       "twitter": "coryalthoff",
       "spotlight": false,
-      "title": "Regional Developer Advocate",
+      "title": "Former Vonage Team Member",
       "noteworthy": false,
       "team": true,
       "alumni": false,
@@ -2495,7 +3484,7 @@
       "twitter": "doesdotnet",
       "github_url": "https://github.com/matt-lethargic",
       "spotlight": false,
-      "title": "Sr .Net Developer Advocate",
+      "title": "Former Vonage Team Member",
       "email": "matt.hunt@vonage.com",
       "noteworthy": false,
       "team": true,
@@ -2534,7 +3523,7 @@
       "linkedin_url": "https://www.linkedin.com/in/calthoff",
       "twitter": "coryalthoff",
       "spotlight": false,
-      "title": "Regional Developer Advocate",
+      "title": "Former Vonage Team Member",
       "noteworthy": false,
       "team": true,
       "alumni": false,
@@ -2693,7 +3682,7 @@
       "twitter": "@SecondeJ",
       "github_url": "https://github.com/SecondeJK",
       "spotlight": false,
-      "title": "Developer Advocate",
+      "title": "Senior PHP Developer Advocate",
       "email": "jim.seconde@vonage.com",
       "noteworthy": false,
       "team": true,
@@ -2730,6 +3719,7 @@
       "image_url": "https://secure.gravatar.com/avatar/b11f7f3dae83ee5df58a7bd165f6b60b?s=384&d=mm&r=g",
       "bio": "Clarisse is a community manager who enjoys doing yoga, baking and creating activities to help others develop their products/solutions through the use of technology",
       "website_url": "",
+      "title": "Community Manager, APAC",
       "short_name": "clarisse-ng"
     },
     "published": true,
@@ -2765,7 +3755,7 @@
       "bio": "Abdul is a Developer Advocate for Vonage. He has a background working in consumer products as an iOS Engineer. In his spare time, he enjoys biking, listening to music and mentoring those who are just beginning their journey in tech",
       "website_url": "https://abdulajet.me",
       "twitter": "abdulajet",
-      "title": "Vonage Developer Advocate",
+      "title": "Senior Developer Advocate",
       "short_name": "abdul-ajetunmobi"
     },
     "published": true,
@@ -2834,8 +3824,9 @@
       "bio": "Tolulope is a software engineer based in Nigeria. He loves building cross-platform solutions and communication tools for people and businesses. When he's not working, he loves to read books about product design, humanity and entrepreneurship.",
       "hidden": false,
       "image_url": "/content/images/tolulope-olanrewaju.jpg",
-      "name": " Tolulope Olanrewaju",
+      "name": "Tolulope Olanrewaju",
       "twitter": "tooluuwaa",
+      "title": "Guest Author",
       "spotlight": true,
       "email": "lanre.toluwa@gmail.com",
       "noteworthy": false,
@@ -2995,7 +3986,7 @@
       "twitter": "@SecondeJ",
       "github_url": "https://github.com/SecondeJK",
       "spotlight": false,
-      "title": "Developer Advocate",
+      "title": "Senior PHP Developer Advocate",
       "email": "jim.seconde@vonage.com",
       "noteworthy": false,
       "team": true,
@@ -3118,7 +4109,7 @@
       "bio": "Abdul is a Developer Advocate for Vonage. He has a background working in consumer products as an iOS Engineer. In his spare time, he enjoys biking, listening to music and mentoring those who are just beginning their journey in tech",
       "website_url": "https://abdulajet.me",
       "twitter": "abdulajet",
-      "title": "Vonage Developer Advocate",
+      "title": "Senior Developer Advocate",
       "short_name": "abdul-ajetunmobi"
     },
     "published": true,
@@ -3281,7 +4272,7 @@
       "color": "#3298c4"
     },
     "tags": [
-      "video",
+      "video-api",
       "javascript",
       "twitch"
     ],
@@ -3343,7 +4334,7 @@
       "linkedin_url": "https://www.linkedin.com/in/calthoff",
       "twitter": "coryalthoff",
       "spotlight": false,
-      "title": "Regional Developer Advocate",
+      "title": "Former Vonage Team Member",
       "noteworthy": false,
       "team": true,
       "alumni": false,
@@ -3381,6 +4372,7 @@
       "image_url": "https://secure.gravatar.com/avatar/b11f7f3dae83ee5df58a7bd165f6b60b?s=384&d=mm&r=g",
       "bio": "Clarisse is a community manager who enjoys doing yoga, baking and creating activities to help others develop their products/solutions through the use of technology",
       "website_url": "",
+      "title": "Community Manager, APAC",
       "short_name": "clarisse-ng"
     },
     "published": true,
@@ -3501,7 +4493,7 @@
       "twitter": "@SecondeJ",
       "github_url": "https://github.com/SecondeJK",
       "spotlight": false,
-      "title": "Developer Advocate",
+      "title": "Senior PHP Developer Advocate",
       "email": "jim.seconde@vonage.com",
       "noteworthy": false,
       "team": true,
@@ -3578,7 +4570,7 @@
       "bio": "Abdul is a Developer Advocate for Vonage. He has a background working in consumer products as an iOS Engineer. In his spare time, he enjoys biking, listening to music and mentoring those who are just beginning their journey in tech",
       "website_url": "https://abdulajet.me",
       "twitter": "abdulajet",
-      "title": "Vonage Developer Advocate",
+      "title": "Senior Developer Advocate",
       "short_name": "abdul-ajetunmobi"
     },
     "published": true,
@@ -3654,7 +4646,7 @@
       "linkedin_url": "https://www.linkedin.com/in/tonyasims",
       "twitter": "tonyasims",
       "spotlight": false,
-      "title": "Python Developer Advocate",
+      "title": "Former Vonage Team Member",
       "noteworthy": false,
       "team": true,
       "alumni": false,
@@ -3694,7 +4686,7 @@
       "website_url": "",
       "twitter": "moficodes",
       "spotlight": false,
-      "title": "Senior Developer Advocate",
+      "title": "Vonage Former Team Member",
       "email": "mofi.rahman@vonage.com",
       "noteworthy": false,
       "team": true,
@@ -3808,7 +4800,7 @@
       "twitter": "@SecondeJ",
       "github_url": "https://github.com/SecondeJK",
       "spotlight": false,
-      "title": "Developer Advocate",
+      "title": "Senior PHP Developer Advocate",
       "email": "jim.seconde@vonage.com",
       "noteworthy": false,
       "team": true,
@@ -3883,6 +4875,7 @@
       "image_url": "https://secure.gravatar.com/avatar/005cdba1cbc6dc18ee2b1fedeeab12bf?s=384&d=mm&r=g",
       "bio": "Benjamin Aronov is an online community manager at Vonage based in Tel Aviv, Israel.",
       "website_url": "",
+      "title": "Developer Advocate",
       "short_name": "benjamin-aronov"
     },
     "published": true,
@@ -3920,7 +4913,7 @@
       "twitter": "doesdotnet",
       "github_url": "https://github.com/matt-lethargic",
       "spotlight": false,
-      "title": "Sr .Net Developer Advocate",
+      "title": "Former Vonage Team Member",
       "email": "matt.hunt@vonage.com",
       "noteworthy": false,
       "team": true,
@@ -3961,7 +4954,7 @@
       "linkedin_url": "https://www.linkedin.com/in/calthoff",
       "twitter": "coryalthoff",
       "spotlight": false,
-      "title": "Regional Developer Advocate",
+      "title": "Former Vonage Team Member",
       "noteworthy": false,
       "team": true,
       "alumni": false,
@@ -3998,7 +4991,7 @@
       "bio": "Abdul is a Developer Advocate for Vonage. He has a background working in consumer products as an iOS Engineer. In his spare time, he enjoys biking, listening to music and mentoring those who are just beginning their journey in tech",
       "website_url": "https://abdulajet.me",
       "twitter": "abdulajet",
-      "title": "Vonage Developer Advocate",
+      "title": "Senior Developer Advocate",
       "short_name": "abdul-ajetunmobi"
     },
     "published": true,
@@ -4107,7 +5100,7 @@
       "name": "Rachel Sunderland",
       "twitter": "sundyclan",
       "spotlight": false,
-      "title": "Head of Community (Maternity Cover)",
+      "title": "Head of Community",
       "email": "rachel.sunderland@vonage.com",
       "noteworthy": false,
       "team": true,
@@ -4147,7 +5140,7 @@
       "linkedin_url": "https://www.linkedin.com/in/calthoff",
       "twitter": "coryalthoff",
       "spotlight": false,
-      "title": "Regional Developer Advocate",
+      "title": "Former Vonage Team Member",
       "noteworthy": false,
       "team": true,
       "alumni": false,
@@ -4188,7 +5181,7 @@
       "twitter": "doesdotnet",
       "github_url": "https://github.com/matt-lethargic",
       "spotlight": false,
-      "title": "Sr .Net Developer Advocate",
+      "title": "Former Vonage Team Member",
       "email": "matt.hunt@vonage.com",
       "noteworthy": false,
       "team": true,
@@ -4435,7 +5428,7 @@
       "twitter": "@SecondeJ",
       "github_url": "https://github.com/SecondeJK",
       "spotlight": false,
-      "title": "Developer Advocate",
+      "title": "Senior PHP Developer Advocate",
       "email": "jim.seconde@vonage.com",
       "noteworthy": false,
       "team": true,
@@ -4515,7 +5508,7 @@
       "linkedin_url": "https://www.linkedin.com/in/tonyasims",
       "twitter": "tonyasims",
       "spotlight": false,
-      "title": "Python Developer Advocate",
+      "title": "Former Vonage Team Member",
       "noteworthy": false,
       "team": true,
       "alumni": false,
@@ -4636,7 +5629,7 @@
       "linkedin_url": "https://www.linkedin.com/in/calthoff",
       "twitter": "coryalthoff",
       "spotlight": false,
-      "title": "Regional Developer Advocate",
+      "title": "Former Vonage Team Member",
       "noteworthy": false,
       "team": true,
       "alumni": false,
@@ -4673,6 +5666,7 @@
       "image_url": "https://secure.gravatar.com/avatar/b11f7f3dae83ee5df58a7bd165f6b60b?s=384&d=mm&r=g",
       "bio": "Clarisse is a community manager who enjoys doing yoga, baking and creating activities to help others develop their products/solutions through the use of technology",
       "website_url": "",
+      "title": "Community Manager, APAC",
       "short_name": "clarisse-ng"
     },
     "published": true,
@@ -4709,7 +5703,7 @@
       "linkedin_url": "https://www.linkedin.com/in/tonyasims",
       "twitter": "tonyasims",
       "spotlight": false,
-      "title": "Python Developer Advocate",
+      "title": "Former Vonage Team Member",
       "noteworthy": false,
       "team": true,
       "alumni": false,
@@ -4749,7 +5743,7 @@
       "website_url": "",
       "twitter": "moficodes",
       "spotlight": false,
-      "title": "Senior Developer Advocate",
+      "title": "Vonage Former Team Member",
       "email": "mofi.rahman@vonage.com",
       "noteworthy": false,
       "team": true,
@@ -4893,7 +5887,7 @@
       "name": "Rachel Sunderland",
       "twitter": "sundyclan",
       "spotlight": false,
-      "title": "Head of Community (Maternity Cover)",
+      "title": "Head of Community",
       "email": "rachel.sunderland@vonage.com",
       "noteworthy": false,
       "team": true,
@@ -4964,7 +5958,7 @@
       "linkedin_url": "https://www.linkedin.com/in/calthoff",
       "twitter": "coryalthoff",
       "spotlight": false,
-      "title": "Regional Developer Advocate",
+      "title": "Former Vonage Team Member",
       "noteworthy": false,
       "team": true,
       "alumni": false,
@@ -5340,7 +6334,7 @@
       "linkedin_url": "https://www.linkedin.com/in/calthoff",
       "twitter": "coryalthoff",
       "spotlight": false,
-      "title": "Regional Developer Advocate",
+      "title": "Former Vonage Team Member",
       "noteworthy": false,
       "team": true,
       "alumni": false,
@@ -5451,7 +6445,7 @@
       "linkedin_url": "https://www.linkedin.com/in/tonyasims",
       "twitter": "tonyasims",
       "spotlight": false,
-      "title": "Python Developer Advocate",
+      "title": "Former Vonage Team Member",
       "noteworthy": false,
       "team": true,
       "alumni": false,
@@ -5868,7 +6862,7 @@
       "bio": "Abdul is a Developer Advocate for Vonage. He has a background working in consumer products as an iOS Engineer. In his spare time, he enjoys biking, listening to music and mentoring those who are just beginning their journey in tech",
       "website_url": "https://abdulajet.me",
       "twitter": "abdulajet",
-      "title": "Vonage Developer Advocate",
+      "title": "Senior Developer Advocate",
       "short_name": "abdul-ajetunmobi"
     },
     "published": true,
@@ -6172,7 +7166,7 @@
       "linkedin_url": "https://www.linkedin.com/in/tonyasims",
       "twitter": "tonyasims",
       "spotlight": false,
-      "title": "Python Developer Advocate",
+      "title": "Former Vonage Team Member",
       "noteworthy": false,
       "team": true,
       "alumni": false,
@@ -6541,7 +7535,7 @@
       "bio": "Abdul is a Developer Advocate for Vonage. He has a background working in consumer products as an iOS Engineer. In his spare time, he enjoys biking, listening to music and mentoring those who are just beginning their journey in tech",
       "website_url": "https://abdulajet.me",
       "twitter": "abdulajet",
-      "title": "Vonage Developer Advocate",
+      "title": "Senior Developer Advocate",
       "short_name": "abdul-ajetunmobi"
     },
     "published": true,
@@ -6692,7 +7686,7 @@
       "bio": "Abdul is a Developer Advocate for Vonage. He has a background working in consumer products as an iOS Engineer. In his spare time, he enjoys biking, listening to music and mentoring those who are just beginning their journey in tech",
       "website_url": "https://abdulajet.me",
       "twitter": "abdulajet",
-      "title": "Vonage Developer Advocate",
+      "title": "Senior Developer Advocate",
       "short_name": "abdul-ajetunmobi"
     },
     "published": true,
@@ -7144,7 +8138,7 @@
       "bio": "Abdul is a Developer Advocate for Vonage. He has a background working in consumer products as an iOS Engineer. In his spare time, he enjoys biking, listening to music and mentoring those who are just beginning their journey in tech",
       "website_url": "https://abdulajet.me",
       "twitter": "abdulajet",
-      "title": "Vonage Developer Advocate",
+      "title": "Senior Developer Advocate",
       "short_name": "abdul-ajetunmobi"
     },
     "published": true,
@@ -7219,7 +8213,7 @@
       "bio": "Abdul is a Developer Advocate for Vonage. He has a background working in consumer products as an iOS Engineer. In his spare time, he enjoys biking, listening to music and mentoring those who are just beginning their journey in tech",
       "website_url": "https://abdulajet.me",
       "twitter": "abdulajet",
-      "title": "Vonage Developer Advocate",
+      "title": "Senior Developer Advocate",
       "short_name": "abdul-ajetunmobi"
     },
     "published": true,
@@ -7921,7 +8915,7 @@
       "linkedin_url": "https://www.linkedin.com/in/calthoff",
       "twitter": "coryalthoff",
       "spotlight": false,
-      "title": "Regional Developer Advocate",
+      "title": "Former Vonage Team Member",
       "noteworthy": false,
       "team": true,
       "alumni": false,
@@ -8109,7 +9103,7 @@
       "linkedin_url": "https://www.linkedin.com/in/calthoff",
       "twitter": "coryalthoff",
       "spotlight": false,
-      "title": "Regional Developer Advocate",
+      "title": "Former Vonage Team Member",
       "noteworthy": false,
       "team": true,
       "alumni": false,
@@ -8156,7 +9150,7 @@
     },
     "published": true,
     "published_at": "2021-03-04 13:32:07 UTC",
-    "updated_at": "",
+    "updated_at": "2022-11-11 13:32:07 UTC",
     "category": {
       "name": "Startup",
       "plural": "Startups",
@@ -8185,7 +9179,7 @@
       "bio": "Abdul is a Developer Advocate for Vonage. He has a background working in consumer products as an iOS Engineer. In his spare time, he enjoys biking, listening to music and mentoring those who are just beginning their journey in tech",
       "website_url": "https://abdulajet.me",
       "twitter": "abdulajet",
-      "title": "Vonage Developer Advocate",
+      "title": "Senior Developer Advocate",
       "short_name": "abdul-ajetunmobi"
     },
     "published": true,
@@ -8221,7 +9215,7 @@
       "bio": "Abdul is a Developer Advocate for Vonage. He has a background working in consumer products as an iOS Engineer. In his spare time, he enjoys biking, listening to music and mentoring those who are just beginning their journey in tech",
       "website_url": "https://abdulajet.me",
       "twitter": "abdulajet",
-      "title": "Vonage Developer Advocate",
+      "title": "Senior Developer Advocate",
       "short_name": "abdul-ajetunmobi"
     },
     "published": true,
@@ -8723,7 +9717,7 @@
       "bio": "Abdul is a Developer Advocate for Vonage. He has a background working in consumer products as an iOS Engineer. In his spare time, he enjoys biking, listening to music and mentoring those who are just beginning their journey in tech",
       "website_url": "https://abdulajet.me",
       "twitter": "abdulajet",
-      "title": "Vonage Developer Advocate",
+      "title": "Senior Developer Advocate",
       "short_name": "abdul-ajetunmobi"
     },
     "published": true,
@@ -8939,7 +9933,7 @@
       "bio": "Abdul is a Developer Advocate for Vonage. He has a background working in consumer products as an iOS Engineer. In his spare time, he enjoys biking, listening to music and mentoring those who are just beginning their journey in tech",
       "website_url": "https://abdulajet.me",
       "twitter": "abdulajet",
-      "title": "Vonage Developer Advocate",
+      "title": "Senior Developer Advocate",
       "short_name": "abdul-ajetunmobi"
     },
     "published": true,
@@ -8975,7 +9969,7 @@
       "bio": "Abdul is a Developer Advocate for Vonage. He has a background working in consumer products as an iOS Engineer. In his spare time, he enjoys biking, listening to music and mentoring those who are just beginning their journey in tech",
       "website_url": "https://abdulajet.me",
       "twitter": "abdulajet",
-      "title": "Vonage Developer Advocate",
+      "title": "Senior Developer Advocate",
       "short_name": "abdul-ajetunmobi"
     },
     "published": true,
@@ -9235,6 +10229,7 @@
       "bio": "Chris is the Senior PHP Developer Advocate and Server SDK Initiative Lead.  He has been programming for more than 15 years across various languages and types of projects from client work all the way up to big-data, large scale systems. He lives in Ohio, spending his time with his family and playing video and TTRPG games.",
       "website_url": "",
       "alumni": false,
+      "title": "Sr Developer Relations Engineer",
       "short_name": "christankersley"
     },
     "published": true,
@@ -9531,7 +10526,7 @@
       "bio": "Abdul is a Developer Advocate for Vonage. He has a background working in consumer products as an iOS Engineer. In his spare time, he enjoys biking, listening to music and mentoring those who are just beginning their journey in tech",
       "website_url": "https://abdulajet.me",
       "twitter": "abdulajet",
-      "title": "Vonage Developer Advocate",
+      "title": "Senior Developer Advocate",
       "short_name": "abdul-ajetunmobi"
     },
     "published": true,
@@ -9903,7 +10898,7 @@
       "bio": "Abdul is a Developer Advocate for Vonage. He has a background working in consumer products as an iOS Engineer. In his spare time, he enjoys biking, listening to music and mentoring those who are just beginning their journey in tech",
       "website_url": "https://abdulajet.me",
       "twitter": "abdulajet",
-      "title": "Vonage Developer Advocate",
+      "title": "Senior Developer Advocate",
       "short_name": "abdul-ajetunmobi"
     },
     "published": true,
@@ -11100,7 +12095,7 @@
     },
     "published": true,
     "published_at": "2020-09-22 13:00:32 UTC",
-    "updated_at": "2021-05-10 22:21:42 UTC",
+    "updated_at": "2021-10-27 22:21:42 UTC",
     "category": {
       "name": "Tutorial",
       "plural": "Tutorials",
@@ -11775,6 +12770,7 @@
       "bio": "Chris is the Senior PHP Developer Advocate and Server SDK Initiative Lead.  He has been programming for more than 15 years across various languages and types of projects from client work all the way up to big-data, large scale systems. He lives in Ohio, spending his time with his family and playing video and TTRPG games.",
       "website_url": "",
       "alumni": false,
+      "title": "Sr Developer Relations Engineer",
       "short_name": "christankersley"
     },
     "published": true,
@@ -12000,6 +12996,7 @@
       "bio": "Chris is the Senior PHP Developer Advocate and Server SDK Initiative Lead.  He has been programming for more than 15 years across various languages and types of projects from client work all the way up to big-data, large scale systems. He lives in Ohio, spending his time with his family and playing video and TTRPG games.",
       "website_url": "",
       "alumni": false,
+      "title": "Sr Developer Relations Engineer",
       "short_name": "christankersley"
     },
     "published": true,
@@ -12355,7 +13352,7 @@
       "bio": "Abdul is a Developer Advocate for Vonage. He has a background working in consumer products as an iOS Engineer. In his spare time, he enjoys biking, listening to music and mentoring those who are just beginning their journey in tech",
       "website_url": "https://abdulajet.me",
       "twitter": "abdulajet",
-      "title": "Vonage Developer Advocate",
+      "title": "Senior Developer Advocate",
       "short_name": "abdul-ajetunmobi"
     },
     "published": true,
@@ -12387,6 +13384,7 @@
       "image_url": "https://secure.gravatar.com/avatar/b11f7f3dae83ee5df58a7bd165f6b60b?s=384&d=mm&r=g",
       "bio": "Clarisse is a community manager who enjoys doing yoga, baking and creating activities to help others develop their products/solutions through the use of technology",
       "website_url": "",
+      "title": "Community Manager, APAC",
       "short_name": "clarisse-ng"
     },
     "published": true,
@@ -14720,6 +15718,36 @@
     "filename": "usando-jwt-para-autenticação-em-uma-aplicação-golang"
   },
   {
+    "title": "在 Golang 应用程序中使用 JWT 进行身份验证",
+    "description": "Learn how to create a Go application that creates and invalidates JWT tokens to bring authentication to protected routes.",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/using-jwt-for-authentication-in-a-golang-application-dr/Blog_JWT-Golang_Authentification_1200x600-2.png",
+    "author": {
+      "name": "Victor Steven",
+      "image_url": "/content/images/0.png",
+      "bio": "Victor Steven is a self-taught full-stack developer that loves researching about doing things differently. He has a degree in Engineering and over 5 years of experience as a software developer. Steven is very interested in designing and building scalable APIs and he enjoys writing about his discoveries in software development.",
+      "website_url": "",
+      "spotlight": true,
+      "short_name": "victor-steven"
+    },
+    "published": true,
+    "published_at": "2020-03-13 13:00:25 UTC",
+    "category": {
+      "name": "Tutorial",
+      "plural": "Tutorials",
+      "slug": "tutorial",
+      "color": "#d6219c"
+    },
+    "tags": [
+      "go",
+      "chinese",
+      "messages-api"
+    ],
+    "spotlight": true,
+    "locale": "cn",
+    "link": "blog/cn/20/03/13/using-jwt-for-authentication-in-a-golang-application-dr",
+    "filename": "using-jwt-for-authentication-in-a-golang-application-dr"
+  },
+  {
     "title": "Using JWT for Authentication in a Golang Application",
     "description": "Learn how to create a Go application that creates and invalidates JWT tokens to bring authentication to protected routes.",
     "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/using-jwt-for-authentication-in-a-golang-application-dr/Blog_JWT-Golang_Authentification_1200x600-2.png",
@@ -14748,36 +15776,6 @@
     ],
     "locale": "en",
     "link": "blog/20/03/13/using-jwt-for-authentication-in-a-golang-application-dr",
-    "filename": "using-jwt-for-authentication-in-a-golang-application-dr"
-  },
-  {
-    "title": "在 Golang 应用程序中使用 JWT 进行身份验证",
-    "description": "Learn how to create a Go application that creates and invalidates JWT tokens to bring authentication to protected routes.",
-    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/using-jwt-for-authentication-in-a-golang-application-dr/Blog_JWT-Golang_Authentification_1200x600-2.png",
-    "author": {
-      "name": "Victor Steven",
-      "image_url": "/content/images/0.png",
-      "bio": "Victor Steven is a self-taught full-stack developer that loves researching about doing things differently. He has a degree in Engineering and over 5 years of experience as a software developer. Steven is very interested in designing and building scalable APIs and he enjoys writing about his discoveries in software development.",
-      "website_url": "",
-      "spotlight": true,
-      "short_name": "victor-steven"
-    },
-    "published": true,
-    "published_at": "2020-03-13 13:00:25 UTC",
-    "category": {
-      "name": "Tutorial",
-      "plural": "Tutorials",
-      "slug": "tutorial",
-      "color": "#d6219c"
-    },
-    "tags": [
-      "go",
-      "chinese",
-      "messages-api"
-    ],
-    "spotlight": true,
-    "locale": "cn",
-    "link": "blog/cn/20/03/13/using-jwt-for-authentication-in-a-golang-application-dr",
     "filename": "using-jwt-for-authentication-in-a-golang-application-dr"
   },
   {
@@ -14926,6 +15924,7 @@
       "bio": "Chris is the Senior PHP Developer Advocate and Server SDK Initiative Lead.  He has been programming for more than 15 years across various languages and types of projects from client work all the way up to big-data, large scale systems. He lives in Ohio, spending his time with his family and playing video and TTRPG games.",
       "website_url": "",
       "alumni": false,
+      "title": "Sr Developer Relations Engineer",
       "short_name": "christankersley"
     },
     "published": true,
@@ -15212,6 +16211,7 @@
       "image_url": "https://secure.gravatar.com/avatar/005cdba1cbc6dc18ee2b1fedeeab12bf?s=384&d=mm&r=g",
       "bio": "Benjamin Aronov is an online community manager at Vonage based in Tel Aviv, Israel.",
       "website_url": "",
+      "title": "Developer Advocate",
       "short_name": "benjamin-aronov"
     },
     "published": true,
@@ -15361,6 +16361,7 @@
       "image_url": "https://secure.gravatar.com/avatar/74d49c80868aec387284306f89e72ab3?s=384&d=mm&r=g",
       "bio": "Nick Iati is a technical writer at Vonage based in Rochester, New York.",
       "website_url": "",
+      "title": "Manager, Developer Relations",
       "short_name": "nick-iati"
     },
     "published": true,
@@ -15808,7 +16809,8 @@
       "name": "Daniela Facchinetti",
       "image_url": "/content/images/230962_10151269310519515_797260551_n.jpg",
       "team": true,
-      "author": "solomon-soh",
+      "author": "daniela-facchinetti",
+      "title": "Content Manager",
       "short_name": "daniela-facchinetti"
     },
     "published": true,
@@ -20060,6 +21062,7 @@
       "image_url": "https://secure.gravatar.com/avatar/689487ff9f0777129ffb4874ea615500?s=384&d=mm&r=g",
       "bio": "Paul is an iOS Developer Advocate at Nexmo. A seasoned software engineer, trainer and speaker, he specialised in data-driven solutions on Apple platforms with an emphasis on prototyping, best practices and balance with agility.",
       "website_url": "",
+      "title": "Sr Manager, Developer Relations",
       "short_name": "paul-ardeleanu"
     },
     "published": true,
@@ -20247,6 +21250,7 @@
       "image_url": "https://secure.gravatar.com/avatar/689487ff9f0777129ffb4874ea615500?s=384&d=mm&r=g",
       "bio": "Paul is an iOS Developer Advocate at Nexmo. A seasoned software engineer, trainer and speaker, he specialised in data-driven solutions on Apple platforms with an emphasis on prototyping, best practices and balance with agility.",
       "website_url": "",
+      "title": "Sr Manager, Developer Relations",
       "short_name": "paul-ardeleanu"
     },
     "published": true,
@@ -23545,7 +24549,7 @@
       "short_name": "chrisguzman"
     },
     "published": true,
-    "published_at": "2017-12-21 18:23:30 +0100",
+    "published_at": "2017-12-21 17:23:30 +0000",
     "updated_at": "2021-05-20 08:29:04 UTC",
     "category": {
       "name": "Tutorial",
@@ -26600,7 +27604,7 @@
       "short_name": "tjlytle"
     },
     "published": true,
-    "published_at": "2015-08-14 17:45:51 +0200",
+    "published_at": "2015-08-14 16:45:51 +0100",
     "category": {
       "name": "Community",
       "plural": "Community Posts",
@@ -26676,7 +27680,7 @@
       "short_name": "tjlytle"
     },
     "published": true,
-    "published_at": "2015-04-29 19:55:05 +0200",
+    "published_at": "2015-04-29 18:55:05 +0100",
     "category": {
       "name": "Community",
       "plural": "Community Posts",
@@ -26732,7 +27736,7 @@
       "short_name": "tjlytle"
     },
     "published": true,
-    "published_at": "2015-04-10 19:24:18 +0200",
+    "published_at": "2015-04-10 18:24:18 +0100",
     "category": {
       "name": "Event",
       "plural": "Events",
@@ -26864,7 +27868,7 @@
       "short_name": "jackshirazi"
     },
     "published": true,
-    "published_at": "2014-11-18 14:02:36 +0100",
+    "published_at": "2014-11-18 13:02:36 +0000",
     "category": {
       "name": "Tutorial",
       "plural": "Tutorials",

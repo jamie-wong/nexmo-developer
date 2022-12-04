@@ -60,7 +60,7 @@ In the majority of cases, you will receive the same service, as Vonage takes car
 |---|---|---|
 | Message Throughput | Auto-scales to around 80 messages per second | Around 20 messages per second by default, and this can be scaled on request |
 | Encryption | Messages are sent securely to WhatsApp’s service where they are decrypted before being passed through the WhatsApp networks securely using the Signal protocol to end users | Messages are end-to-end encrypted between Vonage and end users using the signal protocol |
-| Feature differences | WhatsApp’s hosting does not currently support stickers or product messages. (These are expected to be available by the second half of 2022) | Stickers or product messages are supported |
+| Feature differences | WhatsApp’s hosting does not currently support stickers.| Stickers are supported |
 
 > **NOTE:** WhatsApp numbers provisioned on WhatsApp Cloud Hosting are currently unable to send messages to the following destinations:
 >
@@ -68,7 +68,7 @@ In the majority of cases, you will receive the same service, as Vonage takes car
 
 **Which Option Should You Choose?**
 
-Unless you specifically need the stickers and product messages features or need to send messages to the destinations listed in the above note, for new customers setting up their WhatsApp account directly through the [Vonage dashboard](https://dashboard.nexmo.com/) we recommend using WhatsApp’s hosting as we can get your number ready instantly.
+Unless you specifically need the stickers feature or need to send messages to the destinations listed in the above note, for new customers setting up their WhatsApp account directly through the [Vonage dashboard](https://dashboard.nexmo.com/) we recommend using WhatsApp’s hosting as we can get your number ready instantly.
 
 **How to enable WhatsApp’s number hosting**
 
@@ -91,7 +91,7 @@ Message Template | Message Templates are created in the WhatsApp Manager. Outsid
 Media Message Templates | Media message templates expand the content you can send to recipients beyond the standard message template type to include media, headers, and footers using a `components` object.
 Contacts Message | Send a contact list as a message.
 Location Message | Send a location as a message.
-Interactive Message | The Vonage Messages API v1 supports two types of WhatsApp Interactive Messages: **List Messages** and **Reply Buttons**. [Read more](/messages/concepts/whatsapp-interactive-messages)
+Interactive Message | The Vonage Messages API v1 supports two types of WhatsApp Interactive Messages: **List Messages**, **Reply Buttons**, and **Product Messages**. [Read more](/messages/concepts/whatsapp-interactive-messages)
 
 ## How WhatsApp works
 
@@ -163,6 +163,7 @@ For more information see the [WhatsApp Provisioning API](/messages/whatsapp-prov
 * [Custom objects](/messages/concepts/custom-objects)
 * [Interactive Messages: Overview](/messages/concepts/whatsapp-interactive-messages)
 * [Working with Interactive Messages](/messages/concepts/working-with-whatsapp-interactive-messages)
+* [Product Messages: Overview](/messages/concepts/whatsapp-product-messages)
 
 WhatsApp developer documentation:
 
@@ -174,3 +175,4 @@ WhatsApp developer documentation:
 * [Contacts message](https://developers.facebook.com/docs/whatsapp/api/messages/others#contacts-messages)
 * [Location message](https://developers.facebook.com/docs/whatsapp/api/messages/others#location-messages)
 * [Interactive Message](https://developers.facebook.com/docs/whatsapp/guides/interactive-messages)
+* [Product Messages](https://developers.facebook.com/docs/whatsapp/on-premises/guides/commerce-guides)

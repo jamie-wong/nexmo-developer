@@ -1,0 +1,14 @@
+{
+  "bio": "Long ago, in the dark ages before Google and StackOverflow, Chuck learned how to program. Those were the times when all you had to go on was the documentation or the source code itself. From humble beginnings as a Jr Full Stack developer, Chuck grew into the developer he is today, building out the tools that empower fellow developers to create amazing products. When he is not forging new tools, you can find him climbing up a mountain or on his bike.",
+  "hidden": false,
+  "image_url": "/content/images/besthead.png",
+  "name": "Chuck Reeves",
+  "twitter": "manchuck",
+  "github_url": "https://github.com/manchuck",
+  "spotlight": false,
+  "title": "Sr JavaScript Developer Advocate",
+  "email": "chuck.reeves@vonage.com",
+  "noteworthy": false,
+  "team": true,
+  "alumni": false
+} 
