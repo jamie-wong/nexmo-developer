@@ -15,8 +15,3 @@ Error | Details | Resolution
 `invalid-campaign-data` | There are errors in the campaign data submitted. | Ensure all required fields have values and correct any errors to values in the specified fields.
 `numbers-already linked` | The number you are attempting to link is already linked to another campaign. | You must link a unique number to a campaign. Link a different number to this campaign.
 `invalid-number-data` | There are errors in the number data submitted. | Ensure all required fields have values and correct any errors to values in the specified fields.
-`illegal-sender-address` | The number you are trying to send from is not a US-approved long number or a Vonage number. | Check to ensure the number matches the one from your Vonage dashboard.
-`submission-throttled` | Submission Control throttled due to max volume reached for this period.
-| Once the number of requests drops from its current high, the quota per period will be restored.
-`daily-submission-throttled` | Daily Limit Surpassed - Submission Control throttled due to max volume reached for this period
- | Once the number of requests drops from its current high, the quota per period will be restored.
