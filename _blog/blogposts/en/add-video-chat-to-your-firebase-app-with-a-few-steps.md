@@ -65,7 +65,7 @@ If you are more of a visual person, here is a video walkthrough of installing th
 
 <youtube id="ZCLo47Toc40"></youtube>
 
-#
+<br>
 # Giving it a try?
 
 As always, we welcome any questions, comments, and feedback. We want to hear about your experience with the extension. Feel free to post in our [Community Slack Channel](https://developer.vonage.com/community/slack). If you are on Twitter, follow the [VonageDev](https://twitter.com/vonagedev) account to receive the latest updates.
