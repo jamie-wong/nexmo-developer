@@ -161,6 +161,6 @@ snakeviz send_sms.prof
 
 ## What's next?
 
-If you follow the suggestions in this article, you'll be in a great position to start building trust, tackling technical debt and making changes to your codebase. [Click here for Part 2, where we'll talk about all this in detail](https://developer.vonage.com/blog/22/11/28/improve-your-software-project-part-two-making-changes).
+If you follow the suggestions in this article, you'll be in a great position to start building trust, tackling technical debt and making changes to your codebase. [Click here for Part 2, where we'll talk about all of this in detail](https://developer.vonage.com/blog/22/11/28/improve-your-software-project-part-two-making-changes).
 
 If you want to get in touch, you can reach out to us on our [Vonage Community Slack](https://developer.vonage.com/community/slack) or send us a message on [Twitter](https://twitter.com/VonageDev).
