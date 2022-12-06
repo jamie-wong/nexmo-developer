@@ -98,17 +98,26 @@ Each campaign registered for 10DLC requires a full Brand and Campaign use case a
 
 |   Name    | Description |
 | ----------- | ----------- |
+|   Label  | Name associated with this campaign.|
 |   Subscriber Opt-in    | Record that the subscriber has opted into the receiving the messages. |
 |   Subscriber Opt-out    | The subscriber has the ability to opt-out of receiving messages through keywords e.g., "STOP", "QUIT", etc. |
 |   Subscriber Help    | There is a 'help' mechanism through MO help key words such as 'HELP', 'INFO'. |
 |   Age Gated    | Message content is age gated. |
 |   Direct Lending    | Messages contain direct lending or loan arrangement content. |
-|   Affiliate Marketing    | Messages are controlled by an affiliate other than the brand. |
 |   Embedded Link    | There is a call-to-action link/URL to be embedded in all messages sent. |
 |   Embedded Phone    | There is a call-to-action phone number to be embedded in all messages. |
-|   Number Pool    | If a campaign is using over 50 numbers, it needs to be specified as using a Pool as this can be seen as trying to snowshoe. |
+|   Number Pool    | If a campaign is using over 50 numbers, it needs to be specified as using a Pool. |
 |   Minimum Number of Use Cases    | Minimum number of message examples for approval. |
 |   Maximum Number of Use Cases    | Maximum number of message examples for approval. |
+|Sample One, Sample Two, Sample Three, Sample Four, Sample Five messages| Message samples (used by carriers to check adherence to the use case). Some campaign tiers require more than one message sample.|
+|Direct Lending| Messages are related to money lending or loan arrangements.|
+|Opt-in Message|Opt in message sent to confirmation enrollment to a recurring message campaign. Also provides information on how to get `HELP` or undo enrollment. If consumers can text in a keyword, the response should include the Brand name.**NB: Required if recipient opted in via SMS**|
+|Opt-out Message|Opt out message for the campaign. The response to the `STOP` keyword may include the Brand name but should include an acknowledgement of the opt-out request and confirmation that no further messages will be sent.**NB: Required if recipient opted in via SMS**|
+|Message Flow|Describes what the opt-in option was used for.|
+|Help Message|Help Message for the campaign|
+|opt-in keywords|Opt in keywords for the campaign|
+|opt-out keywords|Opt out keywords for the campaign|
+|Help keywords|Help keywords for the campaign|
 
 ## Register a campaign from the Vonage API Developer Dashboard
 
