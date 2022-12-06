@@ -146,7 +146,6 @@ navigation_overrides:
   meetings:
     svg: 'video-conference'
     svgColor: 'purple'
-    label: 'Beta'
   dispatch:
     svg: 'flow'
     svgColor: 'purple'

@@ -18,10 +18,6 @@ Please read this information carefully, so you can best use the code snippets.
 
 If you don’t have a Vonage account yet, you can get sign up for one here: [Vonage Developers Account](https://ui.idp.vonage.com/ui/auth/registration?icid=tryitfree_adpdocs_nexmodashbdfreetrialsignup_inpagelink).
 
-#### Meetings API Activation
-
-To activate the Meetings API, you need to register with us. Please send an email request, with your API key from the [Vonage API Dashboard](https://dashboard.nexmo.com), to the [Meetings API Team](mailto:meetings-api@vonage.com).
-
 #### Application ID and Private Key
 
 Once you’re logged in to the [Vonage API Dashboard](https://dashboard.nexmo.com), click on Applications and create a new Application. Generate a public and private key and record the private key.
