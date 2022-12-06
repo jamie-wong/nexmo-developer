@@ -63,9 +63,9 @@ Throughput is considered at campaign level.
 | Emergency      | Notification services designed to support public safety / health during natural disasters, armed conflicts, pandemics and other national or regional emergencies.       | Fire brigade, Weather alerts, Terror attacks      | TBD       |
 | K-12 Education      | Campaigns created for messaging platforms that support schools from grades K-12 and distant learning centers.       | K-12 schools only      | TBD       |
 | Sweepstakes      | All sweepstakes messaging.       | Contests, Lotteries	      | TBD       |
-| Political      | Part of organized effort to influence decision making of specific groups. All campaigns to be verified. Only federal campaigns. **Non-Profit only.**       | Democratic party, Republican party      | TBD       |
+| Political      | Part of organized effort to influence decision making of specific groups. All campaigns to be verified. Only federal campaigns. **Non-Profit only.**       | Democratic party, Republican party      | Political vetting is required       |
 | Social      | Social is restricted for Social influencers.       | Youtube influencer notifications, Celebrity alerts      | Subscriber Opt-in, Subscriber Opt-out, Subscriber help, Requires double opt-in       |
-| Sole Proprietor      | **Limited to entities without EIN / Tax ID.**       | Developer testing account, Single individual      | 1 Campaign & maximum of 5 numbers, No vetting        |
+| Sole Proprietor      | **Limited to entities without EIN / Tax ID.**       | Developer testing account, Single individual      | 1 Campaign & maximum of 5 numbers, no political campaigns allowed|
 
 ### Special Campaigns (Per number basis throughput considerations)
 
