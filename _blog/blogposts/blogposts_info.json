@@ -1,5 +1,45 @@
 [
   {
+    "title": "Startup Spotlight Series: Let's Meet Zenhome",
+    "description": "In this edition of the Vonage Startup Spotlight, meet Paris based tech startup Zenhome",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/startup-spotlight-series-lets-meet-zenhome/meet-brickeo.png",
+    "author": {
+      "bio": "Filippos is running our Startup program at Vonage. He is passionate about all things innovation, startups and positive social impact.",
+      "hidden": false,
+      "image_url": "/content/images/t02nnhd8s-u01bfpcfu6m-60e718bd0e6e-512.png",
+      "name": "Filippos Kyprianou",
+      "linkedin_url": "https://www.linkedin.com/in/filipposkyprianou/",
+      "twitter": "FilipposKyp",
+      "spotlight": false,
+      "title": "Vonage for Startups",
+      "email": "Filippos.Kyprianou@vonage.com",
+      "noteworthy": false,
+      "team": true,
+      "alumni": false,
+      "short_name": "filippos-kyprianou"
+    },
+    "published": true,
+    "published_at": "2022-12-07 11:02:00 UTC",
+    "updated_at": "2022-12-07 11:02:00 UTC",
+    "category": {
+      "name": "Startup",
+      "plural": "Startups",
+      "slug": "startup",
+      "color": "#fa7454"
+    },
+    "tags": [
+      "startups",
+      "video-api"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/22/12/07/startup-spotlight-series-lets-meet-zenhome",
+    "filename": "startup-spotlight-series-lets-meet-zenhome"
+  },
+  {
     "title": "Meetings API Is Here!",
     "description": "The Vonage Meetings API is here! Here are some advantages, code samples, and other reasons to give it a try.",
     "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/meetings-api-is-here/meetings_api.png",
@@ -9463,6 +9503,36 @@
     "filename": "technical-guide-for-us-short-code-api-deprecation-1"
   },
   {
+    "title": "Introducing RxZu, an Engine for Intuitive Graphs",
+    "description": "RxZu is a diagrams engine system, built on top of RxJS, that takes the  graphic visualization to the next level in terms of performance, optimization, and customizability.",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/introducing-rxzu-an-engine-for-intuitive-graphs/Blog_1200x600.png",
+    "author": {
+      "team": true,
+      "name": "Avital Tzubeli",
+      "image_url": "https://secure.gravatar.com/avatar/c4fa0b461da586a7084b72403f44ad76?s=384&d=mm&r=g",
+      "bio": "Avital Tzubeli is a Developer Advocate at Vonage, where she’ll be building the local Vonage community in Tel Aviv. She’s originally from Miami Beach, and first spoke Spanish and Hebrew, before learning all her English from Harry Potter books. She studied CS and wrote some Java in NYC, then moved to Tel Aviv in search of better weather… where she fortunately also discovered the world of Developer Relations. Avital considers herself a storyteller, and loves the challenge of turning technical content into magical fairytales.",
+      "website_url": "",
+      "short_name": "avital-tzubelivonage-com"
+    },
+    "published": false,
+    "published_at": "2021-02-17 13:34:35 UTC",
+    "updated_at": "2021-02-17 13:34:35 UTC",
+    "category": {
+      "name": "Engineering",
+      "plural": "Posts by Engineering",
+      "slug": "engineering",
+      "color": "#669fc4"
+    },
+    "tags": [
+      "angular",
+      "rxjs"
+    ],
+    "canonical": "",
+    "locale": "en",
+    "link": "blog/21/02/17/introducing-rxzu-an-engine-for-intuitive-graphs",
+    "filename": "introducing-rxzu-an-engine-for-intuitive-graphs"
+  },
+  {
     "title": "Setting up CI/CD with Github Actions",
     "description": "This article walks you through the process of using github actions to build CI/CD flows.",
     "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/setting-up-ci-cd-with-github-actions/Blog_GitHub-Desktop_1200x600.png",
@@ -9523,36 +9593,6 @@
     "locale": "en",
     "link": "blog/21/02/17/quality-and-velocity-our-seven-year-journey-to-availability",
     "filename": "quality-and-velocity-our-seven-year-journey-to-availability"
-  },
-  {
-    "title": "Introducing RxZu, an Engine for Intuitive Graphs",
-    "description": "RxZu is a diagrams engine system, built on top of RxJS, that takes the  graphic visualization to the next level in terms of performance, optimization, and customizability.",
-    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/introducing-rxzu-an-engine-for-intuitive-graphs/Blog_1200x600.png",
-    "author": {
-      "team": true,
-      "name": "Avital Tzubeli",
-      "image_url": "https://secure.gravatar.com/avatar/c4fa0b461da586a7084b72403f44ad76?s=384&d=mm&r=g",
-      "bio": "Avital Tzubeli is a Developer Advocate at Vonage, where she’ll be building the local Vonage community in Tel Aviv. She’s originally from Miami Beach, and first spoke Spanish and Hebrew, before learning all her English from Harry Potter books. She studied CS and wrote some Java in NYC, then moved to Tel Aviv in search of better weather… where she fortunately also discovered the world of Developer Relations. Avital considers herself a storyteller, and loves the challenge of turning technical content into magical fairytales.",
-      "website_url": "",
-      "short_name": "avital-tzubelivonage-com"
-    },
-    "published": false,
-    "published_at": "2021-02-17 13:34:35 UTC",
-    "updated_at": "2021-02-17 13:34:35 UTC",
-    "category": {
-      "name": "Engineering",
-      "plural": "Posts by Engineering",
-      "slug": "engineering",
-      "color": "#669fc4"
-    },
-    "tags": [
-      "angular",
-      "rxjs"
-    ],
-    "canonical": "",
-    "locale": "en",
-    "link": "blog/21/02/17/introducing-rxzu-an-engine-for-intuitive-graphs",
-    "filename": "introducing-rxzu-an-engine-for-intuitive-graphs"
   },
   {
     "title": "Announcing Vonage Ruby SDK Version 7.3.0",
