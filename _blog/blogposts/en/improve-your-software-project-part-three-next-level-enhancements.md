@@ -26,7 +26,7 @@ The examples in this post will be written in Python, but these principles apply 
 
 1. [Part One: Understanding a Codebase](https://developer.vonage.com/blog/22/11/15/improve-your-software-project-part-one-understanding-a-codebase)
 2. [Part Two: Making Changes](https://developer.vonage.com/blog/22/11/28/improve-your-software-project-part-two-making-changes)
-3. Part Three: Taking Things to the Next Level, And Handing Over (this article)
+3. Part Three: Next Level Enhancements (this article)
 
 If you followed [Part One](https://developer.vonage.com/blog/22/11/15/improve-your-software-project-part-one-understanding-a-codebase) and [Part Two](https://developer.vonage.com/blog/22/11/28/improve-your-software-project-part-two-making-changes) of this series, you'll have a good understanding of your project and may have already done some refactoring, added features and released new versions.
 

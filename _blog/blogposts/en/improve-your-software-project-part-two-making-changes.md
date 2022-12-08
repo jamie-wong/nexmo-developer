@@ -26,7 +26,7 @@ The examples in this post will be written in Python, but these principles apply 
 
 1. [Part One: Understanding a Codebase](https://developer.vonage.com/blog/22/11/15/improve-your-software-project-part-one-understanding-a-codebase)
 2. Part Two: Making Changes (this article)
-3. Part Three: Taking Things to the Next Level (will be published soon!)
+3. [Part Three: Next Level Enhancements](https://developer.vonage.com/blog/22/12/08/improve-your-software-project-part-three-next-level-enhancements)
 
 ## What does Part Two cover?
 
@@ -217,6 +217,8 @@ Something that helped a lot with this process was creating work tickets for disc
 
 ## What's next?
 
-If you followed the suggestions in this article, your project will be looking much better already! The releases you make will lay the groundwork for all the great things you want to do with your project. Check back soon for Part 3, where I'll explain some ways you can enhance your project and take it to the next level.
+If you followed the suggestions in this article, your project will be looking much better already! The releases you make will lay the groundwork for all the great things you want to do with your project. 
 
-In the meantime, you can reach out to us on our [Vonage Community Slack](https://developer.vonage.com/community/slack) or send us a message on [Twitter](https://twitter.com/VonageDev).
+[Click here to read Part 3 of the series](https://developer.vonage.com/blog/22/12/08/improve-your-software-project-part-three-next-level-enhancements), where I'll explain ways to take your project to the next level. We'll talk about enhancements that benefit your users, as well as things that make the codebase easier to work with. Finally, we'll explain best practices for handing over a project.
+
+Have a question/want to share your thoughts? You can reach out to us on our [Vonage Community Slack](https://developer.vonage.com/community/slack) or send us a message on [Twitter](https://twitter.com/VonageDev).
