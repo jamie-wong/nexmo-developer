@@ -26,7 +26,7 @@ The examples in this post will be written in Python, but these principles apply 
 
 1. Part One: Understanding a Codebase (this article)
 2. [Part Two: Making Changes](https://developer.vonage.com/blog/22/11/28/improve-your-software-project-part-two-making-changes)
-3. Part Three: Taking Things to the Next Level (will be published soon!)
+3. [Part Three: Taking Things to the Next Level](https://developer.vonage.com/blog/22/12/08/improve-your-software-project-part-three-next-level-enhancements)
 
 # What does this series cover?
 
