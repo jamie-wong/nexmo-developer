@@ -1,3 +1,4 @@
+---
 title: "Improve Your Software Project - Part Three: Next Level Enhancements"
 description: Want to update an old project? This will help!
 thumbnail: /content/blog/improve-your-software-project-part-three-next-level-enhancements/part-three.png
