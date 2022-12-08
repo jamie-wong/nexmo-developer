@@ -1,15 +1,12 @@
----
 title: "Improve Your Software Project - Part Three: Next Level Enhancements"
 description: Want to update an old project? This will help!
-thumbnail: /content/blog/improve-your-software-project-part-two-making-changes/making-projects-better_part-three.png
+thumbnail: /content/blog/improve-your-software-project-part-three-next-level-enhancements/part-three.png
 author: max-kahan
-published: 
-published_at:
-updated_at: 
+published: true
+published_at: 2022-12-08T12:27:21.075Z
+updated_at: 2022-12-08T12:25:56.877Z
 category: inspiration
 tags:
-  - technical-debt
-  - enhancement
   - python
 comments: true
 spotlight: false
