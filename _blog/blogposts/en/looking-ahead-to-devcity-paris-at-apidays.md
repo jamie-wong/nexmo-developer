@@ -58,7 +58,7 @@ Head to the Vonage VIP area for exclusive hospitality, even more great swag and 
 
 ## Get your FREE DevCity Paris and apidays Paris tickets now!
 
-There really is something for everyone on offer, so we can’t wait to see you all there - either at our booth, in one of our sessions, at DevCity Paris or on the dance floor of the Soirée. 
+There really is something for everyone on offer, so we can’t wait to see you all there - either at our booth (S222), in one of our sessions, at DevCity Paris or on the dance floor of the Soirée. 
 
 [Sign-up for DevCity Paris](https://events.vonage.com/DevCityParis) 
 
