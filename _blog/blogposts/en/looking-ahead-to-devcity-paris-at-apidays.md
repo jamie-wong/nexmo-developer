@@ -36,7 +36,7 @@ Elsewhere at the conference we are running two content sessions;
 
 14th December, 16:55, Stage 7
 
-* Paris based VP Sales EMEA, Vonage’s David Darmon will also be taking to the stage, so stay tuned for more details of his session. 
+* Paris based VP Sales EMEA, Vonage’s David Darmon will also be taking to the stage with a talk called "Become a Conversational Commerce Trailblazer – the Drive for CX Innovation".
 
 16th December, 9:55, Stage 3
 
