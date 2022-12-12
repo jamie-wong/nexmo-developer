@@ -36,7 +36,7 @@ Elsewhere at the conference we are running two content sessions;
 
 14th December, 16:55, Stage 7
 
-* Paris based VP Sales EMEA, Vonage’s David Darmon will also be taking to the stage, so stay tuned for more details of his session. 
+* Paris based VP Sales EMEA, Vonage’s David Darmon will also be taking to the stage with a talk called "Become a Conversational Commerce Trailblazer – the Drive for CX Innovation".
 
 16th December, 9:55, Stage 3
 
@@ -58,7 +58,7 @@ Head to the Vonage VIP area for exclusive hospitality, even more great swag and 
 
 ## Get your FREE DevCity Paris and apidays Paris tickets now!
 
-There really is something for everyone on offer, so we can’t wait to see you all there - either at our booth, in one of our sessions, at DevCity Paris or on the dance floor of the Soirée. 
+There really is something for everyone on offer, so we can’t wait to see you all there - either at our booth (S222), in one of our sessions, at DevCity Paris or on the dance floor of the Soirée. 
 
 [Sign-up for DevCity Paris](https://events.vonage.com/DevCityParis) 
 
