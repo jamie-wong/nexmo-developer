@@ -25,7 +25,7 @@ Today, we are pleased to announce a new tool called Campaign Manager API & UI th
 
 ## Terminology
 
-Once you log into your [Vonage Developer Portal](https://developer.vonage.com/), look under **Build & Manage**, and you will see **Campaign Manager API & UI**. Under **Configurations**, you'll see the following entries: Lists, Actions, Jobs, and Runs. Let's discuss what each of these means before moving forward. 
+Once you log into your [Vonage Developer Portal](https://developer.vonage.com/), look under **Build & Manage**, and you will see **Campaign Manager API & UI**. Under **Configurations**, you'll see the following entries: Lists, Actions, Jobs, and Runs. Let's discuss what each of these means before moving forward.
 
 * **List**: A List contains all the targets to run the Job. They can be directly uploaded at the creation time or imported from an external resource, like a file or CRM.
 * **Action**: An Action is typically used to send an SMS, WhatsApp Message, or make a phone call. Actions can also be used as reactions to trigger an API call upon receiving a response from the target user.
@@ -36,7 +36,7 @@ Once you log into your [Vonage Developer Portal](https://developer.vonage.com/),
 
 We'll begin by creating a new List. Go ahead and click on **Lists** under **Configuration**, and you'll see the following screen:
 
-![Lists](/content/blog/getting-started-with-the-campaign-manager-api-ui/lists.png "lists.png")
+![Lists](/content/blog/getting-started-with-the-campaign-manager-api-and-ui/lists.png "lists.png")
 
 Press **Create a new List**, and you'll be prompted to enter a **Name**, **Description**, and **Tags** for your list. We'll use **My Lists** for the **Name**, and for the **Description**, we'll use **This is my lists** and press **Next**.
 
@@ -54,27 +54,27 @@ Ben,Aronov,14259999996,Israel
 
 Select **Data Source** and change it to **Manual**. Copy the text listed above and save it as a CSV file. Drag and drop the CSV file to the designer, and now you'll assign a **Label name** with the label defined in the CSV File. For example, mine looks like the following:
 
-![Map Labels to names defined in the CSV](/content/blog/getting-started-with-the-campaign-manager-api-ui/csvlabels.png "csvlabels.png")
+![Map Labels to names defined in the CSV](/content/blog/getting-started-with-the-campaign-manager-api-and-ui/csvlabels.png "csvlabels.png")
 
-Finally, press the **Save** button. 
+Finally, press the **Save** button.
 
-You'll now have a **Lists** which defines whom to send the campaign to, along with the number of entries and when it was last modified. 
+You'll now have a **Lists** which defines whom to send the campaign to, along with the number of entries and when it was last modified.
 
-![Configured List](/content/blog/getting-started-with-the-campaign-manager-api-ui/configuredlist.png "configuredlist.png")
+![Configured List](/content/blog/getting-started-with-the-campaign-manager-api-and-ui/configuredlist.png "configuredlist.png")
 
 ## Creating a new Action
 
 Now that we have a **List**, we need to perform an action to send messages to the group using one of our communications APIs. Again, this could be via SMS, MMS, Facebook Messenger, Viber, WhatsApp, or voice. Select the **Actions** under **Configurations** and press **Create a new Action**. You'll see several pre-configured Actions that you can use or start from scratch.
 
-![Pre-configured actions](/content/blog/getting-started-with-the-campaign-manager-api-ui/preconfigured-actions.png "preconfigured-actions.png")
+![Pre-configured actions](/content/blog/getting-started-with-the-campaign-manager-api-and-ui/preconfigured-actions.png "preconfigured-actions.png")
 
-This is where we can start seeing the power of **Campaign Manager API & UI**. If we select the **SMS** pre-configured Action, it will automatically populate the fields, such as the **parameters** we'd like to use in the request, along with the **Command** used for the API call and **Response** settings that come back after a successful or unsuccessful call. 
+This is where we can start seeing the power of **Campaign Manager API & UI**. If we select the **SMS** pre-configured Action, it will automatically populate the fields, such as the **parameters** we'd like to use in the request, along with the **Command** used for the API call and **Response** settings that come back after a successful or unsuccessful call.
 
-The image below shows the command and headers to send an SMS message via the Vonage APIs. 
+The image below shows the command and headers to send an SMS message via the Vonage APIs.
 
-![SMS actions](/content/blog/getting-started-with-the-campaign-manager-api-ui/smsaction.png "smsaction.png")
+![SMS actions](/content/blog/getting-started-with-the-campaign-manager-api-and-ui/smsaction.png "smsaction.png")
 
-We will leave all the settings as default, so go ahead and press the **Save** button. 
+We will leave all the settings as default, so go ahead and press the **Save** button.
 
 ## Creating a Job to run the Action
 
@@ -92,31 +92,31 @@ We'll provide the following information to this form:
 * Description: This message will go out to US-based customers.
 * Condition: item.Location == "USA"
 * Recipient: {{item.Number}}
-* Template Message: Hello {{firstName}}, please visit vonage.com/usa to get your discount code. 
+* Template Message: Hello {{firstName}}, please visit vonage.com/usa to get your discount code.
 
-Note the information that we provided for the **Condition**. This matches the **Location** column from the CSV file to match only entries containing **USA**. Which, in this case, is only two entries. The **Recipient** field also uses the same data source and retrieves the **Number** provided in the CSV File. Finally, we provide a **Template Message**, that uses the **FirstName** of the customer to send location-specific instructions. 
+Note the information that we provided for the **Condition**. This matches the **Location** column from the CSV file to match only entries containing **USA**. Which, in this case, is only two entries. The **Recipient** field also uses the same data source and retrieves the **Number** provided in the CSV File. Finally, we provide a **Template Message**, that uses the **FirstName** of the customer to send location-specific instructions.
 
-The only remaining thing to do is specify which **Action** we want to use for that **Segment**. I'll click on the drop-down and select **vg-send-sms**, which we defined earlier, and by default, it will automatically populate the **Action parameters** as shown below. 
+The only remaining thing to do is specify which **Action** we want to use for that **Segment**. I'll click on the drop-down and select **vg-send-sms**, which we defined earlier, and by default, it will automatically populate the **Action parameters** as shown below.
 
-![configured actions](/content/blog/getting-started-with-the-campaign-manager-api-ui/configure-actions.png "configure-actions.png")
+![configured actions](/content/blog/getting-started-with-the-campaign-manager-api-and-ui/configure-actions.png "configure-actions.png")
 
-Go ahead and press **Next**, and you'll reach the final step in creating a new job. Here you'll be allowed to define how you'll handle the responses from each of your chosen segments. This is optional, and for now, we'll press **Save** to continue. 
+Go ahead and press **Next**, and you'll reach the final step in creating a new job. Here you'll be allowed to define how you'll handle the responses from each of your chosen segments. This is optional, and for now, we'll press **Save** to continue.
 
-Keep in mind that if we wanted to create another **Segment** that targeted individuals living in the **UK**, we could press the **Create a Segment** button again and modify our **Condition** to match that location, along with a customized **Template Message** for that locale. We could also specify an **Action** that uses something besides the SMS API. For example, we could use Facebook Messenger, WhatsApp, etc. 
+Keep in mind that if we wanted to create another **Segment** that targeted individuals living in the **UK**, we could press the **Create a Segment** button again and modify our **Condition** to match that location, along with a customized **Template Message** for that locale. We could also specify an **Action** that uses something besides the SMS API. For example, we could use Facebook Messenger, WhatsApp, etc.
 
 ## Scheduling a Run
 
-The final step in creating a campaign is to create a **Run**. This is a scheduled job that will run at the interval specified. Select the **Runs** under **Configurations** and press **Schedule a Run**. 
+The final step in creating a campaign is to create a **Run**. This is a scheduled job that will run at the interval specified. Select the **Runs** under **Configurations** and press **Schedule a Run**.
 
 You'll be prompted to enter your list's **Name**, **Description**, and **Job**. We'll use **My Run** for the **Name**, and for the **Description**, we'll use **This is my new Run**. We'll also need to select a **Job**, so I'll select **My New Job** from the dropdown.
 
-Next, we need to **Schedule** when the **Run** will take place. Please note that the displayed start and end dates are in UTC. Once complete, press **Schedule** as shown below. 
+Next, we need to **Schedule** when the **Run** will take place. Please note that the displayed start and end dates are in UTC. Once complete, press **Schedule** as shown below.
 
-![Create a Run](/content/blog/getting-started-with-the-campaign-manager-api-ui/create-a-run.png "create-a-run.png")
+![Create a Run](/content/blog/getting-started-with-the-campaign-manager-api-and-ui/create-a-run.png "create-a-run.png")
 
 If we now go to the **Runs** section and click on **Overview** and **Show More**, we can get detailed information about the run results.
 
-![Run Results](/content/blog/getting-started-with-the-campaign-manager-api-ui/run-results.png "run-results.png")
+![Run Results](/content/blog/getting-started-with-the-campaign-manager-api-and-ui/run-results.png "run-results.png")
 
 ## Wrap-up
 
