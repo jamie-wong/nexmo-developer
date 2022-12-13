@@ -118,13 +118,13 @@ A participant minute is charged per participant per minute in a session; the rat
 
 From | To | Per Minute Rate
 -- | :--: | :--:
-0 | 100,000 | $0.00475
-100,000 | 1,000,000 | $0.00428
-1,000,000 | 5,000,000 | $0.00385
-5,000,000 | 15,000,000 | $0.00327
-15,000,000 | Onwards | $0.00262
+0 | 100,000 | €0.00475
+100,000 | 1,000,000 | €0.00428
+1,000,000 | 5,000,000 | €0.00385
+5,000,000 | 15,000,000 | €0.00327
+15,000,000 | Onwards | €0.00262
 
-For example, if you have used up to 100,000 participant minutes it would cost $1.14 for a 1h call with 4 participants, charged at $0.00475 per minute.
+For example, if you have used up to 100,000 participant minutes it would cost €1.14 for a 1h call with 4 participants, charged at €0.00475 per minute.
 
 ### Recording Minutes
 
@@ -132,16 +132,16 @@ A recording minute is charged per minute a session is recorded; the rate per min
 
 From | To | Per Minute Rate
 -- | :--: | :--:
-0 | 50,000 | $0.025
-50,001 | 250,000 | $0.018
-250,001 | 500,000 | $0.015
-500,001 | 1,000,000 | $0.012
-1,000,001 | 2,000,000 | $0.01
-2,000,001 | Onwards | $0.0085
+0 | 50,000 | €0.035
+50,001 | 250,000 | €0.029
+250,001 | 500,000 | €0.027
+500,001 | 1,000,000 | €0.023
+1,000,001 | 2,000,000 | €0.0185
+2,000,001 | Onwards | €0.016
 
-For example, if you have used up to 50,000 minutes it would cost $1.50 to record a 1h call, charged at $0.025 per minute.
+For example, if you have used up to 50,000 minutes it would cost €2.10 to record a 1h call, charged at €0.035 per minute.
 
-> The total cost for a call made through the Meetings API = Participant Minutes + Recording Minutes. In the above examples, your total cost would be **$1.14** + **$1.50** = **$2.64**
+> The total cost for a call made through the Meetings API = Participant Minutes + Recording Minutes. In the above examples, your total cost would be **€1.14** + **€2.10** = **€3.24**
 
 ## Reference
 

@@ -22,6 +22,10 @@ If you don’t have a Vonage account yet, you can get sign up for one here: [Von
 
 Once you’re logged in to the [Vonage API Dashboard](https://dashboard.nexmo.com), click on Applications and create a new Application. Generate a public and private key and record the private key.
 
+Also ensure that the Meetings API is enabled for your application under 'Capabilities':
+
+![Enable the Meetings API for your application using the dashboard](/images/meetings/meetings-application.png)
+
 #### JSON Web Token (JWT)
 
 JWTs are used by the Meetings API to authenticate your requests. Use the [JWT Generator](https://developer.vonage.com/jwt) to create a JWT using the Application ID and Private Token mentioned above.
