@@ -3,7 +3,7 @@ title: Ericsson Global Hackathon / Non-Hackathon | Autumn 2022
 description: Learn about the Ericsson Global Hackathon / Non-Hackathon that
   occurred in Autumn 2022
 thumbnail: /content/blog/ericsson-global-hackathon-non-hackathon-autumn-2022/ericsson-global-hackathon.png
-author: outi-väättänen
+author: outi-vaattanen
 published: true
 published_at: 2022-12-13T21:04:54.893Z
 updated_at: 2022-12-13T21:04:54.951Z
@@ -19,9 +19,7 @@ canonical: ""
 outdated: false
 replacement_url: ""
 ---
-**Ericsson Global Hackathon / Non-Hackathon – Autumn 2022**
-
-Ericsson's Hackathon slogan is "Time to innovate, time to experiment, time to concentrate, time to learn,"andour Autumn Hackathon truly embodied it!
+Ericsson's Hackathon slogan is "Time to innovate, time to experiment, time to concentrate, time to learn," and our Autumn Hackathon truly embodied it!
 
 **Time to innovate**
 
@@ -47,8 +45,6 @@ Vinoth Somasundaram and Vikram S B innovated a solution where it is possible to 
 
 ![Pictured Vinoth Somasundaram and Vikram S B](/content/blog/ericsson-global-hackathon-non-hackathon-autumn-2022/vikram-vinoth.png "Pictured Vinoth Somasundaram and Vikram S B")
 
-Vinoth Somasundaram and Vikram S B
-
 While doing that, Vinoth and Vikram wanted to experiment with the Vonage AI Studio. How did they come up with the experiment? "The AI studio – conversation designer caught our eyes. It was cool – as we know the pain of building AI conversation in earlier days using NLP and how bad it is without a good training set. AI studio was cool; initially, we could not think of any catchy enterprise use cases. But soon, we started thinking about something that could simplify crowdsourcing with a tangible business and societal impact. We believe the messenger applications like WhatsApp or Telegram will become the new Super APP. We aimed to demonstrate that the developer community can easily build value-added products using this ecosystem and monetize, which is a clear win-win."
 
 How was it to use the Vonage APIs? "Very intuitive. Conceiving an idea, prototyping, and publishing it to the real world within hours gives a sense of satisfaction that PowerPoints do not. No offense." Therefore, Vinoth and Vikram needed to concentrate on their idea only for a couple of hours.
@@ -65,6 +61,6 @@ Emil Zhang, Jianshao Wu, Xiaocong Zhong, and Zhipeng Kong decided to innovate ar
 
 Ingit Kumar Saxena and Diksha Sharma B proposed an innovative idea about incident notifications and experimented with Vonage APIs for this purpose. When concentrating on exploring the APIs, they noticed that they are easy to use and that the documentation is user-friendly. While experimenting, they learned that Vonage has many other APIs available "We got to explore many other APIs, like the ones related to video and verification, which can also be used in other use cases."
 
-**Hackathons/Non-Hackathons give us all endless possibilities to do things we are passionate about with like-minded people. They provide us with time to innovate, time to experiment, time to concentrate, and time to learn.\*\*** This may be something for you to consider as well!\*\*
+**Hackathons/Non-Hackathons give us all endless possibilities to do things we are passionate about with like-minded people. They provide us with time to innovate, time to experiment, time to concentrate, and time to learn.** This may be something for you to consider as well!
 
 Learn more about Ericsson's Hackathon culture by watching [a video](https://www.youtube.com/watch?v=FYEpBHNvL_U), hearing Hackathon stories from our colleagues, or reading [a blog post.](https://www.ericsson.com/en/blog/2020/7/hackathon-culture)
