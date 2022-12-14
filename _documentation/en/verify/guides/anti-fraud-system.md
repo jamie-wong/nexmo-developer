@@ -36,7 +36,7 @@ If you are using Verify V2, you can keep track of your volume and conversions by
 
 If your verification attempts are consistently returning error code 7: `This number is blacklisted for verification`, it is likely that the network has been blocked by the Verify Anti-Fraud System.
 
-You can unblock the network access for your account by using the [Network Unblock API](/api/verify#networkUnblock). But first we advise you to:
+You can unblock the network access for your account by using the [Network Unblock API](/verify/guides/network-unblock). But first we advise you to:
 
 * Check the most recent blocked verification attempts sent to this network (or country)
 * Confirm that they are legitimate verification attempts

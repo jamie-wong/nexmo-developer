@@ -22,7 +22,7 @@ The `network` code provided in the error can be used to unblock the network via 
 
 ## Account Setup
 
-The Network Unblock API is available for use with both Verify V1 and Verify V2. In order to use the API, you need to have the account capability: `verify-allow-network-unblock`. Once you have that capability assigned, you are able to use the API to unblock your blocked network.
+The Network Unblock API is available for use with both Verify V1 and Verify V2. In order to use the API, you need to have the account capability: `verify-allow-network-unblock`, which you can request from [Sales](https://www.vonage.com/communications-apis/verify/). Once you have that capability assigned, you are able to use the API to unblock your blocked network.
 
 ## Making a Request
 
