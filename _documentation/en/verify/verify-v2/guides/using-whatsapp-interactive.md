@@ -6,7 +6,7 @@ navigation_weight: 2
 
 # Using WhatsApp Interactive with Verify V2
 
-WhatsApp Interactive can be used with Verify V2 to provide a better user experience; rather than entering a PIN code, the user presses YES or NO to authenticate:
+WhatsApp Interactive can be used with Verify V2 to provide a better user experience; rather than entering an OTP, the user presses YES or NO to authenticate:
 
 ![Example Verification message using WhatsApp Interactive](/images/verify-whatsapp-interactive-1.png)
 
