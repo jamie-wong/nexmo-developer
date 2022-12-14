@@ -8,7 +8,9 @@ navigation_weight: 2
 
 WhatsApp Interactive can be used with Verify V2 to provide a better user experience; rather than entering an OTP, the user presses YES or NO to authenticate:
 
-![Example Verification message using WhatsApp Interactive](/images/verify-whatsapp-interactive-1.png)
+<div align="center">
+    <img src="/images/verify-whatsapp-interactive-1.png" alt="Example Verification message using WhatsApp Interactive" />
+</div>
 
 ## Configure Your Application
 
@@ -42,7 +44,9 @@ Content-Type: application/json
 
 If delivery is successful, the user will receive the verification message and will be able to select YES or NO to authenticate:
 
-![Example Event Callback](/images/verify-whatsapp-interactive-3.png)
+<div align="center">
+    <img src="/images/verify-whatsapp-interactive-3.png" alt="The message will show YES or NO depending on the user's selection." />
+</div>
 
 ## Callback Responses
 
