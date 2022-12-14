@@ -38,6 +38,16 @@ Templates need to be approved by Meta before they can be used in a WhatsApp mess
 
 When creating Media Message Templates, you must first upload the media to be used to the WhatsApp platform (see [Uploading Media](#uploading-media)). Uploaded media will have a unique handle which can be specified when creating a template.
 
+### Language Variants
+
+You can create multiple variants of a template to cater for different languages. To do this, create a template with the same `name` and `category` as an existing template, and set `language` property and all the text content as appropriate for the new language variant. A list of supported languages is available in the [WhatsApp documentation](https://developers.facebook.com/docs/whatsapp/api/messages/message-templates/).
+
+### Template Categories
+
+There are currently three supported template categories, `TRANSACTIONAL`, `MARKETING`, and `OTP`. Any *new* template must use one of these categories.
+
+There are also a number of *legacy* categories: `ACCOUNT_UPDATE`, `PAYMENT_UPDATE`, `PERSONAL_FINANCE_UPDATE`, `SHIPPING_UPDATE`, `RESERVATION_UPDATE`, `ISSUE_RESOLUTION`, `APPOINTMENT_UPDATE`, `TRANSPORTATION_UPDATE`, `TICKET_UPDATE`, `ALERT_UPDATE` or `AUTO_REPLY`. Existing templates with one of these categories can still be used, but no new templates may be created using one of these categories. This restriction includes creating [language variants](#language-variants) of existing templates with one of these legacy categories. In other words, if you have an existing template with a legacy category it is not possible to create a new language variant of that template using the same category; you would need to create a *new* template with a different `name` using one of the supported categories, and this would be considered a completely separate template.
+
 > Note: each WhatsApp business account can have a maximum of 250 message templates, though each template can have multiple language versions. For example, a message template called `hello_world` translated into two languages counts as a single message template in regards to this limit.
 >
 > A WhatsApp Business Account can create a maximum of 100 message templates per hour.
