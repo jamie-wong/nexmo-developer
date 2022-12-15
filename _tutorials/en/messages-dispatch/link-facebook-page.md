@@ -26,7 +26,7 @@ Linking your Facebook page to your Vonage API account allows Vonage to handle in
 
 5. Click Complete setup.
 
-At this point your Vonage API Account and this Facebook Page are linked. The link between your Vonage API account and Facebook page expires after 90 days. After then you must re-link it using the same process.
+At this point your Vonage API Account and this Facebook Page are linked.
 
 ## Part 2: Link your Facebook Page to your Vonage application
 

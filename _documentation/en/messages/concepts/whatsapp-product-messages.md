@@ -208,5 +208,5 @@ The type of inbound message received will depend on the way in which the custome
 
 ## Code Examples
 
-* [Sending a Single Item Product Message](/messages/code-snippets/send-product-single)
-* [Sending a Multi Item Product Message](/messages/code-snippets/send-product-multiple)
+* [Sending a Single Item Product Message](/messages/code-snippets/whatsapp/send-product-single)
+* [Sending a Multi Item Product Message](/messages/code-snippets/whatsapp/send-product-multiple)
