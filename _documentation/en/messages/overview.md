@@ -51,7 +51,7 @@ Channel | Outbound Text | Outbound Image | Outbound Audio | Outbound Video | Out
 :--- | :---: | :---: | :---: | :---: | :---: | :---:
 SMS | ✅ | n/a | n/a | n/a | n/a | n/a
 MMS | ✅ | ✅ | ✅ | ✅ | ✅ | n/a
-Viber Business Messages | ✅ | ✅ | n/a | n/a | n/a | ✅
+Viber Business Messages | ✅ | ✅ | n/a | ✅ | ✅ | ✅
 Facebook Messenger | ✅ | ✅ | ✅ | ✅ | ✅ | ✅
 WhatsApp | ✅ | ✅ | ✅ | ✅ | ✅ | ✅
 
@@ -59,7 +59,7 @@ Channel | Inbound Text | Inbound Image | Inbound Audio | Inbound Video | Inbound
 :--- | :---: | :---: | :---: | :---: | :---: | :---:
 SMS | ✅ | n/a | n/a | n/a | n/a | n/a
 MMS | ✅ | ✅ | ✅ | ✅ | ✅ | n/a
-Viber Business Messages | ✅ | ✅ | n/a | n/a | n/a | n/a
+Viber Business Messages | ✅ | ✅ | n/a | ✅ | ✅ | n/a
 Facebook Messenger | ✅ | ✅ | ✅ | ✅ | ✅ | ✅
 WhatsApp | ✅ | ✅ | ✅ | ✅ | ✅ | ✅
 
@@ -84,6 +84,7 @@ WhatsApp | ✅ | ✅ | ✅
 1. MMS text supported as an optional caption in other message types (e.g. Image, Audio, Video).
 2. MMS Video and Audio supported for 10DLC (10 Digit Long Codes) and TFN (Toll-Free Numbers).
 3. MMS Files support `.vcf` (vCard) files only. Files supported on 10DLC and SC (Short Codes) numbers.
+4. MMS 10DLC and TFN numbers are only supported in Messages API `v1`
 
 ### Additional v1 Features
 
