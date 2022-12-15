@@ -145,16 +145,16 @@ The entire conversation can be recorded and viewed for optimization purposes in 
    * Choose what parameters we want to transfer the connector on the start conversation endpoint
    * Set up how long we’ll wait to the live agent response
 
-2. *Best Practice - Make sure you notify your end user they are being routed to a live agent before handing over the conversation. You can do so using the **Send Message node** .* 
+1. *Best Practice - Make sure you notify your end user they are being routed to a live agent before handing over the conversation. You can do so using the* **Send Message node**. 
 
-3. *If you want to **send media to the live agent** you can do this only on the WhatsApp channel. Please refer to the list of support media types below:*
+1. *If you want to* **send media to the live agent** *you can do this only on the WhatsApp channel. Please refer to the list of support media types below:*
 
    * *Images - jpg, jpeg, and png.*
    * *Audio - aac, m4a, amr, mp3 and opus*
    * *Video - mp4 and 3gpp. (Note, only H.264 video codec and AAC audio codec is supported.)*
    * *File - zip, csv, and pdf.*
 
-*To learn more about supported media types, please visit* **[this page](https://developer.vonage.com/api/messages-olympus?theme=dark)**.
+*To learn more about supported media types, please visit* ***[this page](https://developer.vonage.com/api/messages-olympus?theme=dark)***.
 
 As excited as we are? Head over to [AI Studio](https://www.vonage.com/communications-apis/ai-studio/?icmp=l3nav%7Cl3nav_gototheaistudiooverviewpage_novalue) to add this node to your flow. 
 
