@@ -139,9 +139,9 @@ The entire conversation can be recorded and viewed for optimization purposes in 
 
 ![Additional settings in the live agent node](/content/blog/how-to-switch-bot-human-via-text-channel-on-the-ai-studio/aspose.words.0ef49ade-cd00-4a1a-b8af-8fc6c18cf754.022.png "Additional settings in the live agent node")
 
-* Choose if we want to display the conversation with the Live Agent
-* Choose what parameters we want to transfer the connector on the start conversation endpoint
-* Set up how long we’ll wait to the live agent response
+    * Choose if we want to display the conversation with the Live Agent
+    * Choose what parameters we want to transfer the connector on the start conversation endpoint
+    * Set up how long we’ll wait to the live agent response
 
 2. *Best Practice - Make sure you notify your end user they are being routed to a live agent before handing over the conversation. You can do so using the **Send Message node** .* 
 
