@@ -135,9 +135,8 @@ The entire conversation can be recorded and viewed for optimization purposes in 
 
 ### Three more Pro tips before we go:
 
-![Additional settings in the live agent node](/content/blog/how-to-switch-bot-human-via-text-channel-on-the-ai-studio/aspose.words.0ef49ade-cd00-4a1a-b8af-8fc6c18cf754.022.png "Additional settings in the live agent node")
 
-1. *Additional settings in the live agent node:*
+1. *Additional settings in the live agent node:* ![Additional settings in the live agent node](/content/blog/how-to-switch-bot-human-via-text-channel-on-the-ai-studio/aspose.words.0ef49ade-cd00-4a1a-b8af-8fc6c18cf754.022.png "Additional settings in the live agent node")
    * Choose if we want to display the conversation with the Live Agent
    * Choose what parameters we want to transfer the connector on the start conversation endpoint
    * Set up how long we’ll wait to the live agent response
