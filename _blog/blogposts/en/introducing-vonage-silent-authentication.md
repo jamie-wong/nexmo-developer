@@ -3,7 +3,7 @@ title: Introducing Vonage Silent Authentication
 description: Want to speed up your users' authentication flow using GSM? Vonage does that.
 thumbnail: /content/blog/introducing-vonage-silent-authentication/silent-authentication.png
 author: james-seconde
-published: true
+published: false
 published_at: 2022-12-16T07:26:48.108Z
 updated_at: 2022-12-16T07:26:49.237Z
 category: announcement
@@ -72,7 +72,7 @@ This is where we now rely on callbacks - the webhook responses showing the statu
 
 At this stage, it is possible that the request will fail for reasons such as an error in the network. In this case, the Verify workflow will fall back to the next available channel to use sequentially - we've not specified another channel so it will fail. You might want to fall back to SMS OTP - in which case you'd add that channel in the first request in the workflow array.
 
-You now have a valid Silent Authentication URL to hit, contained in the `check_url` field. Until the request expires or is cancelled by you, the URL will perform a Silent Authentication check. **One of the most important aspects of the workflow** here is that the URL **MUST** be hit by an end device that is using cellular data. Without a cellular connection, the carrier has no device to verify. 
+You now have a valid Silent Authentication URL to hit, contained in the `check_url` field. Until the request expires or is cancelled by you, the URL will perform a Silent Authentication check. **One of the most important aspects of the workflow** here is that the URL **MUST** be hit by an end device that is using cellular data. Without a cellular connection, the carrier has no device to verify.
 
 If you hit this URL with your cellular data on, Wi-Fi off and it is valid, you'll get a callback to your defined events URL like so:
 
