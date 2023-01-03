@@ -21,7 +21,7 @@ Both of these solutions can be easily applied to your Vonage video application b
 
 Credentials will be needed for the demo application to work. Log into or create a [Vonage Video account](https://www.tokbox.com/account) and then click 'Projects' in the left menu. You can select a previous custom project or create a new one. Navigate to your project - the page will look something like this:
 
-![OpenTok project page](/content/blog/how-to-avoid-awkward-conversations-about-your-home-during-video-calls/opentok-project.jpeg)
+![OpenTok project page](/content/blog/blurring-for-clarity-avoid-awkward-conversations-about-your-home/opentok-project.jpeg)
 
 Make a note of the Project API Key. Scroll down to the "Project Tools" section (near the bottom of the page), and click "Create Session ID". Copy this, and paste it into the next section to generate a token. For the role, select "Publisher", and the expiration time to 24 hours (or however long you need the session). You will need the Project API Key, Session ID, and Token for this exercise.
 
