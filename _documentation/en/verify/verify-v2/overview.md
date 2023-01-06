@@ -6,7 +6,7 @@ navigation_weight: 1
 ---
 ## Verify V2 Overview
 
-> This product is in the Early Access product stage.
+> This product is in the Alpha product stage.
 
 The Verify V2 product is our next generation two-factor authentication (2FA) product. It has the benefits of more channels including over-the-top (OTT) channels like WhatsApp and more traditional channels like SMS, Voice, and Email.
 
