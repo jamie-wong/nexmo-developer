@@ -43,7 +43,7 @@ Your request should contain the following parameters:
 * `network` contains the network code provided in the original error.
 * `unblock_duration` is an optional parameter. It ranges from 0 seconds to 86,400 seconds (24 hours).
 
-When `unblock_duration` is used, it means that the network will be unblocked until the time specified. In the above example, network 32526 will be unblocked until 60 minutes. However, post 60 minutes, the network remains unblocked unless another block is issued by Velocity Rules due to fraudulent activity.
+When `unblock_duration` is used, it means that the network will be unblocked until the time specified. In the above example, network 32526 will be unblocked until 60 minutes. However, post 60 minutes, the network remains unblocked unless another block is issued by the anti-fraud system due to fraudulent activity.
 
 If successful, you will receive a 200 response indicating how long the network will be unblocked for:
 
