@@ -6,7 +6,7 @@ author: edmond-mensah
 published: true
 published_at: 2022-10-20T09:12:20.831Z
 updated_at: 2022-10-20T09:12:20.831Z
-category: announcement
+category: release
 tags:
   - video-api
   - vonage-ai-studio
