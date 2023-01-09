@@ -12,7 +12,7 @@ navigation_weight: 0
 
 - Add `enableInboundOffer` flag to config for inbound call setup
 - Remove `Ice Servers` default from `webrtc STUN` server setup
-- Replace `api.nexmo` urls to `api.vonage` urls
+- Replace `api.nexmo` URLs to `api.vonage` URLs
 
 ## Version 9.1.5 - October 24, 2022
 
