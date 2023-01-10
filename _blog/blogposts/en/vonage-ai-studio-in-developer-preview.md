@@ -38,8 +38,6 @@ To harbor this information, increase efficiency, and guarantee every customer th
 
 Vonage AI studio is a Low-code/No-code conversation designer that empowers developers and non-developers alike to design, create, and deploy customer engagement applications that operate in natural language. Vonage AI Studio can work with multiple channels and can connect to multiple sources for building an omni-channel customer engagement experience. 
 
-<youtube id="Nx39OOoftDI"></youtube>
-
 Underlying Vonage AI APIs offer Natural Language Understanding (NLU), Automatic Speech Recognition (ASR), and Text to Speech (TTS). The Vonage APIs offer multiple engagement channels over voice and messaging to support various AI use cases over Vonage AI Studio. 
 
 ![A screenshot of AI Studio showing the graphical user interface](https://lh6.googleusercontent.com/BSpvf0TrmL7WEPp-LrxQ6U-K-WrzYVP9vpiwg3_jnvQCqOVHvqo8TgFVdrnUszPt6Vuk7rS_AoaJeE0flKKNOHIg8Hg0mBLbd0g0E6F8clGT1FXZhjQsBimULrOew5Ed_H8oebaG "A screenshot of AI Studio showing the graphical user interface")
