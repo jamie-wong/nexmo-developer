@@ -366,3 +366,4 @@
 "/api/sms/us-short-codes/2fa": "/messaging/sms/overview"
 "/api/sms/us-short-codes/alerts/subscription": "/messaging/sms/overview"
 "/api/sms/us-short-codes/alerts/sending": "/messaging/sms/overview"
+"/voice/guides/speech-recognition": "/voice/voice-api/guides/asr"
