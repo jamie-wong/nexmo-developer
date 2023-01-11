@@ -76,7 +76,7 @@ Option | Description | Required
 ### Transcription Settings
 Option | Description | Required
  -- | -- | --
-| `language` | The language ([BCP-47](https://tools.ietf.org/html/bcp47) format) for the recording you're transcribing. Currently only `en-US` is supported during the developer preview. | No |
+| `language` | The language ([BCP-47](https://tools.ietf.org/html/bcp47) format) for the recording you're transcribing. A list of currently supported languages is available [here](/voice/voice-api/guides/asr#language). | No |
 `eventUrl` | The URL to the webhook endpoint that is called asynchronously when a transcription is finished. | No
 `eventMethod` | The HTTP method Vonage uses to make the request to <i>eventUrl</i>. The default value is `POST`. | No
 
