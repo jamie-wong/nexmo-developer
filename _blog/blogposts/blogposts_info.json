@@ -1,5 +1,45 @@
 [
   {
+    "title": "Q4 2022 in a Nutshell",
+    "description": "Let's have a look at the product updates and feature releases in Q4 2022",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/q4-2022-in-a-nutshell/quaterly-releases_q4_22.png",
+    "author": {
+      "bio": "Diana is a developer advocate at Vonage. She likes eating fresh oysters.",
+      "hidden": false,
+      "image_url": "https://secure.gravatar.com/avatar/84cf66d3ac543de639c5322580c8424c?s=384&d=mm&r=g",
+      "name": "Diana Pham",
+      "twitter": "dianasoyster",
+      "email": "Diana.Pham@vonage.com",
+      "title": "Developer Advocate",
+      "spotlight": false,
+      "noteworthy": false,
+      "team": false,
+      "alumni": false,
+      "short_name": "diana-pham"
+    },
+    "published": true,
+    "published_at": "2023-01-12 09:58:59 UTC",
+    "updated_at": "2023-01-12 09:58:59 UTC",
+    "category": {
+      "name": "Announcement",
+      "plural": "Announcements",
+      "slug": "announcement",
+      "color": "#4cc3d2"
+    },
+    "tags": [
+      "releases",
+      "meetings-api",
+      "video-api"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/23/01/12/q4-2022-in-a-nutshell",
+    "filename": "q4-2022-in-a-nutshell"
+  },
+  {
     "title": "Send and Receive SMS Messages With Node.js and Express",
     "description": "An in-depth tutorial that demonstrates how to send SMS text messages and receive replies using the Vonage APIs, Node.js and the Express framework.",
     "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/send-and-receive-sms-messages-with-node-js-and-express/node-js_express_sms.png",
@@ -835,10 +875,10 @@
     "published_at": "2022-10-20 09:12:20 UTC",
     "updated_at": "2022-10-20 09:12:20 UTC",
     "category": {
-      "name": "Announcement",
-      "plural": "Announcements",
-      "slug": "announcement",
-      "color": "#4cc3d2"
+      "name": "Release",
+      "plural": "Releases",
+      "slug": "release",
+      "color": "#b779ff"
     },
     "tags": [
       "video-api",
@@ -9758,39 +9798,6 @@
     "filename": "technical-guide-for-us-short-code-api-deprecation-1"
   },
   {
-    "title": "Setting up CI/CD with Github Actions",
-    "description": "This article walks you through the process of using github actions to build CI/CD flows.",
-    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/setting-up-ci-cd-with-github-actions/Blog_GitHub-Desktop_1200x600.png",
-    "author": {
-      "bio": "Yonatan has been involved in some awesome projects in the academy and the industry - from C/C++ through Matlab to PHP and javascript. Former CTO at Webiks and Software Architect at WalkMe. Currently he is a software architect at Vonage and an egghead instructor.",
-      "image_url": "/content/images/yonatankra.png",
-      "name": "Yonatan Kra",
-      "website_url": "https://yonatankra.com",
-      "linkedin_url": "https://www.linkedin.com/in/jonathan-kra-99a5bb87/",
-      "twitter": "YonatanKra",
-      "github_url": "https://github.com/YonatanKra",
-      "title": "Vonage Software Architect",
-      "team": true,
-      "short_name": "yonatankra"
-    },
-    "published": true,
-    "published_at": "2021-02-17 13:34:35 UTC",
-    "updated_at": "2021-02-17 13:34:35 UTC",
-    "category": {
-      "name": "Engineering",
-      "plural": "Posts by Engineering",
-      "slug": "engineering",
-      "color": "#669fc4"
-    },
-    "tags": [
-      "github"
-    ],
-    "canonical": "",
-    "locale": "en",
-    "link": "blog/21/02/17/setting-up-ci-cd-with-github-actions",
-    "filename": "setting-up-ci-cd-with-github-actions"
-  },
-  {
     "title": "Introducing RxZu, an Engine for Intuitive Graphs",
     "description": "RxZu is a diagrams engine system, built on top of RxJS, that takes the  graphic visualization to the next level in terms of performance, optimization, and customizability.",
     "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/introducing-rxzu-an-engine-for-intuitive-graphs/Blog_1200x600.png",
@@ -9848,6 +9855,39 @@
     "locale": "en",
     "link": "blog/21/02/17/quality-and-velocity-our-seven-year-journey-to-availability",
     "filename": "quality-and-velocity-our-seven-year-journey-to-availability"
+  },
+  {
+    "title": "Setting up CI/CD with Github Actions",
+    "description": "This article walks you through the process of using github actions to build CI/CD flows.",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/setting-up-ci-cd-with-github-actions/Blog_GitHub-Desktop_1200x600.png",
+    "author": {
+      "bio": "Yonatan has been involved in some awesome projects in the academy and the industry - from C/C++ through Matlab to PHP and javascript. Former CTO at Webiks and Software Architect at WalkMe. Currently he is a software architect at Vonage and an egghead instructor.",
+      "image_url": "/content/images/yonatankra.png",
+      "name": "Yonatan Kra",
+      "website_url": "https://yonatankra.com",
+      "linkedin_url": "https://www.linkedin.com/in/jonathan-kra-99a5bb87/",
+      "twitter": "YonatanKra",
+      "github_url": "https://github.com/YonatanKra",
+      "title": "Vonage Software Architect",
+      "team": true,
+      "short_name": "yonatankra"
+    },
+    "published": true,
+    "published_at": "2021-02-17 13:34:35 UTC",
+    "updated_at": "2021-02-17 13:34:35 UTC",
+    "category": {
+      "name": "Engineering",
+      "plural": "Posts by Engineering",
+      "slug": "engineering",
+      "color": "#669fc4"
+    },
+    "tags": [
+      "github"
+    ],
+    "canonical": "",
+    "locale": "en",
+    "link": "blog/21/02/17/setting-up-ci-cd-with-github-actions",
+    "filename": "setting-up-ci-cd-with-github-actions"
   },
   {
     "title": "Announcing Vonage Ruby SDK Version 7.3.0",
