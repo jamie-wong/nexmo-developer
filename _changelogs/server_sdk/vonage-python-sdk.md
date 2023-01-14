@@ -1,10 +1,16 @@
 ---
-version: '4.0.0b0'
-release: '2 Dec 2022'
+version: '3.2.0'
+release: '14 Jan 2023'
 ---
 # [Vonage Python SDK](https://github.com/Vonage/vonage-python-sdk)
 
 ---
+
+## 3.2.0
+### 14 Jan 2023
+
+- Adding an NCCO Builder to make it easier to work with NCCOs when using the Voice API
+- Individual NCCO Actions can be created as Pydantic models, which can be built into an NCCO via the `Ncco.build_ncco` method
 
 ## 4.0.0b0
 ### 2 Dec 2022
