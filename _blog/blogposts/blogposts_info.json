@@ -1,5 +1,44 @@
 [
   {
+    "title": "How to Make a Text-to-Speech Phone Call in ASP.NET",
+    "description": "Learn how to make a Text-to-Speech Phone Call in ASP.NET with the Vonage Voice API.",
+    "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/how-to-make-a-text-to-speech-phone-call-in-asp-net/text-to-speech_asp_net.png",
+    "author": {
+      "hidden": false,
+      "image_url": "/content/images/michael-crump.jpg",
+      "bio": "Michael Crump works at Vonage on the Developer Relations team and is a coder, YouTuber, and frequent speaker of various .NET and cloud/communication development topics. He’s passionate about helping developers understand the benefits of each in a no-nonsense way.",
+      "name": "Michael Crump",
+      "twitter": "mbcrump",
+      "spotlight": false,
+      "title": "Senior Developer Advocate",
+      "noteworthy": false,
+      "team": true,
+      "alumni": false,
+      "short_name": "michael-crump"
+    },
+    "published": true,
+    "published_at": "2023-01-16 01:36:05 UTC",
+    "updated_at": "2023-01-16 01:36:06 UTC",
+    "category": {
+      "name": "Tutorial",
+      "plural": "Tutorials",
+      "slug": "tutorial",
+      "color": "#d6219c"
+    },
+    "tags": [
+      "asp.net",
+      "dotnet",
+      "voice"
+    ],
+    "spotlight": false,
+    "canonical": "",
+    "outdated": false,
+    "replacement_url": "",
+    "locale": "en",
+    "link": "blog/23/01/16/how-to-make-a-text-to-speech-phone-call-in-asp-net",
+    "filename": "how-to-make-a-text-to-speech-phone-call-in-asp-net"
+  },
+  {
     "title": "Q4 2022 in a Nutshell",
     "description": "Let's have a look at the product updates and feature releases in Q4 2022",
     "thumbnail": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/q4-2022-in-a-nutshell/quaterly-releases_q4_22.png",
@@ -28009,7 +28048,7 @@
       "short_name": "tjlytle"
     },
     "published": true,
-    "published_at": "2015-08-14 16:45:51 +0100",
+    "published_at": "2015-08-14 15:45:51 +0000",
     "category": {
       "name": "Community",
       "plural": "Community Posts",
@@ -28085,7 +28124,7 @@
       "short_name": "tjlytle"
     },
     "published": true,
-    "published_at": "2015-04-29 18:55:05 +0100",
+    "published_at": "2015-04-29 17:55:05 +0000",
     "category": {
       "name": "Community",
       "plural": "Community Posts",
@@ -28141,7 +28180,7 @@
       "short_name": "tjlytle"
     },
     "published": true,
-    "published_at": "2015-04-10 18:24:18 +0100",
+    "published_at": "2015-04-10 17:24:18 +0000",
     "category": {
       "name": "Event",
       "plural": "Events",
