@@ -138,6 +138,8 @@ source: '_examples/messaging/sms/send-an-sms'
 
 If you have problems when making API calls be sure to check the returned [status field](/messaging/sms/guides/troubleshooting-sms) for specific [error codes](/messaging/sms/guides/troubleshooting-sms#sms-api-error-codes).
 
+**Important:** If you are a U.S. customer using the SMS API to send traffic from a +1 Country Code 10 Digit Long Code (10 DLC) into US networks, you must register a brand and campaign in order to get approval for sending. Once approved, you must link a number to the campaign. See [Important 10 DLC guidelines for US customers](#important-10-dlc-guidelines-for-us-customers) for details. For more comprehensive documentation on 10 DLC, see the [10 DLC Support section](/messages/10-dlc/overview).
+
 ## Concepts
 
 Before using the Vonage SMS API, familiarize yourself with the following:
