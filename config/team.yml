@@ -134,3 +134,7 @@ current:
     email: 'Curtis.Chan@vonage.com'
     role: 'Data Analyst'
     short-name: 'curtis-chan'
+  - name: 'Jamie Slocombe'
+    email: 'jamie.wong@vonage.com'
+    role: 'Product Manager'
+    short-name: 'jamie-slocombe'
